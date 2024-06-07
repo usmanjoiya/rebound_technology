@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_rebound_tech_rebound_tech,rebound_tech.rebound_tech,model_rebound_tech_rebound_tech,base.group_user,1,1,1,1
