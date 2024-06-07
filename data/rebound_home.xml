@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="rebound_tech_home">
+    <template id="rebound_technology_home">
 <t t-call="website.custom_code_layout">
         <head>
             <meta charset="UTF-8"/>
@@ -9,7 +9,7 @@
                 html.className.replace(/\bno-js\b/,'js')})(document.documentElement);
             </script>
             <title>Rebound Technologies &#8211; Safer, Greener, Leaner</title>
-            <link rel="preload" as="image" href="/rebound_tech/static/src/images/Logo-White.svg"
+            <link rel="preload" as="image" href="/rebound_technology/static/src/images/Logo-White.svg"
                   fetchpriority="high"/>
             <meta name='robots' content='max-image-preview:large'/>
             <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
@@ -430,37 +430,37 @@
                   href='https://fonts.googleapis.com/css?family=Libre+Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i&#038;subset=latin%2Clatin-ext'
                   type='text/css' media='all'/>
             <link rel='stylesheet' id='twentyseventeen-style-css'
-                  href='/rebound_tech/static/src/css/style.css?ver=6.5.3' type='text/css'
+                  href='/rebound_technology/static/src/css/style.css?ver=6.5.3' type='text/css'
                   media='all'/>
             <!--[if lt IE 9]>
-            <link rel='stylesheet' id='twentyseventeen-ie8-css' href='/rebound_tech/static/src/css/assets/css/ie8.css?ver=1.0' type='text/css' media='all' />
+            <link rel='stylesheet' id='twentyseventeen-ie8-css' href='/rebound_technology/static/src/css/assets/css/ie8.css?ver=1.0' type='text/css' media='all' />
             <![endif]-->
             <link rel='stylesheet' id='elementor-frontend-css'
-                  href='/rebound_tech/static/src/css/custom-frontend-lite.min.css?ver=1716338067'
+                  href='/rebound_technology/static/src/css/custom-frontend-lite.min.css?ver=1716338067'
                   type='text/css' media='all'/>
             <link rel='stylesheet' id='swiper-css'
-                  href='/rebound_tech/static/src/css/swiper.min.css?ver=8.4.5'
+                  href='/rebound_technology/static/src/css/swiper.min.css?ver=8.4.5'
                   type='text/css' media='all'/>
             <link rel='stylesheet' id='elementor-post-2133-css'
-                  href='/rebound_tech/static/src/css/post-2133.css?ver=1716338081'
+                  href='/rebound_technology/static/src/css/post-2133.css?ver=1716338081'
                   type='text/css' media='all'/>
             <link rel='stylesheet' id='elementor-pro-css'
-                  href='/rebound_tech/static/src/css/custom-pro-frontend-lite.min.css?ver=1716338067'
+                  href='/rebound_technology/static/src/css/custom-pro-frontend-lite.min.css?ver=1716338067'
                   type='text/css' media='all'/>
             <link rel='stylesheet' id='uael-frontend-css'
-                  href='/rebound_tech/static/src/css/uael-frontend.min.css?ver=1.36.31'
+                  href='/rebound_technology/static/src/css/uael-frontend.min.css?ver=1.36.31'
                   type='text/css' media='all'/>
             <link rel='stylesheet' id='elementor-global-css'
-                  href='/rebound_tech/static/src/css/global.css?ver=1716338087'
+                  href='/rebound_technology/static/src/css/global.css?ver=1716338087'
                   type='text/css' media='all'/>
             <link rel='stylesheet' id='elementor-post-3021-css'
-                  href='/rebound_tech/static/src/css/post-3021.css?ver=1716338079'
+                  href='/rebound_technology/static/src/css/post-3021.css?ver=1716338079'
                   type='text/css' media='all'/>
             <link rel='stylesheet' id='elementor-post-2961-css'
-                  href='/rebound_tech/static/src/css/post-2961.css?ver=1716338079'
+                  href='/rebound_technology/static/src/css/post-2961.css?ver=1716338079'
                   type='text/css' media='all'/>
             <link rel='stylesheet' id='elementor-post-3055-css'
-                  href='/rebound_tech/static/src/css/post-3055.css?ver=1716338080'
+                  href='/rebound_technology/static/src/css/post-3055.css?ver=1716338080'
                   type='text/css' media='all'/>
             <link rel='stylesheet' id='google-fonts-1-css'
                   href='https://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.5.3'
@@ -496,15 +496,15 @@
             <meta name="generator"
                   content="Powered by Slider Revolution 6.7.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."/>
             <link rel="icon"
-                  href="/rebound_tech/static/src/images/cropped-rebound_icon_1C_C-32x32.png"
+                  href="/rebound_technology/static/src/images/cropped-rebound_icon_1C_C-32x32.png"
                   sizes="32x32"/>
             <link rel="icon"
-                  href="/rebound_tech/static/src/images/cropped-rebound_icon_1C_C-192x192.png"
+                  href="/rebound_technology/static/src/images/cropped-rebound_icon_1C_C-192x192.png"
                   sizes="192x192"/>
             <link rel="apple-touch-icon"
-                  href="/rebound_tech/static/src/images/cropped-rebound_icon_1C_C-180x180.png"/>
+                  href="/rebound_technology/static/src/images/cropped-rebound_icon_1C_C-180x180.png"/>
             <meta name="msapplication-TileImage"
-                  content="/rebound_tech/static/src/images/cropped-rebound_icon_1C_C-270x270.png"/>
+                  content="/rebound_technology/static/src/images/cropped-rebound_icon_1C_C-270x270.png"/>
             <script>function setREVStartSize(e){
                 //window.requestAnimationFrame(function() {
                 window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
@@ -1477,7 +1477,7 @@
                                     <div class="uael-video__gallery-item" id="uael-video__gallery-item4">
 
                                         <div class="uael-video__gallery-iframe"
-                                             style="background-image:url('/rebound_tech/static/src/images/Rebound-Ice-Maker-on-Vimeo.png');">
+                                             style="background-image:url('/rebound_technology/static/src/images/Rebound-Ice-Maker-on-Vimeo.png');">
                                             <a class="elementor-clickable uael-vg__play_full"
                                                href="https://vimeo.com/660768176 "
                                                data-fancybox="uael-video-gallery-2ad6166">
@@ -2028,7 +2028,7 @@
                                      data-id="63ac121" data-element_type="widget" data-widget_type="icon-list.default">
                                     <div class="elementor-widget-container">
                                         <link rel="stylesheet"
-                                              href="/rebound_tech/static/src/css/custom-widget-icon-list.min.css?ver=1716338088"/>
+                                              href="/rebound_technology/static/src/css/custom-widget-icon-list.min.css?ver=1716338088"/>
                                         <ul class="elementor-icon-list-items">
                                             <li class="elementor-icon-list-item">
                                                 <a href="mailto:contact@rebound-tech.com">
@@ -2214,20 +2214,20 @@
                 window.RS_MODULES.type = 'compiled';
             </script>
             <link rel='stylesheet' id='contact-form-7-css'
-                  href='/rebound_tech/static/src/css/styles.css?ver=5.9.5'
+                  href='/rebound_technology/static/src/css/styles.css?ver=5.9.5'
                   type='text/css' media='all'/>
             <link rel='stylesheet' id='rs-plugin-settings-css'
-                  href='/rebound_tech/static/src/css/rs6.css?ver=6.7.1'
+                  href='/rebound_technology/static/src/css/rs6.css?ver=6.7.1'
                   type='text/css' media='all'/>
             <style id='rs-plugin-settings-inline-css' type='text/css'>
                 #rs-demo-id {
                 }
             </style>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/rbtools.min.js?ver=6.7.1"
+                    src="/rebound_technology/static/src/js/rbtools.min.js?ver=6.7.1"
                     id="tp-tools-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/rs6.min.js?ver=6.7.1"
+                    src="/rebound_technology/static/src/js/rs6.min.js?ver=6.7.1"
                     id="revmin-js"></script>
             <script type="text/javascript" id="rocket-browser-checker-js-after">
                 /* <![CDATA[ */
@@ -2247,19 +2247,19 @@ var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$
 /* ]]> */
             </script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/new-tab.js?ver=3.3.7"
+                    src="/rebound_technology/static/src/js/new-tab.js?ver=3.3.7"
                     id="page-links-to-js"></script>
             <script type="text/javascript"
                     src="https://www.google.com/recaptcha/api.js?render=6Lc0GnIaAAAAABlmtAY9dALVxjSn2VS5EPZ0xybE&amp;ver=3.0"
                     id="google-recaptcha-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/wp-polyfill-inert.min.js?ver=3.1.2"
+                    src="/rebound_technology/static/src/js/wp-polyfill-inert.min.js?ver=3.1.2"
                     id="wp-polyfill-inert-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/regenerator-runtime.min.js?ver=0.14.0"
+                    src="/rebound_technology/static/src/js/regenerator-runtime.min.js?ver=0.14.0"
                     id="regenerator-runtime-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/wp-polyfill.min.js?ver=3.15.0"
+                    src="/rebound_technology/static/src/js/wp-polyfill.min.js?ver=3.15.0"
                     id="wp-polyfill-js"></script>
             <script type="text/javascript" id="wpcf7-recaptcha-js-extra">
                 /* <![CDATA[ */
@@ -2267,13 +2267,13 @@ var wpcf7_recaptcha = {"sitekey":"6Lc0GnIaAAAAABlmtAY9dALVxjSn2VS5EPZ0xybE","act
 /* ]]> */
             </script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/index.js?ver=5.9.5"
+                    src="/rebound_technology/static/src/js/index.js?ver=5.9.5"
                     id="wpcf7-recaptcha-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/jquery.smartmenus.min.js?ver=1.2.1"
+                    src="/rebound_technology/static/src/js/jquery.smartmenus.min.js?ver=1.2.1"
                     id="smartmenus-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/isotope.min.js?ver=1.36.31"
+                    src="/rebound_technology/static/src/js/isotope.min.js?ver=1.36.31"
                     id="uael-isotope-js"></script>
             <script type="text/javascript" id="uael-frontend-script-js-extra">
                 /* <![CDATA[ */
@@ -2283,25 +2283,25 @@ var uael_login_form_script = {"ajax_url":"https:\/\/www.rebound-tech.com\/wp-adm
 /* ]]> */
             </script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/uael-frontend.min.js?ver=1.36.31"
+                    src="/rebound_technology/static/src/js/uael-frontend.min.js?ver=1.36.31"
                     id="uael-frontend-script-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/jquery_fancybox.min.js?ver=1.36.31"
+                    src="/rebound_technology/static/src/js/jquery_fancybox.min.js?ver=1.36.31"
                     id="uael-fancybox-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/imagesloaded.min.js?ver=5.0.0"
+                    src="/rebound_technology/static/src/js/imagesloaded.min.js?ver=5.0.0"
                     id="imagesloaded-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/slick.min.js?ver=1.36.31"
+                    src="/rebound_technology/static/src/js/slick.min.js?ver=1.36.31"
                     id="uael-slick-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/jquery_resize.min.js?ver=1.36.31"
+                    src="/rebound_technology/static/src/js/jquery_resize.min.js?ver=1.36.31"
                     id="uael-element-resize-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/lottie.min.js?ver=5.6.6"
+                    src="/rebound_technology/static/src/js/lottie.min.js?ver=5.6.6"
                     id="lottie-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/index.js?ver=5.9.5"
+                    src="/rebound_technology/static/src/js/index.js?ver=5.9.5"
                     id="swv-js"></script>
             <script type="text/javascript" id="contact-form-7-js-extra">
                 /* <![CDATA[ */
@@ -2309,22 +2309,22 @@ var wpcf7 = {"api":{"root":"https:\/\/www.rebound-tech.com\/wp-json\/","namespac
 /* ]]> */
             </script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/index.js?ver=5.9.5"
+                    src="/rebound_technology/static/src/js/index.js?ver=5.9.5"
                     id="contact-form-7-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/webpack-pro.runtime.min.js?ver=3.21.3"
+                    src="/rebound_technology/static/src/js/webpack-pro.runtime.min.js?ver=3.21.3"
                     id="elementor-pro-webpack-runtime-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/webpack.runtime.min.js?ver=3.21.6"
+                    src="/rebound_technology/static/src/js/webpack.runtime.min.js?ver=3.21.6"
                     id="elementor-webpack-runtime-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/frontend-modules.min.js?ver=3.21.6"
+                    src="/rebound_technology/static/src/js/frontend-modules.min.js?ver=3.21.6"
                     id="elementor-frontend-modules-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/hooks.min.js?ver=2810c76e705dd1a53b18"
+                    src="/rebound_technology/static/src/js/hooks.min.js?ver=2810c76e705dd1a53b18"
                     id="wp-hooks-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/i18n.min.js?ver=5e580eb46a90c2b997e6"
+                    src="/rebound_technology/static/src/js/i18n.min.js?ver=5e580eb46a90c2b997e6"
                     id="wp-i18n-js"></script>
             <script type="text/javascript" id="wp-i18n-js-after">
                 /* <![CDATA[ */
@@ -2337,13 +2337,13 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.rebound-tech.com\/wp-
 /* ]]> */
             </script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/frontend.min.js?ver=3.21.3"
+                    src="/rebound_technology/static/src/js/frontend.min.js?ver=3.21.3"
                     id="elementor-pro-frontend-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/waypoints.min.js?ver=4.0.2"
+                    src="/rebound_technology/static/src/js/waypoints.min.js?ver=4.0.2"
                     id="elementor-waypoints-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/core.min.js?ver=1.13.2"
+                    src="/rebound_technology/static/src/js/core.min.js?ver=1.13.2"
                     id="jquery-ui-core-js"></script>
             <script type="text/javascript" id="elementor-frontend-js-extra">
                 /* <![CDATA[ */
@@ -2356,7 +2356,7 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 /* ]]> */
             </script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/frontend.min.js?ver=3.21.6"
+                    src="/rebound_technology/static/src/js/frontend.min.js?ver=3.21.6"
                     id="elementor-frontend-js"></script>
             <script type="text/javascript" id="elementor-frontend-js-after">
                 /* <![CDATA[ */
@@ -2416,10 +2416,10 @@ window.scope_array = [];
 /* ]]> */
             </script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/elements-handlers.min.js?ver=3.21.3"
+                    src="/rebound_technology/static/src/js/elements-handlers.min.js?ver=3.21.3"
                     id="pro-elements-handlers-js"></script>
             <script type="text/javascript"
-                    src="/rebound_tech/static/src/js/jquery.sticky.min.js?ver=3.21.3"
+                    src="/rebound_technology/static/src/js/jquery.sticky.min.js?ver=3.21.3"
                     id="e-sticky-js"></script>
 
         </body>
