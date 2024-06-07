@@ -756,16 +756,16 @@ rs-dotted.threexthreewhite		{	background:url(../images/gridtile_3x3_white.png)}
 
 /* TP BUTTONS DESKTOP SIZE */
 
-.rev-btn,
-.rev-btn:visited						{ 	outline:none !important; box-shadow:none; text-decoration: none !important;  box-sizing:border-box;  cursor: pointer;}
+.rev-btnn,
+.rev-btnn:visited						{ 	outline:none !important; box-shadow:none; text-decoration: none !important;  box-sizing:border-box;  cursor: pointer;}
 
-.rev-btn.rev-uppercase,
-.rev-btn.rev-uppercase:visited			{ 	text-transform: uppercase;  }
+.rev-btnn.rev-uppercase,
+.rev-btnn.rev-uppercase:visited			{ 	text-transform: uppercase;  }
 
-.rev-btn  i								{ 	font-size: inherit; font-weight: normal; position: relative; top: 0px; transition: opacity 0.2s ease-out, margin 0.2s ease-out;  margin-left:0px; line-height: inherit}
+.rev-btnn  i								{ 	font-size: inherit; font-weight: normal; position: relative; top: 0px; transition: opacity 0.2s ease-out, margin 0.2s ease-out;  margin-left:0px; line-height: inherit}
 
-.rev-btn.rev-hiddenicon i				{ 	font-size: inherit; font-weight: normal; position: relative; top: 0px; transition: opacity 0.2s ease-out, margin 0.2s ease-out; opacity: 0; margin-left:0px !important; width:0px !important;  }
-.rev-btn.rev-hiddenicon:hover i			{   opacity: 1 !important; margin-left:10px !important; width:auto !important;}
+.rev-btnn.rev-hiddenicon i				{ 	font-size: inherit; font-weight: normal; position: relative; top: 0px; transition: opacity 0.2s ease-out, margin 0.2s ease-out; opacity: 0; margin-left:0px !important; width:0px !important;  }
+.rev-btnn.rev-hiddenicon:hover i			{   opacity: 1 !important; margin-left:10px !important; width:auto !important;}
 
 
 /* BURGER BUTTON */
@@ -866,7 +866,7 @@ rs-dotted.threexthreewhite		{	background:url(../images/gridtile_3x3_white.png)}
 	50% {opacity: 0;top: 70%;}
 	100% {opacity: 0;top: 29%;}
 }
-.rev-scroll-btn {
+.rev-scroll-btnn {
 	display: inline-block;
 	position: relative;
 	left: 0;
@@ -879,7 +879,7 @@ rs-dotted.threexthreewhite		{	background:url(../images/gridtile_3x3_white.png)}
 	border: 3px solid white;
 	border-radius: 23px;
 }
-.rev-scroll-btn > * {
+.rev-scroll-btnn > * {
 	display: inline-block;
 	line-height: 18px;
 	font-size: 13px;
@@ -889,27 +889,27 @@ rs-dotted.threexthreewhite		{	background:url(../images/gridtile_3x3_white.png)}
 	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	letter-spacing: 2px;
 }
-.rev-scroll-btn > *:hover,
-.rev-scroll-btn > *:focus,
-.rev-scroll-btn > *.active {
+.rev-scroll-btnn > *:hover,
+.rev-scroll-btnn > *:focus,
+.rev-scroll-btnn > *.active {
 	color: #ffffff;
 }
-.rev-scroll-btn > *:hover,
-.rev-scroll-btn > *:focus,
-.rev-scroll-btn > *:active,
-.rev-scroll-btn > *.active {
+.rev-scroll-btnn > *:hover,
+.rev-scroll-btnn > *:focus,
+.rev-scroll-btnn > *:active,
+.rev-scroll-btnn > *.active {
 	opacity: 0.8;
 }
 
-.rev-scroll-btn.revs-fullwhite  {
+.rev-scroll-btnn.revs-fullwhite  {
 	background:#fff;
 }
 
-.rev-scroll-btn.revs-fullwhite span {
+.rev-scroll-btnn.revs-fullwhite span {
 	background: #333;
 }
 
-.rev-scroll-btn.revs-fulldark  {
+.rev-scroll-btnn.revs-fulldark  {
 	background:#333;
 	border:none;
 }

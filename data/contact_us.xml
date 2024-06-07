@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="contact_us">
+
+        <t t-call="website.layout">
        <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
@@ -1033,7 +1035,7 @@
             margin: 20px 0;
         }
 
-        .videos_sec a.btn {
+        .videos_sec a.btnn {
             background-color: #06003F;
         }
 
@@ -1197,8 +1199,6 @@
         }
     </style>
 </head>
-
-
         <body
     class="page-template page-template-template-parts page-template-contact page-template-template-partscontact-php page page-id-9 wp-custom-logo wp-embed-responsive group-blog has-header-image page-two-column colors-light elementor-default elementor-kit-2133 elementor-page-2959 elementor-page-2954 elementor-page-2952 elementor-page-3211">
 
@@ -1282,7 +1282,7 @@
                                         empty.</label><input id="wpcf7-66616784d06f0-field"
                                         class="wpcf7-form-control wpcf7-text" type="text" name="honeypot-547" value=""
                                         size="40" tabindex="-1" autocomplete="off" /></span><br />
-                                <input class="wpcf7-form-control wpcf7-submit has-spinner btn" id="sub_btn" type="submit"
+                                <input class="wpcf7-form-control wpcf7-submit has-spinner btnn" id="sub_btnn" type="submit"
                                     value="submit" />
                             </p>
                             <style type="text/css">
@@ -1498,7 +1498,7 @@
 
 </body>
 
-
+        </t>
 
     </template>
 </odoo>

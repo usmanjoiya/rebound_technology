@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="sustainability">
+
+        <t t-call="website.layout">
         <head>
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />		<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
@@ -457,7 +459,6 @@ section.feature_sec p {
 		</style>
 		</head>
 
-
         <body class="page-template page-template-elementor_header_footer page page-id-2335 wp-custom-logo wp-embed-responsive group-blog has-header-image page-two-column colors-light elementor-default elementor-template-full-width elementor-kit-2133 elementor-page elementor-page-2335">
 		<div data-elementor-type="header" data-elementor-id="2961" class="elementor elementor-2961 elementor-location-header" data-elementor-post-type="elementor_library">
 <!--					<header class="elementor-section elementor-top-section elementor-element elementor-element-66f200ab elementor-section-content-middle elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="66f200ab" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;widescreen&quot;,&quot;desktop&quot;,&quot;laptop&quot;,&quot;tablet_extra&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">-->
@@ -527,7 +528,7 @@ section.feature_sec p {
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.21.0 - 20-05-2024 */
 .elementor-widget-video .elementor-widget-container{overflow:hidden;transform:translateZ(0)}.elementor-widget-video .elementor-wrapper{aspect-ratio:var(--video-aspect-ratio)}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{height:100%;width:100%;display:flex;border:none;background-color:#000}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-wrapper{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay{position:absolute;top:0;right:0;bottom:0;left:0;background-size:cover;background-position:50%}.elementor-widget-video .elementor-custom-embed-image-overlay{cursor:pointer;text-align:center}.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i{opacity:1}.elementor-widget-video .elementor-custom-embed-image-overlay img{display:block;width:100%;aspect-ratio:var(--video-aspect-ratio);-o-object-fit:cover;object-fit:cover;-o-object-position:center center;object-position:center center}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-custom-embed-image-overlay{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-custom-embed-image-overlay img{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .e-hosted-video .elementor-video{-o-object-fit:cover;object-fit:cover}.e-con-inner>.elementor-widget-video,.e-con>.elementor-widget-video{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="e-hosted-video elementor-wrapper elementor-open-inline">
-					<video class="elementor-video" src="https://www.rebound-tech.com/wp-content/uploads/2023/03/rebound_technologynologies_Sustainability-2023.mp4" autoplay="" loop="" muted="muted" playsinline="" controlsList="nodownload"></video>
+					<video class="elementor-video" src="https://www.rebound-tech.com/wp-content/uploads/2023/03/Rebound_Technologies_Sustainability-2023.mp4" autoplay="" loop="" muted="muted" playsinline="" controlsList="nodownload"></video>
 				</div>
 				</div>
 				</div>
@@ -898,6 +899,6 @@ window.scope_array = [];
 <script type="text/javascript" src="https://www.rebound-tech.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.21.3" id="e-sticky-js"></script>
 
 </body>
-
+		</t>
     </template>
 </odoo>

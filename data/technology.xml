@@ -835,7 +835,7 @@
                         margin: 20px 0;
                     }
 
-                    .videos_sec a.btn {
+                    .videos_sec a.btnn {
                         background-color: #06003F;
                     }
 
@@ -1293,7 +1293,7 @@
                                                                                             -->
                                                                 <rs-layer
                                                                         id="slider-1-slide-1-layer-0"
-                                                                        class="rev-btn"
+                                                                        class="rev-btnn"
                                                                         data-type="button"
                                                                         data-rsp_ch="on"
                                                                         data-xy="xo:50px,33px,25px,59px;yo:50px,33px,25px,15px;"
@@ -1311,7 +1311,7 @@
 							-->
                                                                 <rs-layer
                                                                         id="slider-1-slide-1-layer-1"
-                                                                        class="rev-btn"
+                                                                        class="rev-btnn"
                                                                         data-type="button"
                                                                         data-rsp_ch="on"
                                                                         data-xy="xo:160px,105px,79px,145px;yo:50px,33px,25px,15px;"
@@ -1329,7 +1329,7 @@
 							-->
                                                                 <rs-layer
                                                                         id="slider-1-slide-1-layer-2"
-                                                                        class="rev-btn"
+                                                                        class="rev-btnn"
                                                                         data-type="button"
                                                                         data-rsp_ch="on"
                                                                         data-xy="xo:280px,184px,139px,236px;yo:50px,33px,25px,15px;"
@@ -1579,7 +1579,7 @@
                                                                                             -->
                                                                 <rs-layer
                                                                         id="slider-1-slide-4-layer-0"
-                                                                        class="rev-btn"
+                                                                        class="rev-btnn"
                                                                         data-type="button"
                                                                         data-rsp_ch="on"
                                                                         data-xy="xo:50px,33px,25px,59px;yo:50px,33px,25px,15px;"
@@ -1597,7 +1597,7 @@
 							-->
                                                                 <rs-layer
                                                                         id="slider-1-slide-4-layer-1"
-                                                                        class="rev-btn"
+                                                                        class="rev-btnn"
                                                                         data-type="button"
                                                                         data-rsp_ch="on"
                                                                         data-xy="xo:160px,105px,79px,145px;yo:50px,33px,25px,15px;"
@@ -1615,7 +1615,7 @@
 							-->
                                                                 <rs-layer
                                                                         id="slider-1-slide-4-layer-2"
-                                                                        class="rev-btn"
+                                                                        class="rev-btnn"
                                                                         data-type="button"
                                                                         data-rsp_ch="on"
                                                                         data-xy="xo:280px,184px,139px,236px;yo:50px,33px,25px,15px;"
@@ -1743,7 +1743,7 @@
                                                                                             -->
                                                                 <rs-layer
                                                                         id="slider-1-slide-5-layer-0"
-                                                                        class="rev-btn"
+                                                                        class="rev-btnn"
                                                                         data-type="button"
                                                                         data-rsp_ch="on"
                                                                         data-xy="xo:50px,33px,25px,59px;yo:50px,33px,25px,15px;"
@@ -1761,7 +1761,7 @@
 							-->
                                                                 <rs-layer
                                                                         id="slider-1-slide-5-layer-1"
-                                                                        class="rev-btn"
+                                                                        class="rev-btnn"
                                                                         data-type="button"
                                                                         data-rsp_ch="on"
                                                                         data-xy="xo:160px,105px,79px,145px;yo:50px,33px,25px,15px;"
@@ -1779,7 +1779,7 @@
 							-->
                                                                 <rs-layer
                                                                         id="slider-1-slide-5-layer-2"
-                                                                        class="rev-btn"
+                                                                        class="rev-btnn"
                                                                         data-type="button"
                                                                         data-rsp_ch="on"
                                                                         data-xy="xo:280px,184px,139px,236px;yo:50px,33px,25px,15px;"
