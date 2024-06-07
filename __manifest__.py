@@ -18,18 +18,18 @@ Long description of module's purpose
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'website','web'],
+    'depends': ['base', 'website', 'web'],
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'data/rebound_home.xml',
         'data/technology.xml',
         'data/sustainability.xml',
         'data/team.xml',
         'data/news.xml',
         'data/contact_us.xml',
-
+        'views/rebound_news_form.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
