@@ -1,26 +1,26 @@
 <odoo>
     <!-- explicit list view definition -->
     <record model="ir.ui.view" id="rebound_view_id">
-      <field name="name">rebound_view</field>
+      <field name="name">Rebound News</field>
       <field name="model">rebound_technology.news</field>
       <field name="arch" type="xml">
         <tree>
           <field name="name" string="Title"/>
           <field name="news_type"/>
-          <field name="description"/>
+          <field name="description" string="Link"/>
         </tree>
       </field>
     </record>
 
     <record model="ir.ui.view" id="rebound_form_view_id">
-      <field name="name">rebound_view_form</field>
+      <field name="name">Rebound News</field>
       <field name="model">rebound_technology.news</field>
       <field name="arch" type="xml">
         <form>
             <group>
                 <field name="name" string="Title"/>
                 <field name="news_type"/>
-                <field name="description"/>
+                <field name="description" string="Link"/>
             </group>
 
         </form>
@@ -29,7 +29,7 @@
 
     <!-- actions opening views on models -->
     <record model="ir.actions.act_window" id="rebound_act_id">
-      <field name="name">rebound_technology</field>
+      <field name="name">Rebound News</field>
       <field name="res_model">rebound_technology.news</field>
       <field name="view_mode">tree,form</field>
     </record>

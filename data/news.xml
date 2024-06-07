@@ -768,258 +768,47 @@
 
                                                 <div class="uael-post-grid__inner uael-post__columns-3 uael-post__columns-tablet-2 uael-post__columns-mobile-1 uael-post-infinite-scroll uael-post-infinite__event-scroll">
 
+                                                    <t t-foreach="all_news" t-as="news">
+                                                        <div class="uael-post-wrapper   news ">
+                                                            <div class="uael-post__bg-wrap">
 
-                                                    <div class="uael-post-wrapper   news ">
-                                                        <div class="uael-post__bg-wrap">
+                                                                <a  t-att-href="news['description']"
+                                                                   target="_self" class="uael-post__complete-box-overlay"
+                                                                   aria-label="Link Complete Box"></a>
 
-                                                            <a href="https://asmedigitalcollection.asme.org/sustainablebuildings/article-abstract/4/2/024501/1164052/The-Value-of-Agile-Thermal-Systems-A-Real-World?redirectedFrom#new_tab"
-                                                               target="_self" class="uael-post__complete-box-overlay"
-                                                               aria-label="Link Complete Box"></a>
+                                                                <div class="uael-post__inner-wrap">
 
-                                                            <div class="uael-post__inner-wrap">
-
-                                                                <div class="uael-post__thumbnail uael-post-wrapper__noimage">
-                                                                    <div class="uael-post__datebox uael-post__noimage">
-                                                                        <div class="uael-post__date-wrap">
-                                                                            <span class='uael-post__date-month'>Jul
-                                                                            </span>
-                                                                            <span class='uael-post__date-day'>18</span>
+                                                                    <div class="uael-post__thumbnail uael-post-wrapper__noimage">
+                                                                        <div class="uael-post__datebox uael-post__noimage">
+                                                                            <div class="uael-post__date-wrap">
+                                                                                <span class='uael-post__date-month'>Jul
+                                                                                </span>
+                                                                                <span class='uael-post__date-day'>18</span>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
-                                                                </div>
 
 
-                                                                <div class="uael-post__content-wrap">
+                                                                    <div class="uael-post__content-wrap">
 
-                                                                    <h3 class="uael-post__title">
-
-
-                                                                        <a href="https://asmedigitalcollection.asme.org/sustainablebuildings/article-abstract/4/2/024501/1164052/The-Value-of-Agile-Thermal-Systems-A-Real-World?redirectedFrom#new_tab"
-                                                                           target="_self">
-                                                                            The Value of Agile Thermal Systems, Featured
-                                                                            in The American Society of Mechanical
-                                                                            Engineers
-                                                                        </a>
-
-                                                                    </h3>
-                                                                </div>
-
-                                                            </div>
+                                                                        <h3 class="uael-post__title">
 
 
-                                                        </div>
+                                                                            <a href="https://asmedigitalcollection.asme.org/sustainablebuildings/article-abstract/4/2/024501/1164052/The-Value-of-Agile-Thermal-Systems-A-Real-World?redirectedFrom#new_tab"
+                                                                               target="_self">
+                                                                                <t t-esc="news['title']"/>
+                                                                            </a>
 
-                                                    </div>
-
-
-                                                    <div class="uael-post-wrapper   news ">
-                                                        <div class="uael-post__bg-wrap">
-
-                                                            <a href="https://www.rebound-tech.com/science-magazine-rebounds-response/"
-                                                               target="_self" class="uael-post__complete-box-overlay"
-                                                               aria-label="Link Complete Box"></a>
-
-                                                            <div class="uael-post__inner-wrap">
-
-                                                                <div class="uael-post__thumbnail uael-post-wrapper__noimage">
-                                                                    <div class="uael-post__datebox uael-post__noimage">
-                                                                        <div class="uael-post__date-wrap">
-                                                                            <span class='uael-post__date-month'>Apr
-                                                                            </span>
-                                                                            <span class='uael-post__date-day'>14</span>
-                                                                        </div>
+                                                                        </h3>
                                                                     </div>
+
                                                                 </div>
 
-
-                                                                <div class="uael-post__content-wrap">
-
-                                                                    <h3 class="uael-post__title">
-
-
-                                                                        <a href="https://www.rebound-tech.com/science-magazine-rebounds-response/"
-                                                                           target="_self">
-                                                                            Rebound Featured in Science Magazine
-                                                                        </a>
-
-                                                                    </h3>
-                                                                </div>
 
                                                             </div>
-
-
                                                         </div>
+                                                    </t>
 
-                                                    </div>
-
-
-                                                    <div class="uael-post-wrapper   news ">
-                                                        <div class="uael-post__bg-wrap">
-
-                                                            <a href="https://www.coldchainnews.com/worlds-first-freeze-point-suppression-system-for-lineagelineage-installs-worlds-first-freeze-point-suppression-system/#new_tab"
-                                                               target="_self" class="uael-post__complete-box-overlay"
-                                                               aria-label="Link Complete Box"></a>
-
-                                                            <div class="uael-post__inner-wrap">
-
-                                                                <div class="uael-post__thumbnail uael-post-wrapper__noimage">
-                                                                    <div class="uael-post__datebox uael-post__noimage">
-                                                                        <div class="uael-post__date-wrap">
-                                                                            <span class='uael-post__date-month'>Apr
-                                                                            </span>
-                                                                            <span class='uael-post__date-day'>13</span>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-
-
-                                                                <div class="uael-post__content-wrap">
-
-                                                                    <h3 class="uael-post__title">
-
-
-                                                                        <a href="https://www.coldchainnews.com/worlds-first-freeze-point-suppression-system-for-lineagelineage-installs-worlds-first-freeze-point-suppression-system/#new_tab"
-                                                                           target="_self">
-                                                                            Rebound Introduces World&#8217;s First
-                                                                            Freeze Point Suppression System for Lineage
-                                                                        </a>
-
-                                                                    </h3>
-                                                                </div>
-
-                                                            </div>
-
-
-                                                        </div>
-
-                                                    </div>
-
-
-                                                    <div class="uael-post-wrapper   news ">
-                                                        <div class="uael-post__bg-wrap">
-
-                                                            <a href="https://www.foodengineeringmag.com/articles/98806-icepoint-saves-energy-via-on-demand-agile-cooling-and-moisture-control#new_tab"
-                                                               target="_self" class="uael-post__complete-box-overlay"
-                                                               aria-label="Link Complete Box"></a>
-
-                                                            <div class="uael-post__inner-wrap">
-
-                                                                <div class="uael-post__thumbnail uael-post-wrapper__noimage">
-                                                                    <div class="uael-post__datebox uael-post__noimage">
-                                                                        <div class="uael-post__date-wrap">
-                                                                            <span class='uael-post__date-month'>Apr
-                                                                            </span>
-                                                                            <span class='uael-post__date-day'>20</span>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-
-
-                                                                <div class="uael-post__content-wrap">
-
-                                                                    <h3 class="uael-post__title">
-
-
-                                                                        <a href="https://www.foodengineeringmag.com/articles/98806-icepoint-saves-energy-via-on-demand-agile-cooling-and-moisture-control#new_tab"
-                                                                           target="_self">
-                                                                            IcePoint, Featured in Food Engineering
-                                                                            Magazine
-                                                                        </a>
-
-                                                                    </h3>
-                                                                </div>
-
-                                                            </div>
-
-
-                                                        </div>
-
-                                                    </div>
-
-
-                                                    <div class="uael-post-wrapper   news ">
-                                                        <div class="uael-post__bg-wrap">
-
-                                                            <a href="https://www.prnewswire.com/news-releases/rebound-technologies-closes-5-million-series-a-financing-for-flexible-energy-efficient-cooling-technology-300987980.html#new_tab"
-                                                               target="_self" class="uael-post__complete-box-overlay"
-                                                               aria-label="Link Complete Box"></a>
-
-                                                            <div class="uael-post__inner-wrap">
-
-                                                                <div class="uael-post__thumbnail uael-post-wrapper__noimage">
-                                                                    <div class="uael-post__datebox uael-post__noimage">
-                                                                        <div class="uael-post__date-wrap">
-                                                                            <span class='uael-post__date-month'>Jan
-                                                                            </span>
-                                                                            <span class='uael-post__date-day'>16</span>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-
-
-                                                                <div class="uael-post__content-wrap">
-
-                                                                    <h3 class="uael-post__title">
-
-
-                                                                        <a href="https://www.prnewswire.com/news-releases/rebound-technologies-closes-5-million-series-a-financing-for-flexible-energy-efficient-cooling-technology-300987980.html#new_tab"
-                                                                           target="_self">
-                                                                            Rebound Technologies Closes $5 Million
-                                                                            Series A Financing
-                                                                        </a>
-
-                                                                    </h3>
-                                                                </div>
-
-                                                            </div>
-
-
-                                                        </div>
-
-                                                    </div>
-
-
-                                                    <div class="uael-post-wrapper   news ">
-                                                        <div class="uael-post__bg-wrap">
-
-                                                            <a href="https://www.rebound-tech.com/national-science-foundation-continues-rebound-technologies-support-via-phase-iib-sbir-grant/"
-                                                               target="_self" class="uael-post__complete-box-overlay"
-                                                               aria-label="Link Complete Box"></a>
-
-                                                            <div class="uael-post__inner-wrap">
-
-                                                                <div class="uael-post__thumbnail uael-post-wrapper__noimage">
-                                                                    <div class="uael-post__datebox uael-post__noimage">
-                                                                        <div class="uael-post__date-wrap">
-                                                                            <span class='uael-post__date-month'>Mar
-                                                                            </span>
-                                                                            <span class='uael-post__date-day'>06</span>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-
-
-                                                                <div class="uael-post__content-wrap">
-
-                                                                    <h3 class="uael-post__title">
-
-
-                                                                        <a href="https://www.rebound-tech.com/national-science-foundation-continues-rebound-technologies-support-via-phase-iib-sbir-grant/"
-                                                                           target="_self">
-                                                                            National Science Foundation Continues
-                                                                            &#8211; Rebound Technology Support via Base
-                                                                            IIB SBIR Grant
-                                                                        </a>
-
-                                                                    </h3>
-                                                                </div>
-
-                                                            </div>
-
-
-                                                        </div>
-
-                                                    </div>
                                                 </div>
                                                 <div class="uael-post-inf-loader">
                                                     <div class="uael-post-loader-1"></div>

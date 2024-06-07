@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from odoo import http
+from odoo.http import request
 
 class ReboundTech(http.Controller):
 
@@ -21,7 +22,17 @@ class ReboundTech(http.Controller):
 
     @http.route('/news', auth='public', website=True)
     def news_func(self, **kw):
-        return http.request.render('rebound_technology.news')
+        news_data = []
+        recs = request.env['rebound_technology.news'].search([])
+        for rec in recs:
+            news_data.append({
+                'title': rec.name,
+                'description': rec.description
+            })
+        data = {
+            'all_news': news_data
+        }
+        return http.request.render('rebound_technology.news', data)
 
     @http.route('/contact_us', auth='public', website=True)
     def contact_us_func(self, **kw):
