@@ -3,9 +3,9 @@
 # from odoo import models, fields, api
 
 
-# class rebound_tech(models.Model):
-#     _name = 'rebound_tech.rebound_tech'
-#     _description = 'rebound_tech.rebound_tech'
+# class rebound_technology(models.Model):
+#     _name = 'rebound_technology.rebound_technology'
+#     _description = 'rebound_technology.rebound_technology'
 
 #     name = fields.Char()
 #     value = fields.Integer()
