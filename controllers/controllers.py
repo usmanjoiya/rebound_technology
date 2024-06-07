@@ -34,6 +34,10 @@ class ReboundTech(http.Controller):
         }
         return http.request.render('rebound_technology.news', data)
 
+    @http.route('/sub_news', auth='public', website=True)
+    def sub_news_func(self, **kw):
+        return http.request.render('rebound_technology.sub_news')
+
     @http.route('/contact_us', auth='public', website=True)
     def contact_us_func(self, **kw):
         return http.request.render('rebound_technology.contact_us')

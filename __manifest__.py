@@ -29,6 +29,7 @@ Long description of module's purpose
         'data/team.xml',
         'data/news.xml',
         'data/contact_us.xml',
+        'data/sub_news.xml',
         'views/rebound_news_form.xml',
     ],
     # only loaded in demonstration mode
