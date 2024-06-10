@@ -993,6 +993,106 @@
 
 
                 </style>
+
+
+                <!--                accord style_start-->
+                <style>
+                    .tags_nav button {
+                        z-index: 23;
+                        background-color: rgb(102, 51, 255);
+                        font-family: Mark-Medium;
+                        height: auto;
+                        width: auto;
+                        color: rgb(255, 255, 255);
+                        text-decoration: none;
+                        white-space: nowrap;
+                        min-height: 0px;
+                        min-width: 0px;
+                        max-height: none;
+                        max-width: none;
+                        text-align: left;
+                        line-height: 28px;
+                        letter-spacing: 0px;
+                        font-weight: 500;
+                        font-size: 24px;
+                        padding: 14px 25px;
+                        border-radius: 50px;
+                        border: none;
+                        backdrop-filter: none;
+                        filter: none;
+                        transform-origin: 50% 50%;
+                        opacity: 1;
+                        transform: translate(0px, 0px);
+                        visibility: visible;
+                    }
+
+                    .tags_nav button:hover {
+                        color: #06003f;
+                        background-color: #fff;
+                        border: 50px, 50px, 50px, 50px;
+                    }
+
+                    .main{
+                        padding-top: 30px;
+                    }
+
+                    .main h1 {
+                        color: white;
+                        font-family: "Mark Bold", Sans-serif;
+                        font-size: 3.5em;
+                        font-weight: 600;
+                    }
+
+                    .slide_content {
+                        display: none;
+                        padding: 6px 12px;
+
+                    }
+
+                    .image_area {
+
+                        width: 60%;
+                    }
+
+                    .text_area {
+
+                        width: 40%;
+                        margin-top: 30px;
+                    }
+
+                    .text_grid {
+                        box-sizing: border-box;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                    }
+
+                    .text_grid p {
+                        width: 90%;
+                        font-size: 14px;
+                    }
+                    .text_grid h2{
+                        font-size: 33px;
+                    }
+
+                    .text_area1 {
+                        width: 50%;
+                    }
+
+                    .text_area1 p {
+                        padding: 10px;
+                    }
+
+                    #slide1 {
+                        display: flex;
+                    }
+
+                    /* Added active class for styling active button */
+                    /*.active {*/
+                    /*    background-color: #6633ff;*/
+                    /*}*/
+                </style>
+                <!--                accord style end-->
             </head>
 
 
@@ -1253,623 +1353,556 @@
                             </div>
                         </div>
                     </section>
-                    <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-b74a67f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="b74a67f" data-element_type="section"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a1339cd"
-                                 data-id="a1339cd" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-e56057e elementor-widget elementor-widget-heading"
-                                         data-id="e56057e" data-element_type="widget"
-                                         data-widget_type="heading.default">
-                                        <div class="elementor-widget-container">
-                                            <h2 class="elementor-heading-title elementor-size-default">How It Works</h2>
+
+
+                    <!--                    accor_tab start-->
+                    <section style="background-color: #06003F;color: white;">
+                        <div class="main">
+                            <h1 style="padding-left: 30px;">How It Works</h1>
+                            <div class="tags_nav" style="padding-left: 30px">
+                                <!-- Added active class to the first button -->
+                                <button class="tablinks active" onclick="openCity(event, 'slide1')">
+                                    FPS
+                                </button>
+                                <button class="tablinks" onclick="openCity(event, 'slide2')">
+                                    MVR
+                                </button>
+                                <button class="tablinks" onclick="openCity(event, 'slide3')">
+                                    ENERGY BALANCE
+                                </button>
+                            </div>
+                            <div id="slide1" class="slide_content">
+                                <div class="image_area">
+                                    <img src="/rebound_technology/static/src/images/fps.gif" alt=""/>
+                                </div>
+                                <div class="text_area">
+                                    <h2>What is FPS?</h2>
+                                    <p>
+                                        FPS is referring to Freeze Point Suppression. This cycle operates
+                                        by changing the chemical composition of a refrigerant. In the case of IcePoint
+                                    </p>
+                                    <div class="text_grid">
+                                        <!-- Content for FPS -->
+                                        <div class="text_area1">
+                                            <img src="https://www.rebound-tech.com/wp-content/uploads/2019/02/Shape.svg"/>
+                                            <h2>1. Freezing</h2>
+                                            <p>Pure water is frozen into ice at the most economical time of the day and
+                                                stored in a
+                                                tank.</p>
+                                        </div>
+                                        <div class="text_area1"><img
+                                                src="https://www.rebound-tech.com/wp-content/uploads/2019/02/Shape1.svg"/>
+                                            <h2>2. Mixing</h2>
+                                            <p>A freeze suppressant, in the form of a non-chloride salt, is then
+                                                injected into the
+                                                bottom of the tank, mixing with the ice, which creates a -25°F
+                                                refrigerant.
+                                                .</p>
+                                        </div>
+                                        <div class="text_area1"><img
+                                                src="https://www.rebound-tech.com/wp-content/uploads/2019/02/Shape2.svg"/>
+                                            <h2>3. Melting</h2>
+                                            <p>This refrigerant mixture is then used to maintain freezer temperatures by
+                                                absorbing the
+                                                heat and humidity from the freezer space. </p>
+                                        </div>
+                                        <div class="text_area1"><img
+                                                src="https://www.rebound-tech.com/wp-content/uploads/2019/02/Shape3.svg"/>
+                                            <h2>4. Seperation</h2>
+                                            <p>Water is then separated from the freeze point suppressant generating pure
+                                                water ready for
+                                                freezing and concentrated FPS ready to send back to the ice tank.</p>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-79d1066 elementor-widget elementor-widget-slider_revolution"
-                                         data-id="79d1066" data-element_type="widget"
-                                         data-widget_type="slider_revolution.default">
-                                        <div class="elementor-widget-container">
+                                </div>
+                            </div>
+                            <div id="slide2" class="slide_content">
+                                <div class="image_area">
+                                    <img src="/rebound_technology/static/src/images/mvr.gif" alt=""/>
+                                </div>
+                                <div class="text_area">
 
-                                            <div class="wp-block-themepunch-revslider">
-                                                <!-- START How It Works REVOLUTION SLIDER 6.7.1 -->
-                                                <p class="rs-p-wp-fix"></p>
-                                                <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery"
-                                                                style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
-                                                    <rs-module id="rev_slider_1_1" style="" data-version="6.7.1">
-                                                        <rs-slides style="overflow: hidden; position: absolute;">
-                                                            <rs-slide style="position: absolute;" data-key="rs-1"
-                                                                      data-title="FPS" data-in="o:0;"
-                                                                      data-out="a:false;">
-                                                                <img decoding="async"
-                                                                     src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"
-                                                                     alt="FPS" title="Technology"
-                                                                     class="rev-slidebg tp-rs-img rs-lazyload"
-                                                                     data-lazyload="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/transparent.png"
-                                                                     data-bg="c:#06003f;"/>
-                                                                <!--
-                                                                                            -->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-0"
-                                                                        class="rev-btnn"
-                                                                        data-type="button"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:50px,33px,25px,59px;yo:50px,33px,25px,15px;"
-                                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"
-                                                                        data-dim="minh:0px,none,none,none;"
-                                                                        data-actions='o:click;a:jumptoslide;slide:rs-1;'
-                                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"
-                                                                        data-border="bor:50px,50px,50px,50px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"
-                                                                        style="z-index:23;background-color:#6633ff;font-family:'Mark-Medium';"
-                                                                >FPS
-                                                                </rs-layer><!--
+                                    <div class="text_grid">
+                                        <!-- Content for MVR -->
+                                        <h2>What is MVR?</h2>
+                                        <p>
+                                            FPS is referring to Freeze Point Suppression. This cycle operates
+                                            by changing the chemical composition of a refrigerant. In the case of
+                                            IcePoint
+                                        </p>
+                                    </div>
 
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-1"
-                                                                        class="rev-btnn"
-                                                                        data-type="button"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:160px,105px,79px,145px;yo:50px,33px,25px,15px;"
-                                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"
-                                                                        data-dim="minh:0px,none,none,none;"
-                                                                        data-actions='o:click;a:jumptoslide;slide:rs-4;'
-                                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"
-                                                                        data-border="bor:50px,50px,50px,50px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"
-                                                                        style="z-index:22;background-color:#6633ff;font-family:'Mark-Medium';"
-                                                                >MVR
-                                                                </rs-layer><!--
+                                    <div class="text_grid">
+                                        <!-- Content for MVR -->
+                                        <h2>How MVR Operates</h2>
+                                        <p>
+                                            MVR is a thermal separation technology optimized for energy efficiency. Like
+                                            all
+                                            distillation processes, water is boiled out of the salt-water brine. To
+                                            increase the energy
+                                            efficiency, the heat is recaptured and repurposed to help boil additional
+                                            water.
+                                        </p>
+                                    </div>
 
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-2"
-                                                                        class="rev-btnn"
-                                                                        data-type="button"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:280px,184px,139px,236px;yo:50px,33px,25px,15px;"
-                                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"
-                                                                        data-dim="minh:0px,none,none,none;"
-                                                                        data-actions='o:click;a:jumptoslide;slide:rs-5;'
-                                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"
-                                                                        data-border="bor:50px,50px,50px,50px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"
-                                                                        style="z-index:21;background-color:#6633ff;font-family:'Mark-Medium';"
-                                                                >ENERGY BALANCE
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-3"
-                                                                        class="tp-shape tp-shapewrapper tp-lottie"
-                                                                        data-type="shape"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="x:l,l,l,c;xo:50px,33px,4px,0;yo:170px,112px,85px,69px;"
-                                                                        data-text="w:normal;"
-                                                                        data-dim="w:805,571,433,285px;h:805,547,415,285px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        data-lottie='{"jsonUrl":"https:\/\/www.rebound-tech.com\/wp-content\/uploads\/revslider\/lottie\/objects\/lottiecustoms\/FPS.json","duration":5000,"autoplay":true,"respectTlStart":false,"endlessLoop":true,"reverse":false,"repeat":-1,"type":"svg","size":"contain","progressiveLoad":false,"hideTransparent":false,"maxdpr":3,"interType":"disabled","lerp":0,"easeType":"default","continuePlaying":false,"scrollActions":false,"scrollLerp":0.10000000000000001,"editorEnabled":false}'
-                                                                        style="z-index:20;"
-                                                                >
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-4"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:204px,134px,101px,356px;"
-                                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:19;font-family:'Mark-Bold';"
-                                                                >What is FPS?
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-5"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:260px,171px,129px,387px;"
-                                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"
-                                                                        data-dim="w:500px,330px,320px,400px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:18;font-family:'Reader-Regular';"
-                                                                >FPS is referring to Freeze Point Suppression. This
-                                                                    cycle operates by changing the chemical composition
-                                                                    of a refrigerant. In the case of IcePoint <sup>
-                                                                        ®</sup>, water is used as a refrigerant moving
-                                                                    through four processes:
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-6"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:930px,614px,440px,41px;yo:520px,343px,309px,515px;"
-                                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:16;font-family:'Mark-Bold';"
-                                                                >1. Freezing
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-7"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:1200px,821px,612px,248px;yo:520px,343px,309px,515px;"
-                                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:13;font-family:'Mark-Bold';"
-                                                                >2. Mixing
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-8"
-                                                                        data-type="image"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:930px,614px,440px,41px;yo:425px,280px,261px,482px;"
-                                                                        data-text="w:normal;"
-                                                                        data-dim="w:69px,45px,34px,28px;h:73px,48px,36px,30px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:17;"
-                                                                >
-                                                                    <img decoding="async"
-                                                                         src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"
-                                                                         alt="" class="tp-rs-img rs-lazyload"
-                                                                         data-lazyload="//www.rebound-tech.com/wp-content/uploads/2019/02/Shape.svg"/>
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-9"
-                                                                        data-type="image"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:1200px,821px,612px,248px;yo:425px,280px,261px,482px;"
-                                                                        data-text="w:normal;"
-                                                                        data-dim="w:78px,51px,38px,38px;h:62px,40px,30px,30px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:14;"
-                                                                >
-                                                                    <img decoding="async"
-                                                                         src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"
-                                                                         alt="" class="tp-rs-img rs-lazyload"
-                                                                         data-lazyload="//www.rebound-tech.com/wp-content/uploads/2019/02/Shape1.svg"/>
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-10"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:930px,614px,440px,41px;yo:570px,376px,334px,545px;"
-                                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"
-                                                                        data-dim="w:200px,180px,150px,195px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:15;font-family:'Reader-Regular';"
-                                                                >Pure water is frozen into ice at the most economical
-                                                                    time of the day and stored in a tank.
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-11"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:1200px,821px,612px,248px;yo:570px,376px,334px,545px;"
-                                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"
-                                                                        data-dim="w:230px,180px,150px,200px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:12;font-family:'Reader-Regular';"
-                                                                >A freeze suppressant, in the form of a non-chloride
-                                                                    salt, is then injected into the bottom of the tank,
-                                                                    mixing with the ice, which creates a -25°F
-                                                                    refrigerant.
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-18"
-                                                                        data-type="image"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:930px,614px,440px,46px;yo:779px,524px,520px,692px;"
-                                                                        data-text="w:normal;"
-                                                                        data-dim="w:56px,36px,27px,19px;h:88px,58px,44px,30px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:11;"
-                                                                >
-                                                                    <img decoding="async"
-                                                                         src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"
-                                                                         alt="" class="tp-rs-img rs-lazyload"
-                                                                         data-lazyload="//www.rebound-tech.com/wp-content/uploads/2019/02/Shape2.svg"/>
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-19"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:930px,614px,440px,46px;yo:874px,587px,568px,725px;"
-                                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:10;font-family:'Mark-Bold';"
-                                                                >3. Melting
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-20"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:930px,614px,440px,46px;yo:924px,620px,593px,755px;"
-                                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"
-                                                                        data-dim="w:200px,180px,150px,195px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:9;font-family:'Reader-Regular';"
-                                                                >This refrigerant mixture is then used to maintain
-                                                                    freezer temperatures by absorbing the heat and
-                                                                    humidity from the freezer space.
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-21"
-                                                                        data-type="image"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:1200px,821px,612px,248px;yo:779px,524px,520px,692px;"
-                                                                        data-text="w:normal;"
-                                                                        data-dim="w:81px,53px,40px,32px;h:77px,50px,37px,30px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:8;"
-                                                                >
-                                                                    <img decoding="async"
-                                                                         src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"
-                                                                         alt="" class="tp-rs-img rs-lazyload"
-                                                                         data-lazyload="//www.rebound-tech.com/wp-content/uploads/2019/02/Shape3.svg"/>
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-22"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:1200px,821px,612px,248px;yo:874px,587px,568px,725px;"
-                                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:7;font-family:'Mark-Bold';"
-                                                                >4. Separation
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-1-layer-23"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:1200px,821px,612px,248px;yo:924px,620px,593px,755px;"
-                                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"
-                                                                        data-dim="w:230px,180px,150px,200px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:6;font-family:'Reader-Regular';"
-                                                                >Water is then separated from the freeze point
-                                                                    suppressant generating pure water ready for freezing
-                                                                    and concentrated FPS ready to send back to the ice
-                                                                    tank.
-                                                                </rs-layer><!--
--->
-                                                            </rs-slide>
-                                                            <rs-slide style="position: absolute;" data-key="rs-4"
-                                                                      data-title="MVR-2" data-in="o:0;"
-                                                                      data-out="a:false;">
-                                                                <img decoding="async"
-                                                                     src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"
-                                                                     alt="MVR-2" title="Technology"
-                                                                     class="rev-slidebg tp-rs-img rs-lazyload"
-                                                                     data-lazyload="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/transparent.png"
-                                                                     data-bg="c:#06003f;"/>
-                                                                <!--
-                                                                                            -->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-4-layer-0"
-                                                                        class="rev-btnn"
-                                                                        data-type="button"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:50px,33px,25px,59px;yo:50px,33px,25px,15px;"
-                                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"
-                                                                        data-dim="minh:0px,none,none,none;"
-                                                                        data-actions='o:click;a:jumptoslide;slide:rs-1;'
-                                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"
-                                                                        data-border="bor:50px,50px,50px,50px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"
-                                                                        style="z-index:15;background-color:#6633ff;font-family:'Mark-Medium';"
-                                                                >FPS
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-4-layer-1"
-                                                                        class="rev-btnn"
-                                                                        data-type="button"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:160px,105px,79px,145px;yo:50px,33px,25px,15px;"
-                                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"
-                                                                        data-dim="minh:0px,none,none,none;"
-                                                                        data-actions='o:click;a:jumptoslide;slide:rs-4;'
-                                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"
-                                                                        data-border="bor:50px,50px,50px,50px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"
-                                                                        style="z-index:14;background-color:#6633ff;font-family:'Mark-Medium';"
-                                                                >MVR
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-4-layer-2"
-                                                                        class="rev-btnn"
-                                                                        data-type="button"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:280px,184px,139px,236px;yo:50px,33px,25px,15px;"
-                                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"
-                                                                        data-dim="minh:0px,none,none,none;"
-                                                                        data-actions='o:click;a:jumptoslide;slide:rs-5;'
-                                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"
-                                                                        data-border="bor:50px,50px,50px,50px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"
-                                                                        style="z-index:13;background-color:#6633ff;font-family:'Mark-Medium';"
-                                                                >ENERGY BALANCE
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-4-layer-3"
-                                                                        class="tp-shape tp-shapewrapper tp-lottie"
-                                                                        data-type="shape"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="x:l,l,l,c;xo:50px,33px,4px,0;yo:170px,112px,85px,69px;"
-                                                                        data-text="w:normal;"
-                                                                        data-dim="w:805,571,433,348;h:805,547,415,348;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        data-lottie='{"jsonUrl":"https:\/\/www.rebound-tech.com\/wp-content\/uploads\/revslider\/lottie\/objects\/lottiecustoms\/MVR Diagram.json","duration":5000,"autoplay":true,"respectTlStart":false,"endlessLoop":true,"reverse":false,"repeat":-1,"type":"svg","size":"contain","progressiveLoad":false,"hideTransparent":false,"maxdpr":3,"interType":"disabled","lerp":0,"easeType":"default","continuePlaying":false,"scrollActions":false,"scrollLerp":0.10000000000000001,"editorEnabled":false}'
-                                                                        style="z-index:12;"
-                                                                >
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-4-layer-4"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:204px,134px,101px,436px;"
-                                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:11;font-family:'Mark-Bold';"
-                                                                >What is MVR?
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-4-layer-5"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:260px,171px,129px,467px;"
-                                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"
-                                                                        data-dim="w:500px,330px,320px,400px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:10;font-family:'Reader-Regular';"
-                                                                >MVR refers to Mechanical Vapor Recompression. MVR is
-                                                                    the most common way to separate water from high
-                                                                    concentration solutions.
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-4-layer-12"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:423px,303px,247px,569px;"
-                                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"
-                                                                        data-dim="w:500px,330px,320px,400px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:8;font-family:'Reader-Regular';"
-                                                                >MVR is a thermal separation technology optimized for
-                                                                    energy efficiency. Like all distillation processes,
-                                                                    water is boiled out of the salt-water brine. To
-                                                                    increase the energy efficiency, the heat is
-                                                                    recaptured and repurposed to help boil additional
-                                                                    water.
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-4-layer-13"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:367px,266px,219px,538px;"
-                                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:9;font-family:'Mark-Bold';"
-                                                                >How MVR Operates
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-4-layer-14"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:639px,478px,411px,719px;"
-                                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"
-                                                                        data-dim="w:500px,330px,320px,400px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:6;font-family:'Reader-Regular';"
-                                                                >IcePoint<sup>®</sup> uses a standard MVR architecture
-                                                                    refreshed with state of the art compression
-                                                                    technology.
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-4-layer-15"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:583px,441px,383px,688px;"
-                                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:7;font-family:'Mark-Bold';"
-                                                                >IcePoint<sup>®</sup> Application
-                                                                </rs-layer><!--
--->
-                                                            </rs-slide>
-                                                            <rs-slide style="position: absolute;" data-key="rs-5"
-                                                                      data-title="Energy-Balance" data-in="o:0;"
-                                                                      data-out="a:false;">
-                                                                <img decoding="async"
-                                                                     src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"
-                                                                     alt="Energy-Balance" title="Technology"
-                                                                     class="rev-slidebg tp-rs-img rs-lazyload"
-                                                                     data-lazyload="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/transparent.png"
-                                                                     data-bg="c:#06003f;"/>
-                                                                <!--
-                                                                                            -->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-5-layer-0"
-                                                                        class="rev-btnn"
-                                                                        data-type="button"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:50px,33px,25px,59px;yo:50px,33px,25px,15px;"
-                                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"
-                                                                        data-dim="minh:0px,none,none,none;"
-                                                                        data-actions='o:click;a:jumptoslide;slide:rs-1;'
-                                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"
-                                                                        data-border="bor:50px,50px,50px,50px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"
-                                                                        style="z-index:15;background-color:#6633ff;font-family:'Mark-Medium';"
-                                                                >FPS
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-5-layer-1"
-                                                                        class="rev-btnn"
-                                                                        data-type="button"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:160px,105px,79px,145px;yo:50px,33px,25px,15px;"
-                                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"
-                                                                        data-dim="minh:0px,none,none,none;"
-                                                                        data-actions='o:click;a:jumptoslide;slide:rs-4;'
-                                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"
-                                                                        data-border="bor:50px,50px,50px,50px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"
-                                                                        style="z-index:14;background-color:#6633ff;font-family:'Mark-Medium';"
-                                                                >MVR
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-5-layer-2"
-                                                                        class="rev-btnn"
-                                                                        data-type="button"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="xo:280px,184px,139px,236px;yo:50px,33px,25px,15px;"
-                                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"
-                                                                        data-dim="minh:0px,none,none,none;"
-                                                                        data-actions='o:click;a:jumptoslide;slide:rs-5;'
-                                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"
-                                                                        data-border="bor:50px,50px,50px,50px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"
-                                                                        style="z-index:13;background-color:#6633ff;font-family:'Mark-Medium';"
-                                                                >ENERGY BALANCE
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-5-layer-3"
-                                                                        class="tp-shape tp-shapewrapper tp-lottie"
-                                                                        data-type="shape"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="x:l,l,l,c;xo:50px,33px,4px,0;yo:170px,112px,85px,69px;"
-                                                                        data-text="w:normal;"
-                                                                        data-dim="w:805,571,433,452;h:805,547,415,452;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        data-lottie='{"jsonUrl":"https:\/\/www.rebound-tech.com\/wp-content\/uploads\/revslider\/lottie\/objects\/lottiecustoms\/Energy Balance.json","duration":5000,"autoplay":true,"respectTlStart":false,"endlessLoop":true,"reverse":false,"repeat":-1,"type":"svg","size":"contain","progressiveLoad":false,"hideTransparent":false,"maxdpr":3,"interType":"disabled","lerp":0,"easeType":"default","continuePlaying":false,"scrollActions":false,"scrollLerp":0.10000000000000001,"editorEnabled":false}'
-                                                                        style="z-index:12;"
-                                                                >
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-5-layer-4"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:204px,134px,101px,528px;"
-                                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:11;font-family:'Mark-Bold';"
-                                                                >Efficient Energy Use
-                                                                </rs-layer><!--
-
-							-->
-                                                                <rs-layer
-                                                                        id="slider-1-slide-5-layer-5"
-                                                                        data-type="text"
-                                                                        data-rsp_ch="on"
-                                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:260px,171px,133px,562px;"
-                                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"
-                                                                        data-dim="w:500px,330px,320px,400px;"
-                                                                        data-frame_999="o:0;st:w;"
-                                                                        style="z-index:10;font-family:'Reader-Regular';"
-                                                                >Like all refrigeration equipment, IcePoint<sup>®</sup> must
-                                                                    conserve energy and meet fundamental efficiency
-                                                                    limits. All refrigeration equipment requires some
-                                                                    form of driving energy input to move heat from a low
-                                                                    temperature to a high one. For IcePoint<sup>®</sup> this
-                                                                    comes from both the ice maker’s compressor and the
-                                                                    MVR’s compressor. The efficiency of the
-                                                                    IcePoint<sup>
-                                                                        ®
-                                                                    </sup> system stems from its ability to be
-                                                                    internally thermally recuperated and to take
-                                                                    advantage of low ambient temperatures in the
-                                                                    morning. evening. and night.
-                                                                </rs-layer><!--
--->
-                                                            </rs-slide>
-                                                        </rs-slides>
-                                                    </rs-module>
-                                                    <script>
-                                                        setREVStartSize({c:
-                                                        'rev_slider_1_1',rl:[1240,1024,778,480],el:[1200,800,800,920],gw:[1550,1024,778,480],gh:[1200,800,800,920],type:'standard',justify:'',layout:'fullwidth',mh:"0"});if
-                                                        (window.RS_MODULES!==undefined &amp;&amp;
-                                                        window.RS_MODULES.modules!==undefined &amp;&amp;
-                                                        window.RS_MODULES.modules["revslider11"]!==undefined)
-                                                        {window.RS_MODULES.modules["revslider11"].once =
-                                                        false;window.revapi1 = undefined;if
-                                                        (window.RS_MODULES.checkMinimal!==undefined)
-                                                        window.RS_MODULES.checkMinimal()}
-                                                    </script>
-                                                </rs-module-wrap>
-                                                <!-- END REVOLUTION SLIDER -->
-                                            </div>
-
-                                        </div>
+                                    <div class="text_grid">
+                                        <!-- Content for MVR -->
+                                        <h2>IcePoint<sup style="margin-top:20px;">®</sup> Application</h2>
+                                        <p>
+                                            IcePoint<sup style="margin-top:14px;">®</sup> uses a standard MVR
+                                            architecture refreshed with state of the art
+                                            compression technology.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="slide3" class="slide_content">
+                                <div class="image_area">
+                                    <img src="/rebound_technology/static/src/images/energy.gif" alt=""/>
+                                </div>
+                                <div class="text_area">
+                                    <h2>Efficient Energy Use
+                                    </h2>
+                                    <p>
+                                        Like all refrigeration equipment, IcePoint <sup data-stylerecorder="true"
+                                                                                        style="text-align: left; line-height: 25px; letter-spacing: 0px; font-weight: 400;">
+                                        ®</sup>
+                                        must conserve energy and meet fundamental efficiency limits. All refrigeration
+                                        equipment
+                                        requires some form of driving energy input to move heat from a low temperature
+                                        to a high one.
+                                        For IcePoint
+                                    </p>
+                                    <div class="text_grid">
+                                        <!-- Content for Energy Balance -->
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
+                    <!--                    accord_tab_end-->
+
+
+                    <!--                    slide sec-->
+                    <!--                   <section-->
+                    <!--            class="elementor-section elementor-top-section elementor-element elementor-element-b74a67f elementor-section-boxed elementor-section-height-default elementor-section-height-default"-->
+                    <!--            data-id="b74a67f" data-element_type="section"-->
+                    <!--            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">-->
+                    <!--            <div class="elementor-container elementor-column-gap-default">-->
+                    <!--                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a1339cd"-->
+                    <!--                    data-id="a1339cd" data-element_type="column">-->
+                    <!--                    <div class="elementor-widget-wrap elementor-element-populated">-->
+                    <!--                        <div class="elementor-element elementor-element-e56057e elementor-widget elementor-widget-heading"-->
+                    <!--                            data-id="e56057e" data-element_type="widget" data-widget_type="heading.default">-->
+                    <!--                            <div class="elementor-widget-container">-->
+                    <!--                                <h2 class="elementor-heading-title elementor-size-default">How It Works</h2>-->
+                    <!--                            </div>-->
+                    <!--                        </div>-->
+                    <!--                        <div class="elementor-element elementor-element-79d1066 elementor-widget elementor-widget-slider_revolution"-->
+                    <!--                            data-id="79d1066" data-element_type="widget" data-widget_type="slider_revolution.default">-->
+                    <!--                            <div class="elementor-widget-container">-->
+
+                    <!--                                <div class="wp-block-themepunch-revslider">-->
+                    <!--                                    &lt;!&ndash; START How It Works REVOLUTION SLIDER 6.7.1 &ndash;&gt;-->
+                    <!--                                    <p class="rs-p-wp-fix"></p>-->
+                    <!--                                    <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery"-->
+                    <!--                                        style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">-->
+                    <!--                                        <rs-module id="rev_slider_1_1" style="" data-version="6.7.1">-->
+                    <!--                                            <rs-slides style="overflow: hidden; position: absolute;">-->
+                    <!--                                                <rs-slide style="position: absolute;" data-key="rs-1" data-title="FPS"-->
+                    <!--                                                    data-in="o:0;" data-out="a:false;">-->
+                    <!--                                                    <img decoding="async"-->
+                    <!--                                                        src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"-->
+                    <!--                                                        alt="FPS" title="Technology"-->
+                    <!--                                                        class="rev-slidebg tp-rs-img rs-lazyload"-->
+                    <!--                                                        data-lazyload="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/transparent.png"-->
+                    <!--                                                        data-bg="c:#06003f;" data-no-retina="1"/>-->
+                    <!--                                                    &lt;!&ndash;-->
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-0" class="rev-btn" data-type="button" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:50px,33px,25px,59px;yo:50px,33px,25px,15px;"-->
+                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
+                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
+                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-1;'-->
+                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
+                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
+                    <!--                                                        style="z-index:23;background-color:#6633ff;font-family:'Mark-Medium';">FPS-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-1" class="rev-btn" data-type="button" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:160px,105px,79px,145px;yo:50px,33px,25px,15px;"-->
+                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
+                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
+                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-4;'-->
+                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
+                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
+                    <!--                                                        style="z-index:22;background-color:#6633ff;font-family:'Mark-Medium';">MVR-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-2" class="rev-btn" data-type="button" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:280px,184px,139px,236px;yo:50px,33px,25px,15px;"-->
+                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
+                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
+                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-5;'-->
+                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
+                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
+                    <!--                                                        style="z-index:21;background-color:#6633ff;font-family:'Mark-Medium';">ENERGY-->
+                    <!--                                                        BALANCE-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-3" class="tp-shape tp-shapewrapper tp-lottie" data-type="shape"-->
+                    <!--                                                        data-rsp_ch="on"-->
+                    <!--                                                        data-xy="x:l,l,l,c;xo:50px,33px,4px,0;yo:170px,112px,85px,69px;"-->
+                    <!--                                                        data-text="w:normal;"-->
+                    <!--                                                        data-dim="w:805,571,433,285px;h:805,547,415,285px;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        data-lottie='{"jsonUrl":"https:\/\/www.rebound-tech.com\/wp-content\/uploads\/revslider\/lottie\/objects\/lottiecustoms\/FPS.json","duration":5000,"autoplay":true,"respectTlStart":false,"endlessLoop":true,"reverse":false,"repeat":-1,"type":"svg","size":"contain","progressiveLoad":false,"hideTransparent":false,"maxdpr":3,"interType":"disabled","lerp":0,"easeType":"default","continuePlaying":false,"scrollActions":false,"scrollLerp":0.10000000000000001,"editorEnabled":false}'-->
+                    <!--                                                        style="z-index:20;">-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-4" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:204px,134px,101px,356px;"-->
+                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:19;font-family:'Mark-Bold';">What is FPS?-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-5" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:260px,171px,129px,387px;"-->
+                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
+                    <!--                                                        data-dim="w:500px,330px,320px,400px;" data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:18;font-family:'Reader-Regular';">FPS is-->
+                    <!--                                                        referring to Freeze Point Suppression. This cycle operates by-->
+                    <!--                                                        changing the chemical composition of a refrigerant. In the case-->
+                    <!--                                                        of IcePoint <sup>®</sup>, water is used as a refrigerant moving-->
+                    <!--                                                        through four processes:-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-6" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:930px,614px,440px,41px;yo:520px,343px,309px,515px;"-->
+                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:16;font-family:'Mark-Bold';">1. Freezing-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-7" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:1200px,821px,612px,248px;yo:520px,343px,309px,515px;"-->
+                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:13;font-family:'Mark-Bold';">2. Mixing-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-8" data-type="image" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:930px,614px,440px,41px;yo:425px,280px,261px,482px;"-->
+                    <!--                                                        data-text="w:normal;"-->
+                    <!--                                                        data-dim="w:69px,45px,34px,28px;h:73px,48px,36px,30px;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;" style="z-index:17;"><img-->
+                    <!--                                                            decoding="async"-->
+                    <!--                                                            src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"-->
+                    <!--                                                            alt="" class="tp-rs-img rs-lazyload"-->
+                    <!--                                                            data-lazyload="//www.rebound-tech.com/wp-content/uploads/2019/02/Shape.svg"-->
+                    <!--                                                            data-no-retina="1" />-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-9" data-type="image" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:1200px,821px,612px,248px;yo:425px,280px,261px,482px;"-->
+                    <!--                                                        data-text="w:normal;"-->
+                    <!--                                                        data-dim="w:78px,51px,38px,38px;h:62px,40px,30px,30px;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;" style="z-index:14;"><img-->
+                    <!--                                                            decoding="async"-->
+                    <!--                                                            src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"-->
+                    <!--                                                            alt="" class="tp-rs-img rs-lazyload"-->
+                    <!--                                                            data-lazyload="//www.rebound-tech.com/wp-content/uploads/2019/02/Shape1.svg"-->
+                    <!--                                                            data-no-retina="1"/>-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-10" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:930px,614px,440px,41px;yo:570px,376px,334px,545px;"-->
+                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
+                    <!--                                                        data-dim="w:200px,180px,150px,195px;" data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:15;font-family:'Reader-Regular';">Pure water is-->
+                    <!--                                                        frozen into ice at the most economical time of the day and-->
+                    <!--                                                        stored in a tank.-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-11" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:1200px,821px,612px,248px;yo:570px,376px,334px,545px;"-->
+                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
+                    <!--                                                        data-dim="w:230px,180px,150px,200px;" data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:12;font-family:'Reader-Regular';">A freeze-->
+                    <!--                                                        suppressant, in the form of a non-chloride salt, is then-->
+                    <!--                                                        injected into the bottom of the tank, mixing with the ice, which-->
+                    <!--                                                        creates a -25°F refrigerant.-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-18" data-type="image" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:930px,614px,440px,46px;yo:779px,524px,520px,692px;"-->
+                    <!--                                                        data-text="w:normal;"-->
+                    <!--                                                        data-dim="w:56px,36px,27px,19px;h:88px,58px,44px,30px;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;" style="z-index:11;"><img-->
+                    <!--                                                            decoding="async"-->
+                    <!--                                                            src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"-->
+                    <!--                                                            alt="" class="tp-rs-img rs-lazyload"-->
+                    <!--                                                            data-lazyload="//www.rebound-tech.com/wp-content/uploads/2019/02/Shape2.svg"-->
+                    <!--                                                            data-no-retina="1" />-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-19" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:930px,614px,440px,46px;yo:874px,587px,568px,725px;"-->
+                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:10;font-family:'Mark-Bold';">3. Melting-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-20" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:930px,614px,440px,46px;yo:924px,620px,593px,755px;"-->
+                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
+                    <!--                                                        data-dim="w:200px,180px,150px,195px;" data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:9;font-family:'Reader-Regular';">This refrigerant-->
+                    <!--                                                        mixture is then used to maintain freezer temperatures by-->
+                    <!--                                                        absorbing the heat and humidity from the freezer space.-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-21" data-type="image" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:1200px,821px,612px,248px;yo:779px,524px,520px,692px;"-->
+                    <!--                                                        data-text="w:normal;"-->
+                    <!--                                                        data-dim="w:81px,53px,40px,32px;h:77px,50px,37px,30px;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;" style="z-index:8;"><img-->
+                    <!--                                                            decoding="async"-->
+                    <!--                                                            src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"-->
+                    <!--                                                            alt="" class="tp-rs-img rs-lazyload"-->
+                    <!--                                                            data-lazyload="//www.rebound-tech.com/wp-content/uploads/2019/02/Shape3.svg"-->
+                    <!--                                                            data-no-retina="1" />-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-22" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:1200px,821px,612px,248px;yo:874px,587px,568px,725px;"-->
+                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:7;font-family:'Mark-Bold';">4. Separation-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-23" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:1200px,821px,612px,248px;yo:924px,620px,593px,755px;"-->
+                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
+                    <!--                                                        data-dim="w:230px,180px,150px,200px;" data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:6;font-family:'Reader-Regular';">Water is then-->
+                    <!--                                                        separated from the freeze point suppressant generating pure-->
+                    <!--                                                        water ready for freezing and concentrated FPS ready to send back-->
+                    <!--                                                        to the ice tank.-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+                    <!--&ndash;&gt; </rs-slide>-->
+                    <!--                                                <rs-slide style="position: absolute;" data-key="rs-4" data-title="MVR-2"-->
+                    <!--                                                    data-in="o:0;" data-out="a:false;">-->
+                    <!--                                                    <img decoding="async"-->
+                    <!--                                                        src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"-->
+                    <!--                                                        alt="MVR-2" title="Technology"-->
+                    <!--                                                        class="rev-slidebg tp-rs-img rs-lazyload"-->
+                    <!--                                                        data-lazyload="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/transparent.png"-->
+                    <!--                                                        data-bg="c:#06003f;" data-no-retina="1" />-->
+                    <!--                                                    &lt;!&ndash;-->
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-0" class="rev-btn" data-type="button" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:50px,33px,25px,59px;yo:50px,33px,25px,15px;"-->
+                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
+                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
+                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-1;'-->
+                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
+                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
+                    <!--                                                        style="z-index:15;background-color:#6633ff;font-family:'Mark-Medium';">FPS-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-1" class="rev-btn" data-type="button" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:160px,105px,79px,145px;yo:50px,33px,25px,15px;"-->
+                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
+                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
+                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-4;'-->
+                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
+                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
+                    <!--                                                        style="z-index:14;background-color:#6633ff;font-family:'Mark-Medium';">MVR-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-2" class="rev-btn" data-type="button" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:280px,184px,139px,236px;yo:50px,33px,25px,15px;"-->
+                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
+                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
+                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-5;'-->
+                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
+                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
+                    <!--                                                        style="z-index:13;background-color:#6633ff;font-family:'Mark-Medium';">ENERGY-->
+                    <!--                                                        BALANCE-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-3" class="tp-shape tp-shapewrapper tp-lottie" data-type="shape"-->
+                    <!--                                                        data-rsp_ch="on"-->
+                    <!--                                                        data-xy="x:l,l,l,c;xo:50px,33px,4px,0;yo:170px,112px,85px,69px;"-->
+                    <!--                                                        data-text="w:normal;"-->
+                    <!--                                                        data-dim="w:805,571,433,348;h:805,547,415,348;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        data-lottie='{"jsonUrl":"https:\/\/www.rebound-tech.com\/wp-content\/uploads\/revslider\/lottie\/objects\/lottiecustoms\/MVR Diagram.json","duration":5000,"autoplay":true,"respectTlStart":false,"endlessLoop":true,"reverse":false,"repeat":-1,"type":"svg","size":"contain","progressiveLoad":false,"hideTransparent":false,"maxdpr":3,"interType":"disabled","lerp":0,"easeType":"default","continuePlaying":false,"scrollActions":false,"scrollLerp":0.10000000000000001,"editorEnabled":false}'-->
+                    <!--                                                        style="z-index:12;">-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-4" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:204px,134px,101px,436px;"-->
+                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:11;font-family:'Mark-Bold';">What is MVR?-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-5" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:260px,171px,129px,467px;"-->
+                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
+                    <!--                                                        data-dim="w:500px,330px,320px,400px;" data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:10;font-family:'Reader-Regular';">MVR refers to-->
+                    <!--                                                        Mechanical Vapor Recompression. MVR is the most common way to-->
+                    <!--                                                        separate water from high concentration solutions.-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-12" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:423px,303px,247px,569px;"-->
+                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
+                    <!--                                                        data-dim="w:500px,330px,320px,400px;" data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:8;font-family:'Reader-Regular';">MVR is a thermal-->
+                    <!--                                                        separation technology optimized for energy efficiency. Like all-->
+                    <!--                                                        distillation processes, water is boiled out of the salt-water-->
+                    <!--                                                        brine. To increase the energy efficiency, the heat is recaptured-->
+                    <!--                                                        and repurposed to help boil additional water.-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-13" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:367px,266px,219px,538px;"-->
+                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:9;font-family:'Mark-Bold';">How MVR Operates-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-14" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:639px,478px,411px,719px;"-->
+                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
+                    <!--                                                        data-dim="w:500px,330px,320px,400px;" data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:6;font-family:'Reader-Regular';">IcePoint<sup>®</sup>-->
+                    <!--                                                        uses a standard MVR architecture refreshed with state of the art-->
+                    <!--                                                        compression technology.-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-15" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:583px,441px,383px,688px;"-->
+                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:7;font-family:'Mark-Bold';">IcePoint<sup>®</sup>-->
+                    <!--                                                        Application-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+                    <!--&ndash;&gt; </rs-slide>-->
+                    <!--                                                <rs-slide style="position: absolute;" data-key="rs-5"-->
+                    <!--                                                    data-title="Energy-Balance" data-in="o:0;" data-out="a:false;">-->
+                    <!--                                                    <img decoding="async"-->
+                    <!--                                                        src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"-->
+                    <!--                                                        alt="Energy-Balance" title="Technology"-->
+                    <!--                                                        class="rev-slidebg tp-rs-img rs-lazyload"-->
+                    <!--                                                        data-lazyload="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/transparent.png"-->
+                    <!--                                                        data-bg="c:#06003f;" data-no-retina="1" />-->
+                    <!--                                                    &lt;!&ndash;-->
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-5-layer-0" class="rev-btn" data-type="button" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:50px,33px,25px,59px;yo:50px,33px,25px,15px;"-->
+                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
+                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
+                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-1;'-->
+                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
+                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
+                    <!--                                                        style="z-index:15;background-color:#6633ff;font-family:'Mark-Medium';">FPS-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-5-layer-1" class="rev-btn" data-type="button" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:160px,105px,79px,145px;yo:50px,33px,25px,15px;"-->
+                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
+                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
+                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-4;'-->
+                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
+                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
+                    <!--                                                        style="z-index:14;background-color:#6633ff;font-family:'Mark-Medium';">MVR-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-5-layer-2" class="rev-btn" data-type="button" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="xo:280px,184px,139px,236px;yo:50px,33px,25px,15px;"-->
+                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
+                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
+                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-5;'-->
+                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
+                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
+                    <!--                                                        style="z-index:13;background-color:#6633ff;font-family:'Mark-Medium';">ENERGY-->
+                    <!--                                                        BALANCE-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-5-layer-3" class="tp-shape tp-shapewrapper tp-lottie" data-type="shape"-->
+                    <!--                                                        data-rsp_ch="on"-->
+                    <!--                                                        data-xy="x:l,l,l,c;xo:50px,33px,4px,0;yo:170px,112px,85px,69px;"-->
+                    <!--                                                        data-text="w:normal;"-->
+                    <!--                                                        data-dim="w:805,571,433,452;h:805,547,415,452;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        data-lottie='{"jsonUrl":"https:\/\/www.rebound-tech.com\/wp-content\/uploads\/revslider\/lottie\/objects\/lottiecustoms\/Energy Balance.json","duration":5000,"autoplay":true,"respectTlStart":false,"endlessLoop":true,"reverse":false,"repeat":-1,"type":"svg","size":"contain","progressiveLoad":false,"hideTransparent":false,"maxdpr":3,"interType":"disabled","lerp":0,"easeType":"default","continuePlaying":false,"scrollActions":false,"scrollLerp":0.10000000000000001,"editorEnabled":false}'-->
+                    <!--                                                        style="z-index:12;">-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-5-layer-4" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:204px,134px,101px,528px;"-->
+                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
+                    <!--                                                        data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:11;font-family:'Mark-Bold';">Efficient Energy Use-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+
+                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-5-layer-5" data-type="text" data-rsp_ch="on"-->
+                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:260px,171px,133px,562px;"-->
+                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
+                    <!--                                                        data-dim="w:500px,330px,320px,400px;" data-frame_999="o:0;st:w;"-->
+                    <!--                                                        style="z-index:10;font-family:'Reader-Regular';">Like all-->
+                    <!--                                                        refrigeration equipment, IcePoint<sup>®</sup> must conserve-->
+                    <!--                                                        energy and meet fundamental efficiency limits. All refrigeration-->
+                    <!--                                                        equipment requires some form of driving energy input to move-->
+                    <!--                                                        heat from a low temperature to a high one. For-->
+                    <!--                                                        IcePoint<sup>®</sup> this comes from both the ice maker’s-->
+                    <!--                                                        compressor and the MVR’s compressor. The efficiency of the-->
+                    <!--                                                        IcePoint<sup>®</sup> system stems from its ability to be-->
+                    <!--                                                        internally thermally recuperated and to take advantage of low-->
+                    <!--                                                        ambient temperatures in the morning. evening. and night.-->
+                    <!--                                                    </rs-layer>&lt;!&ndash;-->
+                    <!--&ndash;&gt; </rs-slide>-->
+                    <!--                                            </rs-slides>-->
+                    <!--                                        </rs-module>-->
+                    <!--                                        <script>-->
+                    <!--                                             <![CDATA[-->
+                    <!--                                            setREVStartSize({ c: 'rev_slider_1_1', rl: [1240, 1024, 778, 480], el: [1200, 800, 800, 920], gw: [1550, 1024, 778, 480], gh: [1200, 800, 800, 920], type: 'standard', justify: '', layout: 'fullwidth', mh: "0" }); if (window.RS_MODULES !== undefined && window.RS_MODULES.modules !== undefined && window.RS_MODULES.modules["revslider11"] !== undefined) { window.RS_MODULES.modules["revslider11"].once = false; window.revapi1 = undefined; if (window.RS_MODULES.checkMinimal !== undefined) window.RS_MODULES.checkMinimal() }-->
+                    <!--                                        ]]>-->
+                    <!--                                        </script>-->
+                    <!--                                    </rs-module-wrap>-->
+                    <!--                                    &lt;!&ndash; END REVOLUTION SLIDER &ndash;&gt;-->
+                    <!--                                </div>-->
+
+                    <!--                            </div>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                    <!--                </div>-->
+                    <!--            </div>-->
+                    <!--        </section>-->
+                    <!--                    slide sec-->
+
+
                     <section
                             class="elementor-section elementor-top-section elementor-element elementor-element-c7a9c52 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="c7a9c52" data-element_type="section">
@@ -2529,8 +2562,6 @@
                     window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
                     window.RS_MODULES.type = 'compiled';
                 </script>
-                <link href="//fonts.googleapis.com/css?family=Roboto:400&amp;display=swap" rel="stylesheet"
-                      property="stylesheet" media="all" type="text/css"/>
 
                 <script>
                     if(typeof revslider_showDoubleJqueryError === "undefined") {function
@@ -2770,6 +2801,27 @@ window.scope_array = [];
 
                     if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
                 </script>
+
+
+                <!--                accord script start-->
+                <script>
+                    <![CDATA[
+        function openCity(evt, cityName) {
+            var i, slide_content, tablinks;
+            slide_content = document.getElementsByClassName("slide_content");
+            for (i = 0; i < slide_content.length; i++) {
+                slide_content[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+            document.getElementById(cityName).style.display = "flex";
+            evt.currentTarget.classList.add("active");
+        }
+        ]]>
+                </script>
+                <!--                accord script end-->
 
             </body>
         </t>

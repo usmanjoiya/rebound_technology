@@ -23,6 +23,7 @@ Long description of module's purpose
     # always loaded
     'data': [
         'security/ir.model.access.csv',
+        'data/footer.xml',
         'data/rebound_home.xml',
         'data/technology.xml',
         'data/sustainability.xml',

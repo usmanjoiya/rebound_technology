@@ -2,16 +2,29 @@
 <odoo>
     <template id="news">
         <t t-call="website.layout">
+
             <head>
                 <meta charset="UTF-8"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
                 <script>(function(html){html.className =
                     html.className.replace(/\bno-js\b/,'js')})(document.documentElement);
                 </script>
-                <title>News &#8211; Rebound Technologies</title>
+                <title>Technology &#8211; Rebound Technologies</title>
+                <!--                <style>-->
+                <!--                    #wrapwrap {-->
+                <!--                        overflow-x: hidden !important;-->
+                <!--                    }-->
+                <!--                </style>-->
+                <link rel='stylesheet' id='elementor-post-8-css'
+                      href='/rebound_technology/static/src/css/post-8.css?ver=1716338092'
+                      type='text/css' media='all'/>
+                <link rel='stylesheet' id='elementor-post-3021-css'
+                      href='/rebound_technology/static/src/css/post-3021.css?ver=1716338079'
+                      type='text/css' media='all'/>
                 <link rel="preload" as="image"
-                      href="https://www.rebound-tech.com/wp-content/uploads/2019/01/Logo-White.svg"
-                      fetchpriority="high"/>
+                      href="https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png"
+                      imagesrcset="https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 800w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-300x300.png 300w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-150x150.png 150w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-768x768.png 768w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-100x100.png 100w"
+                      imagesizes="100vw" fetchpriority="high"/>
                 <meta name='robots' content='max-image-preview:large'/>
                 <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
                 <link href='https://fonts.gstatic.com' rel='preconnect'/>
@@ -403,60 +416,61 @@
                       href='https://fonts.googleapis.com/css?family=Libre+Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i&#038;subset=latin%2Clatin-ext'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='twentyseventeen-style-css'
-                      href='https://www.rebound-tech.com/wp-content/themes/rebound/style.css?ver=6.5.4' type='text/css'
+                      href='/rebound_technology/static/src/css/style.css?ver=6.5.3' type='text/css'
                       media='all'/>
                 <!--[if lt IE 9]>
                 <link rel='stylesheet' id='twentyseventeen-ie8-css' href='https://www.rebound-tech.com/wp-content/themes/rebound/assets/css/ie8.css?ver=1.0' type='text/css' media='all' />
                 <![endif]-->
                 <link rel='stylesheet' id='elementor-frontend-css'
-                      href='https://www.rebound-tech.com/wp-content/uploads/elementor/css/custom-frontend-lite.min.css?ver=1716338067'
+                      href='/rebound_technology/static/src/css/custom-frontend-lite.min.css?ver=1716338067'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='swiper-css'
-                      href='https://www.rebound-tech.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5'
+                      href='/rebound_technology/static/src/css/swiper.min.css?ver=8.4.5'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='elementor-post-2133-css'
-                      href='https://www.rebound-tech.com/wp-content/uploads/elementor/css/post-2133.css?ver=1716338081'
+                      href='/rebound_technology/static/src/css/post-2133.css?ver=1716338081'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='elementor-pro-css'
-                      href='https://www.rebound-tech.com/wp-content/uploads/elementor/css/custom-pro-frontend-lite.min.css?ver=1716338067'
+                      href='/rebound_technology/static/src/css/custom-pro-frontend-lite.min.css?ver=1716338067'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='uael-frontend-css'
-                      href='https://www.rebound-tech.com/wp-content/plugins/ultimate-elementor/assets/min-css/uael-frontend.min.css?ver=1.36.31'
+                      href='/rebound_technology/static/src/css/uael-frontend.min.css?ver=1.36.31'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='elementor-global-css'
-                      href='https://www.rebound-tech.com/wp-content/uploads/elementor/css/global.css?ver=1716338087'
+                      href='/rebound_technology/static/src/css/global.css?ver=1716338087'
                       type='text/css' media='all'/>
-                <link rel='stylesheet' id='elementor-post-8-css'
-                      href='https://www.rebound-tech.com/wp-content/uploads/elementor/css/post-8.css?ver=1716338092'
+                <!--                new one-->
+                <link rel='stylesheet' id='elementor-post-2589-css'
+                      href='/rebound_technology/static/src/css/post-2589.css?ver=1716338088'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='elementor-post-2961-css'
-                      href='https://www.rebound-tech.com/wp-content/uploads/elementor/css/post-2961.css?ver=1716338079'
+                      href='/rebound_technology/static/src/css/post-2961.css?ver=1716338079'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='elementor-post-3055-css'
-                      href='https://www.rebound-tech.com/wp-content/uploads/elementor/css/post-3055.css?ver=1716338080'
+                      href='/rebound_technology/static/src/css/post-3055.css?ver=1716338080'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='google-fonts-1-css'
-                      href='https://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.5.4'
+                      href='https://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.5.3'
                       type='text/css' media='all'/>
                 <link rel="preconnect" href="https://fonts.gstatic.com/"/>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+                        src="/rebound_technology/static/src/js/jquery.min.js?ver=3.7.1"
                         id="jquery-core-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+                        src="/rebound_technology/static/src/js/jquery-migrate.min.js?ver=3.4.1"
                         id="jquery-migrate-js"></script>
                 <link rel="https://api.w.org/" href="https://www.rebound-tech.com/wp-json/"/>
                 <link rel="alternate" type="application/json"
-                      href="https://www.rebound-tech.com/wp-json/wp/v2/pages/8"/>
+                      href="https://www.rebound-tech.com/wp-json/wp/v2/pages/2589"/>
                 <link rel="EditURI" type="application/rsd+xml" title="RSD"
                       href="https://www.rebound-tech.com/xmlrpc.php?rsd"/>
-                <meta name="generator" content="WordPress 6.5.4"/>
-                <link rel="canonical" href="https://www.rebound-tech.com/news/"/>
-                <link rel='shortlink' href='https://www.rebound-tech.com/?p=8'/>
+                <meta name="generator" content="WordPress 6.5.3"/>
+                <link rel="canonical" href="https://www.rebound-tech.com/technology/"/>
+                <link rel='shortlink' href='https://www.rebound-tech.com/?p=2589'/>
                 <link rel="alternate" type="application/json+oembed"
-                      href="https://www.rebound-tech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.rebound-tech.com%2Fnews%2F"/>
+                      href="https://www.rebound-tech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.rebound-tech.com%2Ftechnology%2F"/>
                 <link rel="alternate" type="text/xml+oembed"
-                      href="https://www.rebound-tech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.rebound-tech.com%2Fnews%2F&#038;format=xml"/>
+                      href="https://www.rebound-tech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.rebound-tech.com%2Ftechnology%2F&#038;format=xml"/>
                 <!-- Custom Favicons -->
                 <link rel="shortcut icon" href="https://www.rebound-tech.com/wp-content/themes/rebound/favicon.ico"/>
                 <meta name="generator"
@@ -699,9 +713,9 @@
                         grid-template-rows: 33% 33% 33%;
                         gap: 10px 10px;
                         grid-template-areas:
-                ". . ."
-                ". . ."
-                ". . .";
+                    ". . ."
+                    ". . ."
+                    ". . .";
                     }
 
                     .productivity_sec {
@@ -893,7 +907,7 @@
 
                     /* END Sustainability page */
 
-                    /* NEWS &amp;amp; INSIGHTS */
+                    /* NEWS &amp; INSIGHTS */
 
                     .newspost_banner {
                         margin-top: 0px !important;
@@ -987,7 +1001,6 @@
                 </style>
             </head>
 
-
             <body class="page-template page-template-elementor_header_footer page page-id-8 wp-custom-logo wp-embed-responsive group-blog has-header-image page-two-column colors-light elementor-default elementor-template-full-width elementor-kit-2133 elementor-page elementor-page-8">
                 <div data-elementor-type="header" data-elementor-id="2961"
                      class="elementor elementor-2961 elementor-location-header"
@@ -1021,9 +1034,7 @@
                                                 transition-duration: var(--lottie-container-transition-duration-hover)
                                             }
 
-                                            .e-lottie__container
-                                            svg, .e-lottie__container svg
-                                            * {
+                                            .e-lottie__container svg, .e-lottie__container svg * {
                                                 transition: none !important
                                             }
 
@@ -1031,15 +1042,63 @@
                                                 color: var(--caption-color);
                                                 margin-top: var(--caption-margin-top);
                                                 text-align: var(--caption-text-align)
-                                            }
-                                            </style>
-                                            <div class="e-lottie__container">
-                                                <div class="e-lottie__animation"></div>
-                                            </div>
-                                        </div>
+                                            }</style><div class="e-lottie__container"><div
+                                                class="e-lottie__animation"><svg xmlns="http://www.w3.org/2000/svg"
+                                                                                 viewBox="0 0 407 220" width="407"
+                                                                                 height="220"
+                                                                                 preserveAspectRatio="xMidYMid meet"
+                                                                                 style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);"><defs><clipPath
+                                                id="__lottie_element_2"><rect width="407" height="220" x="0"
+                                                                              y="0"></rect></clipPath><filter
+                                                id="__lottie_element_7" filterUnits="objectBoundingBox" x="0%" y="0%"
+                                                width="100%" height="100%"><feComponentTransfer
+                                                in="SourceGraphic"><feFuncA type="table"
+                                                                            tableValues="1.0 0.0"></feFuncA></feComponentTransfer></filter><mask
+                                                id="__lottie_element_6" mask-type="alpha"><g
+                                                filter="url(#__lottie_element_7)"><rect width="407" height="220" x="0"
+                                                                                        y="0" fill="#ffffff"
+                                                                                        opacity="0"></rect><g
+                                                transform="matrix(0.7263668179512024,0,0,0.7263668179512024,130.04254150390625,106.99381256103516)"
+                                                opacity="1" style="display: block;"><g opacity="1"
+                                                                                       transform="matrix(0.8708599805831909,0,0,1.169350028038025,104.09746551513672,3.5169999599456787)"><path
+                                                fill="rgb(6,0,63)" fill-opacity="1"
+                                                d=" M150.96449279785156,-131.87249755859375 C150.96449279785156,-131.87249755859375 150.96449279785156,131.87249755859375 150.96449279785156,131.87249755859375 C150.96449279785156,131.87249755859375 -150.96449279785156,131.87249755859375 -150.96449279785156,131.87249755859375 C-150.96449279785156,131.87249755859375 -150.96449279785156,-131.87249755859375 -150.96449279785156,-131.87249755859375 C-150.96449279785156,-131.87249755859375 150.96449279785156,-131.87249755859375 150.96449279785156,-131.87249755859375z"></path></g><g
+                                                opacity="1" transform="matrix(1,0,0,1,0,0)"></g><g opacity="1"
+                                                                                                   transform="matrix(1,0,0,1,-27.722999572753906,2.309000015258789)"><path
+                                                fill="rgb(65,0,178)" fill-opacity="1"
+                                                d=" M0,-114.5 C63.19255065917969,-114.5 114.5,-63.19255065917969 114.5,0 C114.5,63.19255065917969 63.19255065917969,114.5 0,114.5 C-63.19255065917969,114.5 -114.5,63.19255065917969 -114.5,0 C-114.5,-63.19255065917969 -63.19255065917969,-114.5 0,-114.5z"></path><path
+                                                stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+                                                stroke-miterlimit="4" stroke="rgb(102,51,255)" stroke-opacity="1"
+                                                stroke-width="80"
+                                                d=" M0,-114.5 C63.19255065917969,-114.5 114.5,-63.19255065917969 114.5,0 C114.5,63.19255065917969 63.19255065917969,114.5 0,114.5 C-63.19255065917969,114.5 -114.5,63.19255065917969 -114.5,0 C-114.5,-63.19255065917969 -63.19255065917969,-114.5 0,-114.5z"></path></g></g></g></mask></defs><g
+                                                clip-path="url(#__lottie_element_2)"><g mask="url(#__lottie_element_6)"
+                                                                                        style="display: block;"><g
+                                                transform="matrix(0.7114800214767456,0,0,0.7114800214767456,129.60548400878906,107.39707946777344)"
+                                                opacity="1"><g opacity="1"
+                                                               transform="matrix(1,0,0,1,-27.722999572753906,3.309000015258789)"><path
+                                                fill="rgb(6,0,63)" fill-opacity="1"
+                                                d=" M0,-114.28500366210938 C63.07389450073242,-114.28500366210938 114.28500366210938,-63.07389450073242 114.28500366210938,0 C114.28500366210938,63.07389450073242 63.07389450073242,114.28500366210938 0,114.28500366210938 C-63.07389450073242,114.28500366210938 -114.28500366210938,63.07389450073242 -114.28500366210938,0 C-114.28500366210938,-63.07389450073242 -63.07389450073242,-114.28500366210938 0,-114.28500366210938z"></path><path
+                                                stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+                                                stroke-miterlimit="4" stroke="rgb(6,0,63)" stroke-opacity="1"
+                                                stroke-width="80"
+                                                d=" M0,-114.28500366210938 C63.07389450073242,-114.28500366210938 114.28500366210938,-63.07389450073242 114.28500366210938,0 C114.28500366210938,63.07389450073242 63.07389450073242,114.28500366210938 0,114.28500366210938 C-63.07389450073242,114.28500366210938 -114.28500366210938,63.07389450073242 -114.28500366210938,0 C-114.28500366210938,-63.07389450073242 -63.07389450073242,-114.28500366210938 0,-114.28500366210938z"></path></g><g
+                                                opacity="1"
+                                                transform="matrix(0.8708599805831909,0,0,1.169350028038025,104.09746551513672,3.5169999599456787)"><path
+                                                fill="rgb(6,0,63)" fill-opacity="1"
+                                                d=" M150.96449279785156,-132 C150.96449279785156,-132 150.96449279785156,132 150.96449279785156,132 C150.96449279785156,132 -150.96449279785156,132 -150.96449279785156,132 C-150.96449279785156,132 -150.96449279785156,-132 -150.96449279785156,-132 C-150.96449279785156,-132 150.96449279785156,-132 150.96449279785156,-132z"></path></g></g></g><g
+                                                transform="matrix(0.7281799912452698,0,0,0.7281799912452698,130.0896759033203,107.7132797241211)"
+                                                opacity="1" style="display: block;"><g opacity="1"
+                                                                                       transform="matrix(1,0,0,1,-27.722999572753906,2.309000015258789)"><path
+                                                fill="rgb(65,0,178)" fill-opacity="1"
+                                                d=" M0,-111 C61.26089859008789,-111 111,-61.26089859008789 111,0 C111,61.26089859008789 61.26089859008789,111 0,111 C-61.26089859008789,111 -111,61.26089859008789 -111,0 C-111,-61.26089859008789 -61.26089859008789,-111 0,-111z"></path><path
+                                                stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+                                                stroke-miterlimit="4" stroke="rgb(102,51,255)" stroke-opacity="1"
+                                                stroke-width="80"
+                                                d=" M0,-111 C61.26089859008789,-111 111,-61.26089859008789 111,0 C111,61.26089859008789 61.26089859008789,111 0,111 C-61.26089859008789,111 -111,61.26089859008789 -111,0 C-111,-61.26089859008789 -61.26089859008789,-111 0,-111z"></path></g></g></g></svg></div></div></div>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4cd5a9c"
                                  data-id="4cd5a9c" data-element_type="column">
                                 <div class="elementor-widget-wrap elementor-element-populated">
@@ -1260,17 +1319,17 @@
                     window.RS_MODULES.type = 'compiled';
                 </script>
                 <link rel='stylesheet' id='rs-plugin-settings-css'
-                      href='//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/css/rs6.css?ver=6.7.1'
+                      href='/rebound_technology/static/src/css/rs6.css?ver=6.7.1'
                       type='text/css' media='all'/>
                 <style id='rs-plugin-settings-inline-css' type='text/css'>
                     #rs-demo-id {
                     }
                 </style>
                 <script type="text/javascript"
-                        src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/js/rbtools.min.js?ver=6.7.1"
+                        src="/rebound_technology/static/src/js/rbtools.min.js?ver=6.7.1"
                         id="tp-tools-js"></script>
                 <script type="text/javascript"
-                        src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/js/rs6.min.js?ver=6.7.1"
+                        src="/rebound_technology/static/src/js/rs6.min.js?ver=6.7.1"
                 ></script>
                 <script type="text/javascript" id="rocket-browser-checker-js-after">
                     /* <![CDATA[ */

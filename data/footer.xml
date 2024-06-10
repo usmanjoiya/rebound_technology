@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="replace_footer" inherit_id="website.footer_custom" name="Footer">
+        <xpath expr="//div[@id='footer']" position="replace">
+<div data-elementor-type="footer" data-elementor-id="3055" class="elementor elementor-3055 elementor-location-footer"
+     data-elementor-post-type="elementor_library">
+    <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-8b08a93 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="8b08a93" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+       <div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a7fc083" data-id="a7fc083" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4587346 elementor-widget__width-auto elementor-widget elementor-widget-html" data-id="4587346" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<div class="foot_logo">
+					<a href="https://www.rebound-tech.com/"> <svg width="60px" height="46px" viewBox="0 0 60 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+                    <title>Icon R</title>
+                    <desc>Created with Sketch.</desc>
+                    <defs></defs>
+                    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Footer-Mobile" transform="translate(-30.000000, -44.000000)">
+                            <g id="Footer-Block-Copy">
+                                <g id="Icon-R" transform="translate(30.000000, 44.000000)">
+                                    <g id="Group-3">
+                                        <polygon id="Clip-2" points="0 0 60 0 60 46 0 46"></polygon>
+                                        <path d="M10.0619067,14.1142241 C7.8375248,14.1142241 6.0279845,12.3023566 6.0279845,10.0751139 C6.0279845,7.84787119 7.8375248,6.03573706 10.062173,6.03573706 C12.2862887,6.03573706 14.0960952,7.84787119 14.0960952,10.0751139 C14.0960952,12.3023566 12.2862887,14.1142241 10.0619067,14.1142241 Z M10.062173,0 L10.0619067,0 C4.50494588,0 0,4.51073966 0,10.0751139 C0,15.6392215 4.50494588,20.1499612 10.0619067,20.1499612 L10.062173,20.1499612 C15.6191338,20.1499612 20.1240797,15.6392215 20.1240797,10.0751139 C20.1240797,4.51073966 15.6191338,0 10.062173,0 Z M45.8565095,27.5672605 C54.6842757,26.6797227 59.9342324,21.5544518 59.9342324,13.9977164 C59.9342324,5.19138972 54.0606819,0 43.0998629,0 L23.6741975,0 L23.6741975,46 L32.829204,46 L32.829204,8.44427315 L42.9358433,8.44427315 C47.8252766,8.44427315 50.5169545,10.1534966 50.5169545,13.9977164 C50.5169545,17.9077884 47.9562792,19.7140572 42.9358433,19.7140572 L35.6628014,19.7140572 L35.6628014,27.8943885 L48.9081783,46 L60,46 L45.8565095,27.5672605 Z" id="Fill-1" fill="#FFFFFF"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg> </a>
+				</div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1816ef9 elementor-widget__width-auto elementor-nav-menu__align-end elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="1816ef9" data-element_type="widget" data-settings=''>
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-1816ef9" class="elementor-nav-menu" data-smartmenus-id="17178564301329583"><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2589 current_page_item menu-item-3063"><a href="/technology" aria-current="page" class="elementor-item elementor-item">Technology</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2553"><a href="/sustainability" class="elementor-item">Sustainability</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2548"><a href="/team" class="elementor-item">Leadership</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="/news" class="elementor-item">News</a></li>
+</ul>			</nav>
+
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a761f74 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="a761f74" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.21.0 - 20-05-2024 */
+.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#0c0d0e;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-block-end:0;flex-grow:1;border-block-start:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider--element-align-start .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-start .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-start .elementor-divider__element{margin-inline-start:0}.elementor-widget-divider--element-align-end .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-end .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-end .elementor-divider__element{margin-inline-end:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-block-start:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-b005b71 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="b005b71" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-13a80ad" data-id="13a80ad" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-2b941d1 elementor-widget__width-auto elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="2b941d1" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://www.rebound-tech.com/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css?ver=1716338088"/>		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://www.google.com/maps/place/Rebound+Technologies,+Inc./@39.7954148,-104.9215938,15z/data=!4m6!3m5!1s0x876c7b3f90c4f631:0x3c8eb31ca2d39283!8m2!3d39.7954148!4d-104.9215938!16s%2Fg%2F11h1rqj72z">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">5690 E. 56th Avenue, Unit F, Commerce City, CO 80022</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-70ddccf elementor-widget__width-auto elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="70ddccf" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="mailto:info@rebound-tech.com">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-envelope" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">info@rebound-tech.com</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-bf64de3 elementor-widget__width-auto elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="bf64de3" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://www.rebound-tech.com">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-far-copyright" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 448c-110.532 0-200-89.451-200-200 0-110.531 89.451-200 200-200 110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200zm107.351-101.064c-9.614 9.712-45.53 41.396-104.065 41.396-82.43 0-140.484-61.425-140.484-141.567 0-79.152 60.275-139.401 139.762-139.401 55.531 0 88.738 26.62 97.593 34.779a11.965 11.965 0 0 1 1.936 15.322l-18.155 28.113c-3.841 5.95-11.966 7.282-17.499 2.921-8.595-6.776-31.814-22.538-61.708-22.538-48.303 0-77.916 35.33-77.916 80.082 0 41.589 26.888 83.692 78.277 83.692 32.657 0 56.843-19.039 65.726-27.225 5.27-4.857 13.596-4.039 17.82 1.738l19.865 27.17a11.947 11.947 0 0 1-1.152 15.518z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">2024 Rebound Technologies. All rights reserved.</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-5038cda elementor-widget elementor-widget-shortcode" data-id="5038cda" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode">
+
+
+
+</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+    </section>
+</div>
+        </xpath>
+    </template>
+</odoo>
