@@ -803,23 +803,7 @@
                                      data-id="ad43587" data-element_type="widget"
                                      data-widget_type="theme-post-content.default">
                                     <div class="elementor-widget-container">
-                                        <p>Really exciting to see UC Berkeley independently confirming the value,
-                                            importance and future of Freeze Point Suppression cycles (<a
-                                                    href="https://lnkd.in/gqyFsxik" target="_blank" rel="noopener">
-                                                https://lnkd.in/gqyFsxik</a>, <a href="https://lnkd.in/ghuwrMPh"
-                                                                                 target="_blank" rel="noopener">
-                                                https://lnkd.in/ghuwrMPh</a>). Their work focuses on FPS cycles for HVAC
-                                            applications and found much of the same benefits our customers see every
-                                            day. The takeaway from the publications: &#8220;This is a serious contender
-                                            for the future of cooling.&#8221; &#8211; Science.
-                                        </p>
-                                        <p>We could not agree more. In fact, there are so many more benefits to FPS
-                                            cycles, we published a follow-up <a
-                                                    href="https://www.science.org/doi/10.1126/science.ade1696#itemsCollapseItems"
-                                                    target="_blank" rel="noopener">e-letter in Science
-                                            </a> updating the state of the art with our findings from more than 10 years
-                                            of work on these systems.
-                                        </p>
+                                        <p><t t-esc="news_content"/></p>
                                     </div>
                                 </div>
                             </div>

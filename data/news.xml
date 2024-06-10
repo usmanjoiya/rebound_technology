@@ -769,44 +769,88 @@
                                                 <div class="uael-post-grid__inner uael-post__columns-3 uael-post__columns-tablet-2 uael-post__columns-mobile-1 uael-post-infinite-scroll uael-post-infinite__event-scroll">
 
                                                     <t t-foreach="all_news" t-as="news">
-                                                        <div class="uael-post-wrapper   news ">
-                                                            <div class="uael-post__bg-wrap">
+                                                        <t t-if="news['link']">
+                                                            <div class="uael-post-wrapper   news ">
+                                                                <div class="uael-post__bg-wrap">
 
-                                                                <a  t-att-href="news['description']"
-                                                                   target="_self" class="uael-post__complete-box-overlay"
-                                                                   aria-label="Link Complete Box"></a>
+                                                                    <a  t-att-href="news['link']"
+                                                                       target="_self" class="uael-post__complete-box-overlay"
+                                                                       aria-label="Link Complete Box"></a>
 
-                                                                <div class="uael-post__inner-wrap">
+                                                                    <div class="uael-post__inner-wrap">
 
-                                                                    <div class="uael-post__thumbnail uael-post-wrapper__noimage">
-                                                                        <div class="uael-post__datebox uael-post__noimage">
-                                                                            <div class="uael-post__date-wrap">
-                                                                                <span class='uael-post__date-month'>Jul
-                                                                                </span>
-                                                                                <span class='uael-post__date-day'>18</span>
+                                                                        <div class="uael-post__thumbnail uael-post-wrapper__noimage">
+                                                                            <div class="uael-post__datebox uael-post__noimage">
+                                                                                <div class="uael-post__date-wrap">
+                                                                                    <span class='uael-post__date-month'>Jul
+                                                                                    </span>
+                                                                                    <span class='uael-post__date-day'>18</span>
+                                                                                </div>
                                                                             </div>
                                                                         </div>
+
+
+                                                                        <div class="uael-post__content-wrap">
+
+                                                                            <h3 class="uael-post__title">
+
+
+                                                                                <a t-att-href="news['link']"
+                                                                                   target="_self">
+                                                                                    <t t-esc="news['title']"/>
+                                                                                </a>
+
+                                                                            </h3>
+                                                                        </div>
+
                                                                     </div>
 
-
-                                                                    <div class="uael-post__content-wrap">
-
-                                                                        <h3 class="uael-post__title">
-
-
-                                                                            <a href="https://asmedigitalcollection.asme.org/sustainablebuildings/article-abstract/4/2/024501/1164052/The-Value-of-Agile-Thermal-Systems-A-Real-World?redirectedFrom#new_tab"
-                                                                               target="_self">
-                                                                                <t t-esc="news['title']"/>
-                                                                            </a>
-
-                                                                        </h3>
-                                                                    </div>
 
                                                                 </div>
-
-
                                                             </div>
-                                                        </div>
+                                                        </t>
+                                                        <t t-else="">
+                                                            <t t-if="news['description']">
+                                                                <div class="uael-post-wrapper   news ">
+                                                                <div class="uael-post__bg-wrap">
+
+                                                                    <a  t-attf-href="/sub_news/{{news['id']}}/{{news['title']}}"
+                                                                       target="_self" class="uael-post__complete-box-overlay"
+                                                                       aria-label="Link Complete Box"></a>
+
+                                                                    <div class="uael-post__inner-wrap">
+
+                                                                        <div class="uael-post__thumbnail uael-post-wrapper__noimage">
+                                                                            <div class="uael-post__datebox uael-post__noimage">
+                                                                                <div class="uael-post__date-wrap">
+                                                                                    <span class='uael-post__date-month'>Jul
+                                                                                    </span>
+                                                                                    <span class='uael-post__date-day'>18</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+
+                                                                        <div class="uael-post__content-wrap">
+
+                                                                            <h3 class="uael-post__title">
+
+
+                                                                                <a t-attf-href="/sub_news/{{news['id']}}/{{news['title']}}"
+                                                                                   target="_self">
+                                                                                    <t t-esc="news['title']"/>
+                                                                                </a>
+
+                                                                            </h3>
+                                                                        </div>
+
+                                                                    </div>
+
+
+                                                                </div>
+                                                            </div>
+                                                            </t>
+                                                        </t>
                                                     </t>
 
                                                 </div>

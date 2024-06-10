@@ -7,7 +7,7 @@
         <tree>
           <field name="name" string="Title"/>
           <field name="news_type"/>
-          <field name="description" string="Link"/>
+          <field name="link" string="Link"/>
         </tree>
       </field>
     </record>
@@ -19,8 +19,9 @@
         <form>
             <group>
                 <field name="name" string="Title"/>
-                <field name="news_type"/>
-                <field name="description" string="Link"/>
+                <field name="news_type" string="News Type"/>
+                <field name="link" string="Link" invisible="news_type == 'content'"/>
+                <field name="description" string="Description" invisible="news_type == 'link'"/>
             </group>
 
         </form>
