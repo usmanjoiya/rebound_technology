@@ -12,7 +12,7 @@
                 <title>Technology &#8211; Rebound Technologies</title>
                 <style>
                     #wrapwrap {
-                        overflow-x: hidden !important;
+                    overflow-x: hidden !important;
                     }
                 </style>
                 <link rel="preload" as="image"
@@ -29,381 +29,394 @@
                 <style id='wp-emoji-styles-inline-css' type='text/css'>
 
                     img.wp-smiley, img.emoji {
-                        display: inline !important;
-                        border: none !important;
-                        box-shadow: none !important;
-                        height: 1em !important;
-                        width: 1em !important;
-                        margin: 0 0.07em !important;
-                        vertical-align: -0.1em !important;
-                        background: none !important;
-                        padding: 0 !important;
+                    display: inline !important;
+                    border: none !important;
+                    box-shadow: none !important;
+                    height: 1em !important;
+                    width: 1em !important;
+                    margin: 0 0.07em !important;
+                    vertical-align: -0.1em !important;
+                    background: none !important;
+                    padding: 0 !important;
                     }
                 </style>
                 <style id='safe-svg-svg-icon-style-inline-css' type='text/css'>
                     .safe-svg-cover {
-                        text-align: center
+                    text-align: center
                     }
 
                     .safe-svg-cover
                     .safe-svg-inside {
-                        display: inline-block;
-                        max-width: 100%
+                    display: inline-block;
+                    max-width: 100%
                     }
 
                     .safe-svg-cover
                     svg {
-                        height: 100%;
-                        max-height: 100%;
-                        max-width: 100%;
-                        width: 100%
+                    height: 100%;
+                    max-height: 100%;
+                    max-width: 100%;
+                    width: 100%
                     }
 
                 </style>
                 <style id='classic-theme-styles-inline-css' type='text/css'>
                     /*! This file is auto-generated */
                     .wp-block-button__link {
-                        color: #fff;
-                        background-color: #32373c;
-                        border-radius: 9999px;
-                        box-shadow: none;
-                        text-decoration: none;
-                        padding: calc(.667em
-                        + 2px) calc(1.333em +
-                        2px);
-                        font-size: 1.125em
+                    color: #fff;
+                    background-color: #32373c;
+                    border-radius: 9999px;
+                    box-shadow: none;
+                    text-decoration: none;
+                    padding: calc(.667em
+                    + 2px) calc(1.333em +
+                    2px);
+                    font-size: 1.125em
                     }
 
                     .wp-block-file__button {
-                        background: #32373c;
-                        color: #fff;
-                        text-decoration: none
+                    background: #32373c;
+                    color: #fff;
+                    text-decoration: none
                     }
                 </style>
                 <style id='global-styles-inline-css' type='text/css'>
                     body {
-                        --wp--preset--color--black: #000000;
-                        --wp--preset--color--cyan-bluish-gray: #abb8c3;
-                        --wp--preset--color--white: #ffffff;
-                        --wp--preset--color--pale-pink: #f78da7;
-                        --wp--preset--color--vivid-red: #cf2e2e;
-                        --wp--preset--color--luminous-vivid-orange: #ff6900;
-                        --wp--preset--color--luminous-vivid-amber: #fcb900;
-                        --wp--preset--color--light-green-cyan: #7bdcb5;
-                        --wp--preset--color--vivid-green-cyan: #00d084;
-                        --wp--preset--color--pale-cyan-blue: #8ed1fc;
-                        --wp--preset--color--vivid-cyan-blue: #0693e3;
-                        --wp--preset--color--vivid-purple: #9b51e0;
-                        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
-                        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
-                        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
-                        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
-                        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
-                        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
-                        --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
-                        --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
-                        --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
-                        --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
-                        --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
-                        --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
-                        --wp--preset--font-size--small: 13px;
-                        --wp--preset--font-size--medium: 20px;
-                        --wp--preset--font-size--large: 36px;
-                        --wp--preset--font-size--x-large: 42px;
-                        --wp--preset--spacing--20: 0.44rem;
-                        --wp--preset--spacing--30: 0.67rem;
-                        --wp--preset--spacing--40: 1rem;
-                        --wp--preset--spacing--50: 1.5rem;
-                        --wp--preset--spacing--60: 2.25rem;
-                        --wp--preset--spacing--70: 3.38rem;
-                        --wp--preset--spacing--80: 5.06rem;
-                        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
-                        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
-                        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0,
-                        0.2);
-                        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0,
-                        1);
-                        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+                    --wp--preset--color--black: #000000;
+                    --wp--preset--color--cyan-bluish-gray: #abb8c3;
+                    --wp--preset--color--white: #ffffff;
+                    --wp--preset--color--pale-pink: #f78da7;
+                    --wp--preset--color--vivid-red: #cf2e2e;
+                    --wp--preset--color--luminous-vivid-orange: #ff6900;
+                    --wp--preset--color--luminous-vivid-amber: #fcb900;
+                    --wp--preset--color--light-green-cyan: #7bdcb5;
+                    --wp--preset--color--vivid-green-cyan: #00d084;
+                    --wp--preset--color--pale-cyan-blue: #8ed1fc;
+                    --wp--preset--color--vivid-cyan-blue: #0693e3;
+                    --wp--preset--color--vivid-purple: #9b51e0;
+                    --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227,
+                    1) 0%, rgb(155, 81, 224) 100%);
+                    --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220,
+                    180) 0%, rgb(0, 208, 130) 100%);
+                    --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,
+                    rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+                    --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105,
+                    0, 1) 0%, rgb(207, 46, 46) 100%);
+                    --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238,
+                    238) 0%, rgb(169, 184, 195) 100%);
+                    --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%,
+                    rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%,
+                    rgb(254, 248, 76) 100%);
+                    --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152,
+                    150, 240) 100%);
+                    --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45,
+                    45) 50%, rgb(107, 0, 62) 100%);
+                    --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81,
+                    192) 50%, rgb(65, 88, 208) 100%);
+                    --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227,
+                    212) 50%, rgb(51, 167, 181) 100%);
+                    --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206,
+                    126) 100%);
+                    --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252)
+                    100%);
+                    --wp--preset--font-size--small: 13px;
+                    --wp--preset--font-size--medium: 20px;
+                    --wp--preset--font-size--large: 36px;
+                    --wp--preset--font-size--x-large: 42px;
+                    --wp--preset--spacing--20: 0.44rem;
+                    --wp--preset--spacing--30: 0.67rem;
+                    --wp--preset--spacing--40: 1rem;
+                    --wp--preset--spacing--50: 1.5rem;
+                    --wp--preset--spacing--60: 2.25rem;
+                    --wp--preset--spacing--70: 3.38rem;
+                    --wp--preset--spacing--80: 5.06rem;
+                    --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+                    --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+                    --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0,
+                    0.2);
+                    --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0,
+                    1);
+                    --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
                     }
 
                     :where(.is-layout-flex) {
-                        gap: 0.5em;
+                    gap: 0.5em;
                     }
 
                     :where(.is-layout-grid) {
-                        gap: 0.5em;
+                    gap: 0.5em;
                     }
 
                     body .is-layout-flex {
-                        display: flex;
+                    display: flex;
                     }
 
                     body
                     .is-layout-flex {
-                        flex-wrap: wrap;
-                        align-items: center;
+                    flex-wrap: wrap;
+                    align-items: center;
                     }
 
                     body .is-layout-flex > * {
-                        margin: 0;
+                    margin: 0;
                     }
 
                     body
                     .is-layout-grid {
-                        display: grid;
+                    display: grid;
                     }
 
                     body .is-layout-grid > * {
-                        margin: 0;
+                    margin: 0;
                     }
 
                     :where(.wp-block-columns.is-layout-flex) {
-                        gap: 2em;
+                    gap: 2em;
                     }
 
                     :where(.wp-block-columns.is-layout-grid) {
-                        gap: 2em;
+                    gap: 2em;
                     }
 
                     :where(.wp-block-post-template.is-layout-flex) {
-                        gap: 1.25em;
+                    gap: 1.25em;
                     }
 
                     :where(.wp-block-post-template.is-layout-grid) {
-                        gap: 1.25em;
+                    gap: 1.25em;
                     }
 
                     .has-black-color {
-                        color: var(--wp--preset--color--black) !important;
+                    color: var(--wp--preset--color--black) !important;
                     }
 
                     .has-cyan-bluish-gray-color {
-                        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+                    color: var(--wp--preset--color--cyan-bluish-gray) !important;
                     }
 
                     .has-white-color {
-                        color: var(--wp--preset--color--white) !important;
+                    color: var(--wp--preset--color--white) !important;
                     }
 
                     .has-pale-pink-color {
-                        color: var(--wp--preset--color--pale-pink) !important;
+                    color: var(--wp--preset--color--pale-pink) !important;
                     }
 
                     .has-vivid-red-color {
-                        color: var(--wp--preset--color--vivid-red) !important;
+                    color: var(--wp--preset--color--vivid-red) !important;
                     }
 
                     .has-luminous-vivid-orange-color {
-                        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+                    color: var(--wp--preset--color--luminous-vivid-orange) !important;
                     }
 
                     .has-luminous-vivid-amber-color {
-                        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+                    color: var(--wp--preset--color--luminous-vivid-amber) !important;
                     }
 
                     .has-light-green-cyan-color {
-                        color: var(--wp--preset--color--light-green-cyan) !important;
+                    color: var(--wp--preset--color--light-green-cyan) !important;
                     }
 
                     .has-vivid-green-cyan-color {
-                        color: var(--wp--preset--color--vivid-green-cyan) !important;
+                    color: var(--wp--preset--color--vivid-green-cyan) !important;
                     }
 
                     .has-pale-cyan-blue-color {
-                        color: var(--wp--preset--color--pale-cyan-blue) !important;
+                    color: var(--wp--preset--color--pale-cyan-blue) !important;
                     }
 
                     .has-vivid-cyan-blue-color {
-                        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+                    color: var(--wp--preset--color--vivid-cyan-blue) !important;
                     }
 
                     .has-vivid-purple-color {
-                        color: var(--wp--preset--color--vivid-purple) !important;
+                    color: var(--wp--preset--color--vivid-purple) !important;
                     }
 
                     .has-black-background-color {
-                        background-color: var(--wp--preset--color--black) !important;
+                    background-color: var(--wp--preset--color--black) !important;
                     }
 
                     .has-cyan-bluish-gray-background-color {
-                        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+                    background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
                     }
 
                     .has-white-background-color {
-                        background-color: var(--wp--preset--color--white) !important;
+                    background-color: var(--wp--preset--color--white) !important;
                     }
 
                     .has-pale-pink-background-color {
-                        background-color: var(--wp--preset--color--pale-pink) !important;
+                    background-color: var(--wp--preset--color--pale-pink) !important;
                     }
 
                     .has-vivid-red-background-color {
-                        background-color: var(--wp--preset--color--vivid-red) !important;
+                    background-color: var(--wp--preset--color--vivid-red) !important;
                     }
 
                     .has-luminous-vivid-orange-background-color {
-                        background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+                    background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
                     }
 
                     .has-luminous-vivid-amber-background-color {
-                        background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+                    background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
                     }
 
                     .has-light-green-cyan-background-color {
-                        background-color: var(--wp--preset--color--light-green-cyan) !important;
+                    background-color: var(--wp--preset--color--light-green-cyan) !important;
                     }
 
                     .has-vivid-green-cyan-background-color {
-                        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+                    background-color: var(--wp--preset--color--vivid-green-cyan) !important;
                     }
 
                     .has-pale-cyan-blue-background-color {
-                        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+                    background-color: var(--wp--preset--color--pale-cyan-blue) !important;
                     }
 
                     .has-vivid-cyan-blue-background-color {
-                        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+                    background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
                     }
 
                     .has-vivid-purple-background-color {
-                        background-color: var(--wp--preset--color--vivid-purple) !important;
+                    background-color: var(--wp--preset--color--vivid-purple) !important;
                     }
 
                     .has-black-border-color {
-                        border-color: var(--wp--preset--color--black) !important;
+                    border-color: var(--wp--preset--color--black) !important;
                     }
 
                     .has-cyan-bluish-gray-border-color {
-                        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+                    border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
                     }
 
                     .has-white-border-color {
-                        border-color: var(--wp--preset--color--white) !important;
+                    border-color: var(--wp--preset--color--white) !important;
                     }
 
                     .has-pale-pink-border-color {
-                        border-color: var(--wp--preset--color--pale-pink) !important;
+                    border-color: var(--wp--preset--color--pale-pink) !important;
                     }
 
                     .has-vivid-red-border-color {
-                        border-color: var(--wp--preset--color--vivid-red) !important;
+                    border-color: var(--wp--preset--color--vivid-red) !important;
                     }
 
                     .has-luminous-vivid-orange-border-color {
-                        border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+                    border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
                     }
 
                     .has-luminous-vivid-amber-border-color {
-                        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+                    border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
                     }
 
                     .has-light-green-cyan-border-color {
-                        border-color: var(--wp--preset--color--light-green-cyan) !important;
+                    border-color: var(--wp--preset--color--light-green-cyan) !important;
                     }
 
                     .has-vivid-green-cyan-border-color {
-                        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+                    border-color: var(--wp--preset--color--vivid-green-cyan) !important;
                     }
 
                     .has-pale-cyan-blue-border-color {
-                        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+                    border-color: var(--wp--preset--color--pale-cyan-blue) !important;
                     }
 
                     .has-vivid-cyan-blue-border-color {
-                        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+                    border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
                     }
 
                     .has-vivid-purple-border-color {
-                        border-color: var(--wp--preset--color--vivid-purple) !important;
+                    border-color: var(--wp--preset--color--vivid-purple) !important;
                     }
 
                     .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-                        background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+                    background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
                     }
 
                     .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-                        background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+                    background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
                     }
 
                     .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-                        background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+                    background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
                     }
 
                     .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-                        background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+                    background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
                     }
 
                     .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-                        background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+                    background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
                     }
 
                     .has-cool-to-warm-spectrum-gradient-background {
-                        background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+                    background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
                     }
 
                     .has-blush-light-purple-gradient-background {
-                        background: var(--wp--preset--gradient--blush-light-purple) !important;
+                    background: var(--wp--preset--gradient--blush-light-purple) !important;
                     }
 
                     .has-blush-bordeaux-gradient-background {
-                        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+                    background: var(--wp--preset--gradient--blush-bordeaux) !important;
                     }
 
                     .has-luminous-dusk-gradient-background {
-                        background: var(--wp--preset--gradient--luminous-dusk) !important;
+                    background: var(--wp--preset--gradient--luminous-dusk) !important;
                     }
 
                     .has-pale-ocean-gradient-background {
-                        background: var(--wp--preset--gradient--pale-ocean) !important;
+                    background: var(--wp--preset--gradient--pale-ocean) !important;
                     }
 
                     .has-electric-grass-gradient-background {
-                        background: var(--wp--preset--gradient--electric-grass) !important;
+                    background: var(--wp--preset--gradient--electric-grass) !important;
                     }
 
                     .has-midnight-gradient-background {
-                        background: var(--wp--preset--gradient--midnight) !important;
+                    background: var(--wp--preset--gradient--midnight) !important;
                     }
 
                     .has-small-font-size {
-                        font-size: var(--wp--preset--font-size--small) !important;
+                    font-size: var(--wp--preset--font-size--small) !important;
                     }
 
                     .has-medium-font-size {
-                        font-size: var(--wp--preset--font-size--medium) !important;
+                    font-size: var(--wp--preset--font-size--medium) !important;
                     }
 
                     .has-large-font-size {
-                        font-size: var(--wp--preset--font-size--large) !important;
+                    font-size: var(--wp--preset--font-size--large) !important;
                     }
 
                     .has-x-large-font-size {
-                        font-size: var(--wp--preset--font-size--x-large) !important;
+                    font-size: var(--wp--preset--font-size--x-large) !important;
                     }
 
                     .wp-block-navigation a:where(:not(.wp-element-button)) {
-                        color: inherit;
+                    color: inherit;
                     }
 
                     :where(.wp-block-post-template.is-layout-flex) {
-                        gap: 1.25em;
+                    gap: 1.25em;
                     }
 
                     :where(.wp-block-post-template.is-layout-grid) {
-                        gap: 1.25em;
+                    gap: 1.25em;
                     }
 
                     :where(.wp-block-columns.is-layout-flex) {
-                        gap: 2em;
+                    gap: 2em;
                     }
 
                     :where(.wp-block-columns.is-layout-grid) {
-                        gap: 2em;
+                    gap: 2em;
                     }
 
                     .wp-block-pullquote {
-                        font-size: 1.5em;
-                        line-height: 1.6;
+                    font-size: 1.5em;
+                    line-height: 1.6;
                     }
                 </style>
                 <link rel='stylesheet' id='twentyseventeen-fonts-css'
@@ -473,7 +486,7 @@
                     display: inline !important;
                     padding: 0 !important;
                     margin: 0 !important;
-                }
+                    }
                 </style>
                 <meta name="generator"
                       content="Powered by Slider Revolution 6.7.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."/>
@@ -540,203 +553,203 @@
                 </script>
                 <style type="text/css" id="wp-custom-css">
                     .elementor-section.elementor-section-boxed > .elementor-container {
-                        max-width: 80vw !important;
+                    max-width: 80vw !important;
                     }
 
                     /* SUBNAVIGATION */
                     nav > ul > li > ul {
-                        display: none;
+                    display: none;
                     }
 
                     nav > ul > li:hover > ul {
-                        display: block
+                    display: block
                     }
 
                     nav > ul > li > ul > li a {
-                        color: #fff !important;
-                        letter-spacing: 1px;
-                        text-decoration: none;
-                        font-size: 14px;
-                        line-height: 28px;
+                    color: #fff !important;
+                    letter-spacing: 1px;
+                    text-decoration: none;
+                    font-size: 14px;
+                    line-height: 28px;
                     }
 
                     nav > ul > li > ul > li a:hover {
-                        color: #fff !important;
+                    color: #fff !important;
                     }
 
                     nav > ul > li > ul > li {
-                        float: none;
-                        display: block;
-                        margin: 0;
-                        border-bottom: 1px solid #6633ff !important;
+                    float: none;
+                    display: block;
+                    margin: 0;
+                    border-bottom: 1px solid #6633ff !important;
                     }
 
                     nav > ul > li > ul > li:hover {
-                        border: 1px solid #5032BE !important;
-                        background-color: #0a0068 !important;
+                    border: 1px solid #5032BE !important;
+                    background-color: #0a0068 !important;
                     }
 
                     .sub-menu {
-                        background-color: #5032BE !important;
+                    background-color: #5032BE !important;
                     }
 
                     .left-sec img {
-                        float: left;
-                        width: 90%;
+                    float: left;
+                    width: 90%;
                     }
 
 
                     #calculator-wrapper, .slide2anchor {
-                        display: none;
+                    display: none;
                     }
 
                     /* Home Page */
                     .home .partner_sec {
-                        display: none;
+                    display: none;
                     }
 
                     .ready_sec {
-                        margin-top: 10px;
+                    margin-top: 10px;
                     }
 
                     .benefit_title p {
-                        min-height: 10px;
+                    min-height: 10px;
                     }
 
                     h4.productivity-desc {
-                        color: #fff;
-                        margin-top: 80px;
-                        margin-left: -50px;
-                        font-size: 30px;
+                    color: #fff;
+                    margin-top: 80px;
+                    margin-left: -50px;
+                    font-size: 30px;
                     }
 
                     /* Team Page */
 
                     .team-sub {
-                        font-size: 20px;
-                        line-height: 24px !important;
+                    font-size: 20px;
+                    line-height: 24px !important;
                     }
 
                     .dna {
-                        margin: 50px 0;
+                    margin: 50px 0;
                     }
 
                     .dna_sec {
-                        min-height: 700px;
+                    min-height: 700px;
                     }
 
                     .dna_sec .down-arrow {
-                        display: none;
+                    display: none;
                     }
 
                     .dna_sec_left {
-                        width: 100%;
+                    width: 100%;
                     }
 
                     .dna_sec_right {
-                        display: none;
-                        width: 60%;
-                        float: left;
-                        margin-top: 40px;
+                    display: none;
+                    width: 60%;
+                    float: left;
+                    margin-top: 40px;
                     }
 
                     /* Team - People Section */
                     .sm-people-name {
-                        font-size: 12px;
-                        text-align: center;
-                        color: #6633ff;
+                    font-size: 12px;
+                    text-align: center;
+                    color: #6633ff;
                     }
 
                     .people_sec_1 .people-nav .slick-list .slick-slide.slick-current img, .slick-slide img {
-                        margin: 0 auto;
-                        display: block;
+                    margin: 0 auto;
+                    display: block;
                     }
 
                     .people-nav .slick-slide:before {
-                        left: 25%;
+                    left: 25%;
                     }
 
                     ul.elementor-icon-list-items {
-                        list-style-type: none;
+                    list-style-type: none;
                     }
 
                     /* New People Section */
                     /*.people_sec_test .people_sec_1 {width: 50%;}*/
 
                     .people_sec_test .slick-prev, .people_sec_test .slick-next {
-                        display: none !important;
+                    display: none !important;
                     }
 
                     .people_sec_test .people_sec_main_1 {
-                        width: 54%;
-                        float: left;
+                    width: 54%;
+                    float: left;
                     }
 
                     .people_sec_test .people_sec_1 img {
-                        width: 120px;
-                        height: 120px !important;
+                    width: 120px;
+                    height: 120px !important;
                     }
 
                     .people_sec_test .person_img {
-                        max-width: 120px;
-                        width: 120px !important;
-                        margin-right: 5px;
+                    max-width: 120px;
+                    width: 120px !important;
+                    margin-right: 5px;
                     }
 
                     .people_sec_test .people_sec_1 .people-nav .slick-list .slick-slide.slick-current img {
-                        border: 3px solid #6633ff;
-                        border-radius: 120px;
+                    border: 3px solid #6633ff;
+                    border-radius: 120px;
                     }
 
                     .people_sec_test .people-nav .slick-slide:before {
-                        content: '';
-                        position: absolute;
-                        left: 0;
-                        right: 0;
-                        top: 0;
-                        width: 120px;
-                        height: 120px;
-                        background: rgba(140, 102, 255, 0.42);
-                        z-index: 99;
-                        border-radius: 50%;
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    width: 120px;
+                    height: 120px;
+                    background: rgba(140, 102, 255, 0.42);
+                    z-index: 99;
+                    border-radius: 50%;
                     }
 
                     .people_sec_test .slick-track {
-                        display: grid;
-                        grid-template-columns: 33% 33% 33%;
-                        grid-template-rows: 33% 33% 33%;
-                        gap: 10px 10px;
-                        grid-template-areas:
+                    display: grid;
+                    grid-template-columns: 33% 33% 33%;
+                    grid-template-rows: 33% 33% 33%;
+                    gap: 10px 10px;
+                    grid-template-areas:
                     ". . ."
                     ". . ."
                     ". . .";
                     }
 
                     .productivity_sec {
-                        background-color: #27006b; /*#4100b2;*/
+                    background-color: #27006b; /*#4100b2;*/
                     }
 
                     .ready_sec {
-                        margin: 0;
+                    margin: 0;
                     }
 
                     section.feature_sec h3 {
-                        color: #6633ff !important;
-                        font-size: 30px;
-                        line-height: 38px;
-                        letter-spacing: -0.08px;
-                        font-family: "Mark-Bold";
-                        padding-bottom: 25px;
+                    color: #6633ff !important;
+                    font-size: 30px;
+                    line-height: 38px;
+                    letter-spacing: -0.08px;
+                    font-family: "Mark-Bold";
+                    padding-bottom: 25px;
 
                     }
 
                     section.feature_sec p {
-                        color: #5b4f70 !important;
-                        color: #5b4f70;
-                        font-size: 20px;
-                        font-family: "Reader-Regular";
-                        line-height: 30px;
-                        letter-spacing: 0.6px;
+                    color: #5b4f70 !important;
+                    color: #5b4f70;
+                    font-size: 20px;
+                    font-family: "Reader-Regular";
+                    line-height: 30px;
+                    letter-spacing: 0.6px;
                     }
 
                     /*section.easier_sec {
@@ -744,159 +757,159 @@
                     }*/
 
                     .page-id-6 section.easier_sec:nth-child(odd) {
-                        background-color: #4000B0 !important;
+                    background-color: #4000B0 !important;
                     }
 
                     .home .news-match img {
-                        max-width: 180px;
+                    max-width: 180px;
                     }
 
                     /* PATENTS PAGE*/
                     .page-id-2123 .newspost_banner {
-                        display: none;
+                    display: none;
                     }
 
                     .page-id-2123 .post_sec_main {
-                        margin-top: 80px;
+                    margin-top: 80px;
                     }
 
                     .page-id-2123 .post_sec_main .container,
                     .page-id-2123 .post_sec_main .comm_main,
                     .page-id-2123 .post_sec_main .post_sec_1 {
-                        width: 100%;
+                    width: 100%;
                     }
 
                     .page-id-2123 .post_sec_main {
-                        padding: 0;
+                    padding: 0;
                     }
 
                     /* TECH PAGE */
 
                     .circle {
-                        width: 880px;
-                        height: 880px;
-                        border: 200px solid #4000b0;
-                        border-radius: 50%;
-                        margin: 0 auto;
+                    width: 880px;
+                    height: 880px;
+                    border: 200px solid #4000b0;
+                    border-radius: 50%;
+                    margin: 0 auto;
                     }
 
                     .circle_tech {
-                        width: 58%;
-                        position: absolute;
-                        right: 0;
-                        top: 0;
-                        z-index: -1;
+                    width: 58%;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    z-index: -1;
                     }
 
                     .circle_tech {
-                        width: 760px;
-                        height: 760px;
-                        border: 200px solid #D9CCEF;
-                        border-radius: 50%;
-                        margin: 0 auto;
-                        z-index: 9;
+                    width: 760px;
+                    height: 760px;
+                    border: 200px solid #D9CCEF;
+                    border-radius: 50%;
+                    margin: 0 auto;
+                    z-index: 9;
                     }
 
                     .circle_tech img {
-                        max-width: 200%;
-                        position: absolute;
-                        right: -40%;
-                        top: 0;
-                        bottom: 0;
-                        margin: auto;
+                    max-width: 200%;
+                    position: absolute;
+                    right: -40%;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
                     }
 
                     /* Tech Page Video */
                     .video_sec {
-                        padding: 100px 0;
-                        background-color: #6633FF;
-                        color: #fff;
+                    padding: 100px 0;
+                    background-color: #6633FF;
+                    color: #fff;
                     }
 
                     .videos_sec_container {
-                        padding: 100px 0;
-                        background-color: #6633FF;
-                        color: #fff;
+                    padding: 100px 0;
+                    background-color: #6633FF;
+                    color: #fff;
                     }
 
                     .videos_sec {
-                        background-color: #6633FF;
-                        color: #fff;
-                        text-align: center;
+                    background-color: #6633FF;
+                    color: #fff;
+                    text-align: center;
                     }
 
                     .videos-heading-sec h2 {
-                        color: #ffffff;
-                        font-size: 56px;
-                        font-family: "Mark-Bold";
+                    color: #ffffff;
+                    font-size: 56px;
+                    font-family: "Mark-Bold";
                     }
 
                     .videos_sec h3 {
-                        margin: 20px 0;
+                    margin: 20px 0;
                     }
 
                     .videos_sec a.btnn {
-                        background-color: #06003F;
+                    background-color: #06003F;
                     }
 
                     .videos_sec.flex_col:first-child {
-                        flex: 1;
+                    flex: 1;
                     }
 
                     .embed-container {
-                        --video--width: 1296;
-                        --video--height: 729;
+                    --video--width: 1296;
+                    --video--height: 729;
 
-                        position: relative;
-                        padding-bottom: calc(var(--video--height) / var(--video--width) * 100%); /* 41.66666667% */
-                        overflow: hidden;
-                        max-width: 100%;
-                        background: #06003F;
+                    position: relative;
+                    padding-bottom: calc(var(--video--height) / var(--video--width) * 100%); /* 41.66666667% */
+                    overflow: hidden;
+                    max-width: 100%;
+                    background: #06003F;
                     }
 
                     .embed-container iframe,
                     .embed-container object,
                     .embed-container embed {
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        width: 100%;
-                        height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
                     }
 
 
                     .flex_row {
-                        min-height: 300px;
-                        margin: 0 auto;
-                        display: -webkit-flex; /* Safari */
-                        display: flex; /* Standard syntax */
-                        justify-content: center; /* center flex items vertically */
-                        align-items: center;
+                    min-height: 300px;
+                    margin: 0 auto;
+                    display: -webkit-flex; /* Safari */
+                    display: flex; /* Standard syntax */
+                    justify-content: center; /* center flex items vertically */
+                    align-items: center;
                     }
 
                     .flex_col {
-                        -webkit-flex: 1; /* Safari */
-                        -ms-flex: 1; /* IE 10 */
-                        flex: 1; /* Standard syntax */
+                    -webkit-flex: 1; /* Safari */
+                    -ms-flex: 1; /* IE 10 */
+                    flex: 1; /* Standard syntax */
                     }
 
                     .flex_col:first-child {
-                        flex: 2;
+                    flex: 2;
                     }
 
                     .flex_col:last-child {
-                        flex: 1;
-                        padding: 20px 60px;
+                    flex: 1;
+                    padding: 20px 60px;
                     }
 
                     /* Sustainability page */
 
                     .page-id-2335 .newspost_banner {
-                        display: none;
+                    display: none;
                     }
 
                     .page-id-2589 .newspost_banner {
-                        display: none;
+                    display: none;
                     }
 
                     /* END Sustainability page */
@@ -904,29 +917,29 @@
                     /* NEWS &amp; INSIGHTS */
 
                     .newspost_banner {
-                        margin-top: 0px !important;
+                    margin-top: 0px !important;
                     }
 
                     .uael-post__datebox .uael-post__date-wrap {
-                        position: relative;
+                    position: relative;
                     }
 
                     .post_hdr .uael-post__datebox {
-                        border-top: 3px solid #9d7cff;
-                        padding: 10px 0;
+                    border-top: 3px solid #9d7cff;
+                    padding: 10px 0;
                     }
 
                     .uael-post__datebox {
-                        margin: 0;
-                        padding: 0 30px;
-                        width: 100% !important;
-                        border-radius: 0;
-                        text-align: left !important;
-                        background-color: transparent;
+                    margin: 0;
+                    padding: 0 30px;
+                    width: 100% !important;
+                    border-radius: 0;
+                    text-align: left !important;
+                    background-color: transparent;
                     }
 
                     .uael-post__datebox span {
-                        display: unset;
+                    display: unset;
 
                     }
 
@@ -934,61 +947,61 @@
                     content:"Recent Article / "
                     }*/
                     .uael-post__date-month:after {
-                        content: " "
+                    content: " "
                     }
 
                     @media only screen and (max-width: 991px) {
-                        .page-id-2123 .post_para {
-                            padding: 0px 0 40px;
-                        }
+                    .page-id-2123 .post_para {
+                    padding: 0px 0 40px;
+                    }
                     }
 
                     @media (max-width: 767px) {
-                        .page-id-2123 .post_para {
-                            padding: 0px;
-                        }
+                    .page-id-2123 .post_para {
+                    padding: 0px;
+                    }
 
-                        .page-id-2123 .post_sec_main.defpage {
-                            padding: 0px;
-                        }
+                    .page-id-2123 .post_sec_main.defpage {
+                    padding: 0px;
+                    }
 
-                        .page-id-2123 .post_sec_main {
-                            margin-top: 68px;
-                        }
+                    .page-id-2123 .post_sec_main {
+                    margin-top: 68px;
+                    }
 
-                        .video_sec {
-                            padding: 100px 0
-                        }
+                    .video_sec {
+                    padding: 100px 0
+                    }
 
-                        .video_sec .video_sec_1 {
-                            width: 100%;
-                        }
+                    .video_sec .video_sec_1 {
+                    width: 100%;
+                    }
 
-                        .video_sec .video_sec_2 {
-                            width: 100%;
-                            padding: 35px 0 0;
-                        }
+                    .video_sec .video_sec_2 {
+                    width: 100%;
+                    padding: 35px 0 0;
+                    }
 
-                        .flex_row {
-                            display: block;
-                        }
+                    .flex_row {
+                    display: block;
+                    }
 
-                        .video_sec_2 h3 {
-                            font-size: 1.5em;
-                        }
+                    .video_sec_2 h3 {
+                    font-size: 1.5em;
+                    }
 
-                        .videos_sec {
-                            padding: 100px 0
-                        }
+                    .videos_sec {
+                    padding: 100px 0
+                    }
 
-                        .videos_sec .video_sec {
-                            width: 100%;
-                        }
+                    .videos_sec .video_sec {
+                    width: 100%;
+                    }
 
-                        h4.productivity-desc {
-                            margin-left: 0px;
-                            font-size: 30px;
-                        }
+                    h4.productivity-desc {
+                    margin-left: 0px;
+                    font-size: 30px;
+                    }
                     }
 
 
@@ -998,98 +1011,98 @@
                 <!--                accord style_start-->
                 <style>
                     .tags_nav button {
-                        z-index: 23;
-                        background-color: rgb(102, 51, 255);
-                        font-family: Mark-Medium;
-                        height: auto;
-                        width: auto;
-                        color: rgb(255, 255, 255);
-                        text-decoration: none;
-                        white-space: nowrap;
-                        min-height: 0px;
-                        min-width: 0px;
-                        max-height: none;
-                        max-width: none;
-                        text-align: left;
-                        line-height: 28px;
-                        letter-spacing: 0px;
-                        font-weight: 500;
-                        font-size: 24px;
-                        padding: 14px 25px;
-                        border-radius: 50px;
-                        border: none;
-                        backdrop-filter: none;
-                        filter: none;
-                        transform-origin: 50% 50%;
-                        opacity: 1;
-                        transform: translate(0px, 0px);
-                        visibility: visible;
+                    z-index: 23;
+                    background-color: rgb(102, 51, 255);
+                    font-family: Mark-Medium;
+                    height: auto;
+                    width: auto;
+                    color: rgb(255, 255, 255);
+                    text-decoration: none;
+                    white-space: nowrap;
+                    min-height: 0px;
+                    min-width: 0px;
+                    max-height: none;
+                    max-width: none;
+                    text-align: left;
+                    line-height: 28px;
+                    letter-spacing: 0px;
+                    font-weight: 500;
+                    font-size: 24px;
+                    padding: 14px 25px;
+                    border-radius: 50px;
+                    border: none;
+                    backdrop-filter: none;
+                    filter: none;
+                    transform-origin: 50% 50%;
+                    opacity: 1;
+                    transform: translate(0px, 0px);
+                    visibility: visible;
                     }
 
                     .tags_nav button:hover {
-                        color: #06003f;
-                        background-color: #fff;
-                        border: 50px, 50px, 50px, 50px;
+                    color: #06003f;
+                    background-color: #fff;
+                    border: 50px, 50px, 50px, 50px;
                     }
 
                     .main{
-                        padding-top: 30px;
+                    padding-top: 30px;
                     }
 
                     .main h1 {
-                        color: white;
-                        font-family: "Mark Bold", Sans-serif;
-                        font-size: 3.5em;
-                        font-weight: 600;
+                    color: white;
+                    font-family: "Mark Bold", Sans-serif;
+                    font-size: 3.5em;
+                    font-weight: 600;
                     }
 
                     .slide_content {
-                        display: none;
-                        padding: 6px 12px;
+                    display: none;
+                    padding: 6px 12px;
 
                     }
 
                     .image_area {
 
-                        width: 60%;
+                    width: 60%;
                     }
 
                     .text_area {
 
-                        width: 40%;
-                        margin-top: 30px;
+                    width: 40%;
+                    margin-top: 30px;
                     }
 
                     .text_grid {
-                        box-sizing: border-box;
-                        display: flex;
-                        flex-direction: row;
-                        flex-wrap: wrap;
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
                     }
 
                     .text_grid p {
-                        width: 90%;
-                        font-size: 14px;
+                    width: 90%;
+                    font-size: 14px;
                     }
                     .text_grid h2{
-                        font-size: 33px;
+                    font-size: 33px;
                     }
 
                     .text_area1 {
-                        width: 50%;
+                    width: 50%;
                     }
 
                     .text_area1 p {
-                        padding: 10px;
+                    padding: 10px;
                     }
 
                     #slide1 {
-                        display: flex;
+                    display: flex;
                     }
 
                     /* Added active class for styling active button */
                     /*.active {*/
-                    /*    background-color: #6633ff;*/
+                    /* background-color: #6633ff;*/
                     /*}*/
                 </style>
                 <!--                accord style end-->
@@ -1118,12 +1131,12 @@
                                             <picture fetchpriority="high" decoding="async"
                                                      class="attachment-full size-full wp-image-545">
                                                 <source type="image/webp"
-                                                        srcset="https://www.rebound-tech.com/wp-content/uploads/2019/02/icepoint-large@2x.png.webp 806w, https://www.rebound-tech.com/wp-content/uploads/2019/02/icepoint-large@2x-300x67.png.webp 300w, https://www.rebound-tech.com/wp-content/uploads/2019/02/icepoint-large@2x-768x172.png.webp 768w"
+                                                        srcset="/rebound_technology/static/src/images/icepoint-large@2x.png.webp 806w, /rebound_technology/static/src/images/icepoint-large@2x-300x67.png.webp 300w, /rebound_technology/static/src/images/icepoint-large@2x-768x172.png.webp 768w"
                                                         sizes="100vw"/>
                                                 <img fetchpriority="high" decoding="async" width="806" height="180"
-                                                     src="https://www.rebound-tech.com/wp-content/uploads/2019/02/icepoint-large@2x.png"
+                                                     src="/rebound_technology/static/src/images/icepoint-large@2x.png"
                                                      alt=""
-                                                     srcset="https://www.rebound-tech.com/wp-content/uploads/2019/02/icepoint-large@2x.png 806w, https://www.rebound-tech.com/wp-content/uploads/2019/02/icepoint-large@2x-300x67.png 300w, https://www.rebound-tech.com/wp-content/uploads/2019/02/icepoint-large@2x-768x172.png 768w"
+                                                     srcset="/rebound_technology/static/src/images/icepoint-large@2x.png 806w, /rebound_technology/static/src/images/icepoint-large@2x-300x67.png 300w, /rebound_technology/static/src/images/icepoint-large@2x-768x172.png 768w"
                                                      sizes="100vw"/>
                                             </picture>
                                         </div>
@@ -1133,43 +1146,43 @@
                                          data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
                                             <style>/*! elementor - v3.21.0 - 20-05-2024 */
-                                            .elementor-heading-title {
+                                                .elementor-heading-title {
                                                 padding: 0;
                                                 margin: 0;
                                                 line-height: 1
-                                            }
+                                                }
 
-                                            .elementor-widget-heading
-                                            .elementor-heading-title[class*=elementor-size-] > a {
+                                                .elementor-widget-heading
+                                                .elementor-heading-title[class*=elementor-size-] > a {
                                                 color: inherit;
                                                 font-size: inherit;
                                                 line-height: inherit
-                                            }
+                                                }
 
-                                            .elementor-widget-heading
-                                            .elementor-heading-title.elementor-size-small {
+                                                .elementor-widget-heading
+                                                .elementor-heading-title.elementor-size-small {
                                                 font-size: 15px
-                                            }
+                                                }
 
-                                            .elementor-widget-heading
-                                            .elementor-heading-title.elementor-size-medium {
+                                                .elementor-widget-heading
+                                                .elementor-heading-title.elementor-size-medium {
                                                 font-size: 19px
-                                            }
+                                                }
 
-                                            .elementor-widget-heading
-                                            .elementor-heading-title.elementor-size-large {
+                                                .elementor-widget-heading
+                                                .elementor-heading-title.elementor-size-large {
                                                 font-size: 29px
-                                            }
+                                                }
 
-                                            .elementor-widget-heading
-                                            .elementor-heading-title.elementor-size-xl {
+                                                .elementor-widget-heading
+                                                .elementor-heading-title.elementor-size-xl {
                                                 font-size: 39px
-                                            }
+                                                }
 
-                                            .elementor-widget-heading
-                                            .elementor-heading-title.elementor-size-xxl {
+                                                .elementor-widget-heading
+                                                .elementor-heading-title.elementor-size-xxl {
                                                 font-size: 59px
-                                            }
+                                                }
                                             </style>
                                             <h3 class="elementor-heading-title elementor-size-default">Agile Cooling for
                                                 <br/>Optimized Operations
@@ -1191,9 +1204,9 @@
                                                         srcset="https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png.webp 800w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-300x300.png.webp 300w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-150x150.png.webp 150w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-768x768.png.webp 768w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-100x100.png.webp 100w"
                                                         sizes="100vw"/>
                                                 <img fetchpriority="high" decoding="async" width="800" height="800"
-                                                     src="https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png"
+                                                     src="/rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png"
                                                      alt="Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology"
-                                                     srcset="https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 800w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-300x300.png 300w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-150x150.png 150w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-768x768.png 768w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-100x100.png 100w"
+                                                     srcset="/rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 800w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-300x300.png 300w, /rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-150x150.png 150w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-768x768.png 768w, /rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-100x100.png 100w"
                                                      sizes="100vw"/>
                                             </picture>
                                         </div>
@@ -1216,51 +1229,51 @@
                                          data-widget_type="video.default">
                                         <div class="elementor-widget-container">
                                             <style>/*! elementor - v3.21.0 - 20-05-2024 */
-                                            .elementor-widget-video
-                                            .elementor-widget-container {
+                                                .elementor-widget-video
+                                                .elementor-widget-container {
                                                 overflow: hidden;
                                                 transform: translateZ(0)
-                                            }
+                                                }
 
-                                            .elementor-widget-video
-                                            .elementor-wrapper {
+                                                .elementor-widget-video
+                                                .elementor-wrapper {
                                                 aspect-ratio: var(--video-aspect-ratio)
-                                            }
+                                                }
 
-                                            .elementor-widget-video
-                                            .elementor-wrapper iframe, .elementor-widget-video .elementor-wrapper
-                                            video {
+                                                .elementor-widget-video
+                                                .elementor-wrapper iframe, .elementor-widget-video .elementor-wrapper
+                                                video {
                                                 height: 100%;
                                                 width: 100%;
                                                 display: flex;
                                                 border: none;
                                                 background-color: #000
-                                            }
+                                                }
 
-                                            @supports not (aspect-ratio:1/1) {
+                                                @supports not (aspect-ratio:1/1) {
                                                 .elementor-widget-video
                                                 .elementor-wrapper {
-                                                    position: relative;
-                                                    overflow: hidden;
-                                                    height: 0;
-                                                    padding-bottom: calc(100%
-                                                    / var(--video-aspect-ratio))
+                                                position: relative;
+                                                overflow: hidden;
+                                                height: 0;
+                                                padding-bottom: calc(100%
+                                                / var(--video-aspect-ratio))
                                                 }
 
                                                 .elementor-widget-video .elementor-wrapper
                                                 iframe, .elementor-widget-video .elementor-wrapper
                                                 video {
-                                                    position: absolute;
-                                                    top: 0;
-                                                    right: 0;
-                                                    bottom: 0;
-                                                    left: 0
+                                                position: absolute;
+                                                top: 0;
+                                                right: 0;
+                                                bottom: 0;
+                                                left: 0
                                                 }
-                                            }
+                                                }
 
-                                            .elementor-widget-video
-                                            .elementor-open-inline
-                                            .elementor-custom-embed-image-overlay {
+                                                .elementor-widget-video
+                                                .elementor-open-inline
+                                                .elementor-custom-embed-image-overlay {
                                                 position: absolute;
                                                 top: 0;
                                                 right: 0;
@@ -1268,23 +1281,23 @@
                                                 left: 0;
                                                 background-size: cover;
                                                 background-position: 50%
-                                            }
+                                                }
 
-                                            .elementor-widget-video
-                                            .elementor-custom-embed-image-overlay {
+                                                .elementor-widget-video
+                                                .elementor-custom-embed-image-overlay {
                                                 cursor: pointer;
                                                 text-align: center
-                                            }
+                                                }
 
-                                            .elementor-widget-video
-                                            .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play
-                                            i {
+                                                .elementor-widget-video
+                                                .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play
+                                                i {
                                                 opacity: 1
-                                            }
+                                                }
 
-                                            .elementor-widget-video
-                                            .elementor-custom-embed-image-overlay
-                                            img {
+                                                .elementor-widget-video
+                                                .elementor-custom-embed-image-overlay
+                                                img {
                                                 display: block;
                                                 width: 100%;
                                                 aspect-ratio: var(--video-aspect-ratio);
@@ -1292,41 +1305,79 @@
                                                 object-fit: cover;
                                                 -o-object-position: center center;
                                                 object-position: center center
-                                            }
+                                                }
 
-                                            @supports not
+                                                @supports not
                                                 (aspect-ratio:1/1) {
                                                 .elementor-widget-video
                                                 .elementor-custom-embed-image-overlay {
-                                                    position: relative;
-                                                    overflow: hidden;
-                                                    height: 0;
-                                                    padding-bottom: calc(100%
-                                                    / var(--video-aspect-ratio))
+                                                position: relative;
+                                                overflow: hidden;
+                                                height: 0;
+                                                padding-bottom: calc(100%
+                                                / var(--video-aspect-ratio))
                                                 }
 
                                                 .elementor-widget-video
                                                 .elementor-custom-embed-image-overlay
                                                 img {
-                                                    position: absolute;
-                                                    top: 0;
-                                                    right: 0;
-                                                    bottom: 0;
-                                                    left: 0
+                                                position: absolute;
+                                                top: 0;
+                                                right: 0;
+                                                bottom: 0;
+                                                left: 0
                                                 }
-                                            }
+                                                }
 
-                                            .elementor-widget-video
-                                            .e-hosted-video
-                                            .elementor-video {
+                                                .elementor-widget-video
+                                                .e-hosted-video
+                                                .elementor-video {
                                                 -o-object-fit: cover;
                                                 object-fit: cover
-                                            }
+                                                }
 
-                                            .e-con-inner > .elementor-widget-video, .e-con > .elementor-widget-video {
+                                                .e-con-inner > .elementor-widget-video, .e-con > .elementor-widget-video
+                                                {
                                                 width: var(--container-widget-width);
                                                 --flex-grow: var(--container-widget-flex-grow)
-                                            }
+                                                }
+                                            </style>
+
+
+                                            <style>
+
+                                                @media (max-width: 567px) {
+                                                #slide1{
+                                                flex-direction: column;
+                                                }
+                                                .image_area{
+                                                width: 100%;
+                                                }
+                                                .text_area{
+                                                width: 100%;
+                                                }
+
+                                                .text_grid h2{
+                                                font-size: 24px;
+                                                margin-top: 10px;
+                                                }
+
+                                                #eb_btn{
+                                                margin-top: 10px;
+                                                }
+
+                                                #slide2{
+                                                flex-direction: column;
+                                                }
+
+                                                #slide3{
+                                                flex-direction: column;
+                                                }
+
+
+
+                                                }
+
                                             </style>
                                             <div class="elementor-wrapper elementor-open-inline">
                                                 <iframe class="elementor-video-iframe" allowfullscreen="allowfullscreen"
@@ -1367,7 +1418,7 @@
                                 <button class="tablinks" onclick="openCity(event, 'slide2')">
                                     MVR
                                 </button>
-                                <button class="tablinks" onclick="openCity(event, 'slide3')">
+                                <button class="tablinks" id="eb_btn" onclick="openCity(event, 'slide3')">
                                     ENERGY BALANCE
                                 </button>
                             </div>
@@ -1384,34 +1435,41 @@
                                     <div class="text_grid">
                                         <!-- Content for FPS -->
                                         <div class="text_area1">
-                                            <img src="https://www.rebound-tech.com/wp-content/uploads/2019/02/Shape.svg"/>
+                                            <img src="/rebound_technology/static/src/images/Shape.svg"/>
                                             <h2>1. Freezing</h2>
                                             <p>Pure water is frozen into ice at the most economical time of the day and
                                                 stored in a
-                                                tank.</p>
+                                                tank.
+                                            </p>
                                         </div>
-                                        <div class="text_area1"><img
-                                                src="https://www.rebound-tech.com/wp-content/uploads/2019/02/Shape1.svg"/>
+                                        <div class="text_area1">
+                                            <img
+                                                    src="/rebound_technology/static/src/images/Shape1.svg"/>
                                             <h2>2. Mixing</h2>
                                             <p>A freeze suppressant, in the form of a non-chloride salt, is then
                                                 injected into the
                                                 bottom of the tank, mixing with the ice, which creates a -25°F
                                                 refrigerant.
-                                                .</p>
+                                                .
+                                            </p>
                                         </div>
-                                        <div class="text_area1"><img
-                                                src="https://www.rebound-tech.com/wp-content/uploads/2019/02/Shape2.svg"/>
+                                        <div class="text_area1">
+                                            <img
+                                                    src="/rebound_technology/static/src/images/Shape2.svg"/>
                                             <h2>3. Melting</h2>
                                             <p>This refrigerant mixture is then used to maintain freezer temperatures by
                                                 absorbing the
-                                                heat and humidity from the freezer space. </p>
+                                                heat and humidity from the freezer space.
+                                            </p>
                                         </div>
-                                        <div class="text_area1"><img
-                                                src="https://www.rebound-tech.com/wp-content/uploads/2019/02/Shape3.svg"/>
+                                        <div class="text_area1">
+                                            <img
+                                                    src="/rebound_technology/static/src/images/Shape3.svg"/>
                                             <h2>4. Seperation</h2>
                                             <p>Water is then separated from the freeze point suppressant generating pure
                                                 water ready for
-                                                freezing and concentrated FPS ready to send back to the ice tank.</p>
+                                                freezing and concentrated FPS ready to send back to the ice tank.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1447,7 +1505,8 @@
 
                                     <div class="text_grid">
                                         <!-- Content for MVR -->
-                                        <h2>IcePoint<sup style="margin-top:20px;">®</sup> Application</h2>
+                                        <h2>IcePoint<sup style="margin-top:20px;">®</sup> Application
+                                        </h2>
                                         <p>
                                             IcePoint<sup style="margin-top:14px;">®</sup> uses a standard MVR
                                             architecture refreshed with state of the art
@@ -1464,9 +1523,11 @@
                                     <h2>Efficient Energy Use
                                     </h2>
                                     <p>
-                                        Like all refrigeration equipment, IcePoint <sup data-stylerecorder="true"
-                                                                                        style="text-align: left; line-height: 25px; letter-spacing: 0px; font-weight: 400;">
-                                        ®</sup>
+                                        Like all refrigeration equipment, IcePoint
+                                        <sup data-stylerecorder="true"
+                                             style="text-align: left; line-height: 25px; letter-spacing: 0px; font-weight: 400;">
+                                            ®
+                                        </sup>
                                         must conserve energy and meet fundamental efficiency limits. All refrigeration
                                         equipment
                                         requires some form of driving energy input to move heat from a low temperature
@@ -1481,426 +1542,6 @@
                         </div>
                     </section>
                     <!--                    accord_tab_end-->
-
-
-                    <!--                    slide sec-->
-                    <!--                   <section-->
-                    <!--            class="elementor-section elementor-top-section elementor-element elementor-element-b74a67f elementor-section-boxed elementor-section-height-default elementor-section-height-default"-->
-                    <!--            data-id="b74a67f" data-element_type="section"-->
-                    <!--            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">-->
-                    <!--            <div class="elementor-container elementor-column-gap-default">-->
-                    <!--                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a1339cd"-->
-                    <!--                    data-id="a1339cd" data-element_type="column">-->
-                    <!--                    <div class="elementor-widget-wrap elementor-element-populated">-->
-                    <!--                        <div class="elementor-element elementor-element-e56057e elementor-widget elementor-widget-heading"-->
-                    <!--                            data-id="e56057e" data-element_type="widget" data-widget_type="heading.default">-->
-                    <!--                            <div class="elementor-widget-container">-->
-                    <!--                                <h2 class="elementor-heading-title elementor-size-default">How It Works</h2>-->
-                    <!--                            </div>-->
-                    <!--                        </div>-->
-                    <!--                        <div class="elementor-element elementor-element-79d1066 elementor-widget elementor-widget-slider_revolution"-->
-                    <!--                            data-id="79d1066" data-element_type="widget" data-widget_type="slider_revolution.default">-->
-                    <!--                            <div class="elementor-widget-container">-->
-
-                    <!--                                <div class="wp-block-themepunch-revslider">-->
-                    <!--                                    &lt;!&ndash; START How It Works REVOLUTION SLIDER 6.7.1 &ndash;&gt;-->
-                    <!--                                    <p class="rs-p-wp-fix"></p>-->
-                    <!--                                    <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery"-->
-                    <!--                                        style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">-->
-                    <!--                                        <rs-module id="rev_slider_1_1" style="" data-version="6.7.1">-->
-                    <!--                                            <rs-slides style="overflow: hidden; position: absolute;">-->
-                    <!--                                                <rs-slide style="position: absolute;" data-key="rs-1" data-title="FPS"-->
-                    <!--                                                    data-in="o:0;" data-out="a:false;">-->
-                    <!--                                                    <img decoding="async"-->
-                    <!--                                                        src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"-->
-                    <!--                                                        alt="FPS" title="Technology"-->
-                    <!--                                                        class="rev-slidebg tp-rs-img rs-lazyload"-->
-                    <!--                                                        data-lazyload="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/transparent.png"-->
-                    <!--                                                        data-bg="c:#06003f;" data-no-retina="1"/>-->
-                    <!--                                                    &lt;!&ndash;-->
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-0" class="rev-btn" data-type="button" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:50px,33px,25px,59px;yo:50px,33px,25px,15px;"-->
-                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
-                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
-                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-1;'-->
-                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
-                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
-                    <!--                                                        style="z-index:23;background-color:#6633ff;font-family:'Mark-Medium';">FPS-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-1" class="rev-btn" data-type="button" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:160px,105px,79px,145px;yo:50px,33px,25px,15px;"-->
-                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
-                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
-                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-4;'-->
-                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
-                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
-                    <!--                                                        style="z-index:22;background-color:#6633ff;font-family:'Mark-Medium';">MVR-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-2" class="rev-btn" data-type="button" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:280px,184px,139px,236px;yo:50px,33px,25px,15px;"-->
-                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
-                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
-                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-5;'-->
-                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
-                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
-                    <!--                                                        style="z-index:21;background-color:#6633ff;font-family:'Mark-Medium';">ENERGY-->
-                    <!--                                                        BALANCE-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-3" class="tp-shape tp-shapewrapper tp-lottie" data-type="shape"-->
-                    <!--                                                        data-rsp_ch="on"-->
-                    <!--                                                        data-xy="x:l,l,l,c;xo:50px,33px,4px,0;yo:170px,112px,85px,69px;"-->
-                    <!--                                                        data-text="w:normal;"-->
-                    <!--                                                        data-dim="w:805,571,433,285px;h:805,547,415,285px;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        data-lottie='{"jsonUrl":"https:\/\/www.rebound-tech.com\/wp-content\/uploads\/revslider\/lottie\/objects\/lottiecustoms\/FPS.json","duration":5000,"autoplay":true,"respectTlStart":false,"endlessLoop":true,"reverse":false,"repeat":-1,"type":"svg","size":"contain","progressiveLoad":false,"hideTransparent":false,"maxdpr":3,"interType":"disabled","lerp":0,"easeType":"default","continuePlaying":false,"scrollActions":false,"scrollLerp":0.10000000000000001,"editorEnabled":false}'-->
-                    <!--                                                        style="z-index:20;">-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-4" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:204px,134px,101px,356px;"-->
-                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:19;font-family:'Mark-Bold';">What is FPS?-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-5" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:260px,171px,129px,387px;"-->
-                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
-                    <!--                                                        data-dim="w:500px,330px,320px,400px;" data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:18;font-family:'Reader-Regular';">FPS is-->
-                    <!--                                                        referring to Freeze Point Suppression. This cycle operates by-->
-                    <!--                                                        changing the chemical composition of a refrigerant. In the case-->
-                    <!--                                                        of IcePoint <sup>®</sup>, water is used as a refrigerant moving-->
-                    <!--                                                        through four processes:-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-6" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:930px,614px,440px,41px;yo:520px,343px,309px,515px;"-->
-                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:16;font-family:'Mark-Bold';">1. Freezing-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-7" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:1200px,821px,612px,248px;yo:520px,343px,309px,515px;"-->
-                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:13;font-family:'Mark-Bold';">2. Mixing-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-8" data-type="image" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:930px,614px,440px,41px;yo:425px,280px,261px,482px;"-->
-                    <!--                                                        data-text="w:normal;"-->
-                    <!--                                                        data-dim="w:69px,45px,34px,28px;h:73px,48px,36px,30px;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;" style="z-index:17;"><img-->
-                    <!--                                                            decoding="async"-->
-                    <!--                                                            src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"-->
-                    <!--                                                            alt="" class="tp-rs-img rs-lazyload"-->
-                    <!--                                                            data-lazyload="//www.rebound-tech.com/wp-content/uploads/2019/02/Shape.svg"-->
-                    <!--                                                            data-no-retina="1" />-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-9" data-type="image" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:1200px,821px,612px,248px;yo:425px,280px,261px,482px;"-->
-                    <!--                                                        data-text="w:normal;"-->
-                    <!--                                                        data-dim="w:78px,51px,38px,38px;h:62px,40px,30px,30px;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;" style="z-index:14;"><img-->
-                    <!--                                                            decoding="async"-->
-                    <!--                                                            src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"-->
-                    <!--                                                            alt="" class="tp-rs-img rs-lazyload"-->
-                    <!--                                                            data-lazyload="//www.rebound-tech.com/wp-content/uploads/2019/02/Shape1.svg"-->
-                    <!--                                                            data-no-retina="1"/>-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-10" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:930px,614px,440px,41px;yo:570px,376px,334px,545px;"-->
-                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
-                    <!--                                                        data-dim="w:200px,180px,150px,195px;" data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:15;font-family:'Reader-Regular';">Pure water is-->
-                    <!--                                                        frozen into ice at the most economical time of the day and-->
-                    <!--                                                        stored in a tank.-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-11" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:1200px,821px,612px,248px;yo:570px,376px,334px,545px;"-->
-                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
-                    <!--                                                        data-dim="w:230px,180px,150px,200px;" data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:12;font-family:'Reader-Regular';">A freeze-->
-                    <!--                                                        suppressant, in the form of a non-chloride salt, is then-->
-                    <!--                                                        injected into the bottom of the tank, mixing with the ice, which-->
-                    <!--                                                        creates a -25°F refrigerant.-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-18" data-type="image" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:930px,614px,440px,46px;yo:779px,524px,520px,692px;"-->
-                    <!--                                                        data-text="w:normal;"-->
-                    <!--                                                        data-dim="w:56px,36px,27px,19px;h:88px,58px,44px,30px;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;" style="z-index:11;"><img-->
-                    <!--                                                            decoding="async"-->
-                    <!--                                                            src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"-->
-                    <!--                                                            alt="" class="tp-rs-img rs-lazyload"-->
-                    <!--                                                            data-lazyload="//www.rebound-tech.com/wp-content/uploads/2019/02/Shape2.svg"-->
-                    <!--                                                            data-no-retina="1" />-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-19" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:930px,614px,440px,46px;yo:874px,587px,568px,725px;"-->
-                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:10;font-family:'Mark-Bold';">3. Melting-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-20" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:930px,614px,440px,46px;yo:924px,620px,593px,755px;"-->
-                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
-                    <!--                                                        data-dim="w:200px,180px,150px,195px;" data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:9;font-family:'Reader-Regular';">This refrigerant-->
-                    <!--                                                        mixture is then used to maintain freezer temperatures by-->
-                    <!--                                                        absorbing the heat and humidity from the freezer space.-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-21" data-type="image" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:1200px,821px,612px,248px;yo:779px,524px,520px,692px;"-->
-                    <!--                                                        data-text="w:normal;"-->
-                    <!--                                                        data-dim="w:81px,53px,40px,32px;h:77px,50px,37px,30px;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;" style="z-index:8;"><img-->
-                    <!--                                                            decoding="async"-->
-                    <!--                                                            src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"-->
-                    <!--                                                            alt="" class="tp-rs-img rs-lazyload"-->
-                    <!--                                                            data-lazyload="//www.rebound-tech.com/wp-content/uploads/2019/02/Shape3.svg"-->
-                    <!--                                                            data-no-retina="1" />-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-22" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:1200px,821px,612px,248px;yo:874px,587px,568px,725px;"-->
-                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:7;font-family:'Mark-Bold';">4. Separation-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-1-layer-23" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:1200px,821px,612px,248px;yo:924px,620px,593px,755px;"-->
-                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
-                    <!--                                                        data-dim="w:230px,180px,150px,200px;" data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:6;font-family:'Reader-Regular';">Water is then-->
-                    <!--                                                        separated from the freeze point suppressant generating pure-->
-                    <!--                                                        water ready for freezing and concentrated FPS ready to send back-->
-                    <!--                                                        to the ice tank.-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-                    <!--&ndash;&gt; </rs-slide>-->
-                    <!--                                                <rs-slide style="position: absolute;" data-key="rs-4" data-title="MVR-2"-->
-                    <!--                                                    data-in="o:0;" data-out="a:false;">-->
-                    <!--                                                    <img decoding="async"-->
-                    <!--                                                        src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"-->
-                    <!--                                                        alt="MVR-2" title="Technology"-->
-                    <!--                                                        class="rev-slidebg tp-rs-img rs-lazyload"-->
-                    <!--                                                        data-lazyload="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/transparent.png"-->
-                    <!--                                                        data-bg="c:#06003f;" data-no-retina="1" />-->
-                    <!--                                                    &lt;!&ndash;-->
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-0" class="rev-btn" data-type="button" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:50px,33px,25px,59px;yo:50px,33px,25px,15px;"-->
-                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
-                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
-                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-1;'-->
-                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
-                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
-                    <!--                                                        style="z-index:15;background-color:#6633ff;font-family:'Mark-Medium';">FPS-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-1" class="rev-btn" data-type="button" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:160px,105px,79px,145px;yo:50px,33px,25px,15px;"-->
-                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
-                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
-                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-4;'-->
-                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
-                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
-                    <!--                                                        style="z-index:14;background-color:#6633ff;font-family:'Mark-Medium';">MVR-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-2" class="rev-btn" data-type="button" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:280px,184px,139px,236px;yo:50px,33px,25px,15px;"-->
-                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
-                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
-                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-5;'-->
-                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
-                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
-                    <!--                                                        style="z-index:13;background-color:#6633ff;font-family:'Mark-Medium';">ENERGY-->
-                    <!--                                                        BALANCE-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-3" class="tp-shape tp-shapewrapper tp-lottie" data-type="shape"-->
-                    <!--                                                        data-rsp_ch="on"-->
-                    <!--                                                        data-xy="x:l,l,l,c;xo:50px,33px,4px,0;yo:170px,112px,85px,69px;"-->
-                    <!--                                                        data-text="w:normal;"-->
-                    <!--                                                        data-dim="w:805,571,433,348;h:805,547,415,348;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        data-lottie='{"jsonUrl":"https:\/\/www.rebound-tech.com\/wp-content\/uploads\/revslider\/lottie\/objects\/lottiecustoms\/MVR Diagram.json","duration":5000,"autoplay":true,"respectTlStart":false,"endlessLoop":true,"reverse":false,"repeat":-1,"type":"svg","size":"contain","progressiveLoad":false,"hideTransparent":false,"maxdpr":3,"interType":"disabled","lerp":0,"easeType":"default","continuePlaying":false,"scrollActions":false,"scrollLerp":0.10000000000000001,"editorEnabled":false}'-->
-                    <!--                                                        style="z-index:12;">-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-4" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:204px,134px,101px,436px;"-->
-                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:11;font-family:'Mark-Bold';">What is MVR?-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-5" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:260px,171px,129px,467px;"-->
-                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
-                    <!--                                                        data-dim="w:500px,330px,320px,400px;" data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:10;font-family:'Reader-Regular';">MVR refers to-->
-                    <!--                                                        Mechanical Vapor Recompression. MVR is the most common way to-->
-                    <!--                                                        separate water from high concentration solutions.-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-12" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:423px,303px,247px,569px;"-->
-                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
-                    <!--                                                        data-dim="w:500px,330px,320px,400px;" data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:8;font-family:'Reader-Regular';">MVR is a thermal-->
-                    <!--                                                        separation technology optimized for energy efficiency. Like all-->
-                    <!--                                                        distillation processes, water is boiled out of the salt-water-->
-                    <!--                                                        brine. To increase the energy efficiency, the heat is recaptured-->
-                    <!--                                                        and repurposed to help boil additional water.-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-13" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:367px,266px,219px,538px;"-->
-                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:9;font-family:'Mark-Bold';">How MVR Operates-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-14" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:639px,478px,411px,719px;"-->
-                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
-                    <!--                                                        data-dim="w:500px,330px,320px,400px;" data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:6;font-family:'Reader-Regular';">IcePoint<sup>®</sup>-->
-                    <!--                                                        uses a standard MVR architecture refreshed with state of the art-->
-                    <!--                                                        compression technology.-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-4-layer-15" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:583px,441px,383px,688px;"-->
-                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:7;font-family:'Mark-Bold';">IcePoint<sup>®</sup>-->
-                    <!--                                                        Application-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-                    <!--&ndash;&gt; </rs-slide>-->
-                    <!--                                                <rs-slide style="position: absolute;" data-key="rs-5"-->
-                    <!--                                                    data-title="Energy-Balance" data-in="o:0;" data-out="a:false;">-->
-                    <!--                                                    <img decoding="async"-->
-                    <!--                                                        src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png"-->
-                    <!--                                                        alt="Energy-Balance" title="Technology"-->
-                    <!--                                                        class="rev-slidebg tp-rs-img rs-lazyload"-->
-                    <!--                                                        data-lazyload="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/assets/transparent.png"-->
-                    <!--                                                        data-bg="c:#06003f;" data-no-retina="1" />-->
-                    <!--                                                    &lt;!&ndash;-->
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-5-layer-0" class="rev-btn" data-type="button" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:50px,33px,25px,59px;yo:50px,33px,25px,15px;"-->
-                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
-                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
-                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-1;'-->
-                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
-                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
-                    <!--                                                        style="z-index:15;background-color:#6633ff;font-family:'Mark-Medium';">FPS-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-5-layer-1" class="rev-btn" data-type="button" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:160px,105px,79px,145px;yo:50px,33px,25px,15px;"-->
-                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
-                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
-                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-4;'-->
-                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
-                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
-                    <!--                                                        style="z-index:14;background-color:#6633ff;font-family:'Mark-Medium';">MVR-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-5-layer-2" class="rev-btn" data-type="button" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="xo:280px,184px,139px,236px;yo:50px,33px,25px,15px;"-->
-                    <!--                                                        data-text="w:normal;s:25,16,12,16;l:30,19,14,16;ls:0.2px,0px,0px,0px;fw:500;"-->
-                    <!--                                                        data-dim="minh:0px,none,none,none;"-->
-                    <!--                                                        data-actions='o:click;a:jumptoslide;slide:rs-5;'-->
-                    <!--                                                        data-padding="t:15,10,8,16;r:26,17,13,20;b:15,10,8,16;l:26,17,13,20;"-->
-                    <!--                                                        data-border="bor:50px,50px,50px,50px;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        data-frame_hover="c:#06003f;bgc:#fff;bor:50px,50px,50px,50px;sp:200;e:power1.inOut;"-->
-                    <!--                                                        style="z-index:13;background-color:#6633ff;font-family:'Mark-Medium';">ENERGY-->
-                    <!--                                                        BALANCE-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-5-layer-3" class="tp-shape tp-shapewrapper tp-lottie" data-type="shape"-->
-                    <!--                                                        data-rsp_ch="on"-->
-                    <!--                                                        data-xy="x:l,l,l,c;xo:50px,33px,4px,0;yo:170px,112px,85px,69px;"-->
-                    <!--                                                        data-text="w:normal;"-->
-                    <!--                                                        data-dim="w:805,571,433,452;h:805,547,415,452;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        data-lottie='{"jsonUrl":"https:\/\/www.rebound-tech.com\/wp-content\/uploads\/revslider\/lottie\/objects\/lottiecustoms\/Energy Balance.json","duration":5000,"autoplay":true,"respectTlStart":false,"endlessLoop":true,"reverse":false,"repeat":-1,"type":"svg","size":"contain","progressiveLoad":false,"hideTransparent":false,"maxdpr":3,"interType":"disabled","lerp":0,"easeType":"default","continuePlaying":false,"scrollActions":false,"scrollLerp":0.10000000000000001,"editorEnabled":false}'-->
-                    <!--                                                        style="z-index:12;">-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-5-layer-4" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:204px,134px,101px,528px;"-->
-                    <!--                                                        data-text="w:normal;s:30,20,20,20;l:36,25,25,25;"-->
-                    <!--                                                        data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:11;font-family:'Mark-Bold';">Efficient Energy Use-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-
-                    <!--							&ndash;&gt;<rs-layer id="slider-1-slide-5-layer-5" data-type="text" data-rsp_ch="on"-->
-                    <!--                                                        data-xy="x:l,l,l,c;xo:930px,614px,440px,0;yo:260px,171px,133px,562px;"-->
-                    <!--                                                        data-text="w:normal;s:16;ls:0.6px,0px,0px,0px;"-->
-                    <!--                                                        data-dim="w:500px,330px,320px,400px;" data-frame_999="o:0;st:w;"-->
-                    <!--                                                        style="z-index:10;font-family:'Reader-Regular';">Like all-->
-                    <!--                                                        refrigeration equipment, IcePoint<sup>®</sup> must conserve-->
-                    <!--                                                        energy and meet fundamental efficiency limits. All refrigeration-->
-                    <!--                                                        equipment requires some form of driving energy input to move-->
-                    <!--                                                        heat from a low temperature to a high one. For-->
-                    <!--                                                        IcePoint<sup>®</sup> this comes from both the ice maker’s-->
-                    <!--                                                        compressor and the MVR’s compressor. The efficiency of the-->
-                    <!--                                                        IcePoint<sup>®</sup> system stems from its ability to be-->
-                    <!--                                                        internally thermally recuperated and to take advantage of low-->
-                    <!--                                                        ambient temperatures in the morning. evening. and night.-->
-                    <!--                                                    </rs-layer>&lt;!&ndash;-->
-                    <!--&ndash;&gt; </rs-slide>-->
-                    <!--                                            </rs-slides>-->
-                    <!--                                        </rs-module>-->
-                    <!--                                        <script>-->
-                    <!--                                             <![CDATA[-->
-                    <!--                                            setREVStartSize({ c: 'rev_slider_1_1', rl: [1240, 1024, 778, 480], el: [1200, 800, 800, 920], gw: [1550, 1024, 778, 480], gh: [1200, 800, 800, 920], type: 'standard', justify: '', layout: 'fullwidth', mh: "0" }); if (window.RS_MODULES !== undefined && window.RS_MODULES.modules !== undefined && window.RS_MODULES.modules["revslider11"] !== undefined) { window.RS_MODULES.modules["revslider11"].once = false; window.revapi1 = undefined; if (window.RS_MODULES.checkMinimal !== undefined) window.RS_MODULES.checkMinimal() }-->
-                    <!--                                        ]]>-->
-                    <!--                                        </script>-->
-                    <!--                                    </rs-module-wrap>-->
-                    <!--                                    &lt;!&ndash; END REVOLUTION SLIDER &ndash;&gt;-->
-                    <!--                                </div>-->
-
-                    <!--                            </div>-->
-                    <!--                        </div>-->
-                    <!--                    </div>-->
-                    <!--                </div>-->
-                    <!--            </div>-->
-                    <!--        </section>-->
-                    <!--                    slide sec-->
 
 
                     <section
@@ -1948,7 +1589,7 @@
                                                          data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
                                                             <img loading="lazy" decoding="async" width="69" height="64"
-                                                                 src="https://www.rebound-tech.com/wp-content/uploads/2019/09/thermal.svg"
+                                                                 src="/rebound_technology/static/src/images/thermal.svg"
                                                                  class="attachment-full size-full wp-image-1253" alt=""
                                                                  sizes="100vw"/>
                                                         </div>
@@ -1967,42 +1608,42 @@
                                                          data-widget_type="text-editor.default">
                                                         <div class="elementor-widget-container">
                                                             <style>/*! elementor - v3.21.0 - 20-05-2024 */
-                                                            .elementor-widget-text-editor.elementor-drop-cap-view-stacked
-                                                            .elementor-drop-cap {
+                                                                .elementor-widget-text-editor.elementor-drop-cap-view-stacked
+                                                                .elementor-drop-cap {
                                                                 background-color: #69727d;
                                                                 color: #fff
-                                                            }
+                                                                }
 
-                                                            .elementor-widget-text-editor.elementor-drop-cap-view-framed
-                                                            .elementor-drop-cap {
+                                                                .elementor-widget-text-editor.elementor-drop-cap-view-framed
+                                                                .elementor-drop-cap {
                                                                 color: #69727d;
                                                                 border: 3px solid;
                                                                 background-color: transparent
-                                                            }
+                                                                }
 
-                                                            .elementor-widget-text-editor:not(.elementor-drop-cap-view-default)
-                                                            .elementor-drop-cap {
+                                                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default)
+                                                                .elementor-drop-cap {
                                                                 margin-top: 8px
-                                                            }
+                                                                }
 
-                                                            .elementor-widget-text-editor:not(.elementor-drop-cap-view-default)
-                                                            .elementor-drop-cap-letter {
+                                                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default)
+                                                                .elementor-drop-cap-letter {
                                                                 width: 1em;
                                                                 height: 1em
-                                                            }
+                                                                }
 
-                                                            .elementor-widget-text-editor
-                                                            .elementor-drop-cap {
+                                                                .elementor-widget-text-editor
+                                                                .elementor-drop-cap {
                                                                 float: left;
                                                                 text-align: center;
                                                                 line-height: 1;
                                                                 font-size: 50px
-                                                            }
+                                                                }
 
-                                                            .elementor-widget-text-editor
-                                                            .elementor-drop-cap-letter {
+                                                                .elementor-widget-text-editor
+                                                                .elementor-drop-cap-letter {
                                                                 display: inline-block
-                                                            }
+                                                                }
                                                             </style>
                                                             <p>Maintain production line speed and blast cycle times
                                                                 regardless of product, packaging, or pallet
@@ -2020,7 +1661,7 @@
                                                          data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
                                                             <img loading="lazy" decoding="async" width="64" height="64"
-                                                                 src="https://www.rebound-tech.com/wp-content/uploads/2019/09/flashgas.svg"
+                                                                 src="/rebound_technology/static/src/images/flashgas.svg"
                                                                  class="attachment-full size-full wp-image-1249" alt=""
                                                                  sizes="100vw"/>
                                                         </div>
@@ -2054,7 +1695,7 @@
                                                          data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
                                                             <img loading="lazy" decoding="async" width="69" height="64"
-                                                                 src="https://www.rebound-tech.com/wp-content/uploads/2019/09/preserve.svg"
+                                                                 src="/rebound_technology/static/src/images/preserve.svg"
                                                                  class="attachment-full size-full wp-image-1251" alt=""
                                                                  sizes="100vw"/>
                                                         </div>
@@ -2095,9 +1736,9 @@
                                                         <div class="elementor-widget-container">
                                                             <img loading="lazy" decoding="async" width="2560"
                                                                  height="2561"
-                                                                 src="https://www.rebound-tech.com/wp-content/uploads/2023/03/Safety-Icon.png"
+                                                                 src="/rebound_technology/static/src/images/Safety-Icon.png"
                                                                  class="attachment-full size-full wp-image-2304" alt=""
-                                                                 srcset="https://www.rebound-tech.com/wp-content/uploads/2023/03/Safety-Icon.png 2560w, https://www.rebound-tech.com/wp-content/uploads/2023/03/Safety-Icon-300x300.png 300w, https://www.rebound-tech.com/wp-content/uploads/2023/03/Safety-Icon-1024x1024.png 1024w, https://www.rebound-tech.com/wp-content/uploads/2023/03/Safety-Icon-150x150.png 150w, https://www.rebound-tech.com/wp-content/uploads/2023/03/Safety-Icon-768x768.png 768w, https://www.rebound-tech.com/wp-content/uploads/2023/03/Safety-Icon-1536x1536.png 1536w, https://www.rebound-tech.com/wp-content/uploads/2023/03/Safety-Icon-2048x2048.png 2048w, https://www.rebound-tech.com/wp-content/uploads/2023/03/Safety-Icon-100x100.png 100w"
+                                                                 srcset="/rebound_technology/static/src/images/Safety-Icon.png 2560w, /rebound_technology/static/src/images/Safety-Icon-300x300.png 300w, /rebound_technology/static/src/images/Safety-Icon-1024x1024.png 1024w, /rebound_technology/static/src/images/Safety-Icon-150x150.png 150w, /rebound_technology/static/src/images/Safety-Icon-768x768.png 768w, /rebound_technology/static/src/images/Safety-Icon-1536x1536.png 1536w, /rebound_technology/static/src/images/Safety-Icon-2048x2048.png 2048w, /rebound_technology/static/src/images/Safety-Icon-100x100.png 100w"
                                                                  sizes="100vw"/>
                                                         </div>
                                                     </div>
@@ -2129,7 +1770,7 @@
                                                          data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
                                                             <img loading="lazy" decoding="async" width="64" height="60"
-                                                                 src="https://www.rebound-tech.com/wp-content/uploads/2019/09/retrofit.svg"
+                                                                 src="/rebound_technology/static/src/images/retrofit.svg"
                                                                  class="attachment-full size-full wp-image-1252" alt=""
                                                                  sizes="100vw"/>
                                                         </div>
@@ -2162,7 +1803,7 @@
                                                          data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
                                                             <img loading="lazy" decoding="async" width="54" height="64"
-                                                                 src="https://www.rebound-tech.com/wp-content/uploads/2019/09/easyinstall.svg"
+                                                                 src="/rebound_technology/static/src/images/easyinstall.svg"
                                                                  class="attachment-full size-full wp-image-1248" alt=""
                                                                  sizes="100vw"/>
                                                         </div>
@@ -2335,11 +1976,11 @@
                                                                 <picture loading="lazy" decoding="async"
                                                                          class="attachment-large size-large wp-image-3443">
                                                                     <source type="image/webp"
-                                                                            srcset="https://www.rebound-tech.com/wp-content/uploads/2024/01/Ice-Maker_Page_1-791x1024.jpg.webp 791w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Ice-Maker_Page_1-232x300.jpg.webp 232w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Ice-Maker_Page_1-768x994.jpg.webp 768w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Ice-Maker_Page_1-1187x1536.jpg.webp 1187w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Ice-Maker_Page_1-1583x2048.jpg.webp 1583w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Ice-Maker_Page_1.jpg.webp 1879w"
+                                                                            srcset="/rebound_technology/static/src/images/Ice-Maker_Page_1-791x1024.jpg.webp 791w, /rebound_technology/static/src/images/Ice-Maker_Page_1-232x300.jpg.webp 232w, /rebound_technology/static/src/images/Ice-Maker_Page_1-768x994.jpg.webp 768w, /rebound_technology/static/src/images/Ice-Maker_Page_1-1187x1536.jpg.webp 1187w, /rebound_technology/static/src/images/Ice-Maker_Page_1-1583x2048.jpg.webp 1583w, /rebound_technology/static/src/images/Ice-Maker_Page_1.jpg.webp 1879w"
                                                                             sizes="100vw"/>
                                                                     <img loading="lazy" decoding="async" width="525"
                                                                          height="680"
-                                                                         src="https://www.rebound-tech.com/wp-content/uploads/2024/01/Ice-Maker_Page_1-791x1024.jpg"
+                                                                         src="/rebound_technology/static/src/images/Ice-Maker_Page_1-791x1024.jpg"
                                                                          alt=""
                                                                          srcset="https://www.rebound-tech.com/wp-content/uploads/2024/01/Ice-Maker_Page_1-791x1024.jpg 791w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Ice-Maker_Page_1-232x300.jpg 232w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Ice-Maker_Page_1-768x994.jpg 768w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Ice-Maker_Page_1-1187x1536.jpg 1187w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Ice-Maker_Page_1-1583x2048.jpg 1583w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Ice-Maker_Page_1.jpg 1879w"
                                                                          sizes="100vw"/>
@@ -2390,13 +2031,13 @@
                                                                 <picture loading="lazy" decoding="async"
                                                                          class="attachment-large size-large wp-image-3445">
                                                                     <source type="image/webp"
-                                                                            srcset="https://www.rebound-tech.com/wp-content/uploads/2024/01/Greeley-Impact_Page_1-791x1024.jpg.webp 791w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Greeley-Impact_Page_1-232x300.jpg.webp 232w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Greeley-Impact_Page_1-768x994.jpg.webp 768w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Greeley-Impact_Page_1-1187x1536.jpg.webp 1187w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Greeley-Impact_Page_1-1583x2048.jpg.webp 1583w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Greeley-Impact_Page_1.jpg.webp 1879w"
+                                                                            srcset="/rebound_technology/static/src/images/Greeley-Impact_Page_1-791x1024.jpg.webp 791w, /rebound_technology/static/src/images/Greeley-Impact_Page_1-232x300.jpg.webp 232w, /rebound_technology/static/src/images/Greeley-Impact_Page_1-768x994.jpg.webp 768w, /rebound_technology/static/src/images/Greeley-Impact_Page_1-1187x1536.jpg.webp 1187w, /rebound_technology/static/src/images/Greeley-Impact_Page_1-1583x2048.jpg.webp 1583w, /rebound_technology/static/src/images/Greeley-Impact_Page_1.jpg.webp 1879w"
                                                                             sizes="100vw"/>
                                                                     <img loading="lazy" decoding="async" width="525"
                                                                          height="680"
-                                                                         src="https://www.rebound-tech.com/wp-content/uploads/2024/01/Greeley-Impact_Page_1-791x1024.jpg"
+                                                                         src="/rebound_technology/static/src/images/Greeley-Impact_Page_1-791x1024.jpg"
                                                                          alt=""
-                                                                         srcset="https://www.rebound-tech.com/wp-content/uploads/2024/01/Greeley-Impact_Page_1-791x1024.jpg 791w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Greeley-Impact_Page_1-232x300.jpg 232w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Greeley-Impact_Page_1-768x994.jpg 768w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Greeley-Impact_Page_1-1187x1536.jpg 1187w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Greeley-Impact_Page_1-1583x2048.jpg 1583w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Greeley-Impact_Page_1.jpg 1879w"
+                                                                         srcset="/rebound_technology/static/src/images/Greeley-Impact_Page_1-791x1024.jpg 791w, /rebound_technology/static/src/images/Greeley-Impact_Page_1-232x300.jpg 232w, /rebound_technology/static/src/images/Greeley-Impact_Page_1-768x994.jpg 768w, /rebound_technology/static/src/images/Greeley-Impact_Page_1-1187x1536.jpg 1187w, /rebound_technology/static/src/images/Greeley-Impact_Page_1-1583x2048.jpg 1583w, /rebound_technology/static/src/images/Greeley-Impact_Page_1.jpg 1879w"
                                                                          sizes="100vw"/>
                                                                 </picture>
                                                             </a>
@@ -2445,13 +2086,13 @@
                                                                 <picture loading="lazy" decoding="async"
                                                                          class="attachment-large size-large wp-image-3447">
                                                                     <source type="image/webp"
-                                                                            srcset="https://www.rebound-tech.com/wp-content/uploads/2024/01/FPS-Cycle_Page_1-791x1024.jpg.webp 791w, https://www.rebound-tech.com/wp-content/uploads/2024/01/FPS-Cycle_Page_1-232x300.jpg.webp 232w, https://www.rebound-tech.com/wp-content/uploads/2024/01/FPS-Cycle_Page_1-768x994.jpg.webp 768w, https://www.rebound-tech.com/wp-content/uploads/2024/01/FPS-Cycle_Page_1-1187x1536.jpg.webp 1187w, https://www.rebound-tech.com/wp-content/uploads/2024/01/FPS-Cycle_Page_1-1583x2048.jpg.webp 1583w, https://www.rebound-tech.com/wp-content/uploads/2024/01/FPS-Cycle_Page_1.jpg.webp 1904w"
+                                                                            srcset="/rebound_technology/static/src/images/FPS-Cycle_Page_1-791x1024.jpg.webp 791w, /rebound_technology/static/src/images/FPS-Cycle_Page_1-232x300.jpg.webp 232w, /rebound_technology/static/src/images/FPS-Cycle_Page_1-768x994.jpg.webp 768w, /rebound_technology/static/src/images/FPS-Cycle_Page_1-1187x1536.jpg.webp 1187w, https://www.rebound-tech.com/wp-content/uploads/2024/01/FPS-Cycle_Page_1-1583x2048.jpg.webp 1583w, /rebound_technology/static/src/images/FPS-Cycle_Page_1.jpg.webp 1904w"
                                                                             sizes="100vw"/>
                                                                     <img loading="lazy" decoding="async" width="525"
                                                                          height="680"
-                                                                         src="https://www.rebound-tech.com/wp-content/uploads/2024/01/FPS-Cycle_Page_1-791x1024.jpg"
+                                                                         src="/rebound_technology/static/src/images/FPS-Cycle_Page_1-791x1024.jpg"
                                                                          alt=""
-                                                                         srcset="https://www.rebound-tech.com/wp-content/uploads/2024/01/FPS-Cycle_Page_1-791x1024.jpg 791w, https://www.rebound-tech.com/wp-content/uploads/2024/01/FPS-Cycle_Page_1-232x300.jpg 232w, https://www.rebound-tech.com/wp-content/uploads/2024/01/FPS-Cycle_Page_1-768x994.jpg 768w, https://www.rebound-tech.com/wp-content/uploads/2024/01/FPS-Cycle_Page_1-1187x1536.jpg 1187w, https://www.rebound-tech.com/wp-content/uploads/2024/01/FPS-Cycle_Page_1-1583x2048.jpg 1583w, https://www.rebound-tech.com/wp-content/uploads/2024/01/FPS-Cycle_Page_1.jpg 1904w"
+                                                                         srcset="/rebound_technology/static/src/images/FPS-Cycle_Page_1-791x1024.jpg 791w, /rebound_technology/static/src/images/FPS-Cycle_Page_1-232x300.jpg 232w, /rebound_technology/static/src/images/FPS-Cycle_Page_1-768x994.jpg 768w, /rebound_technology/static/src/images/FPS-Cycle_Page_1-1187x1536.jpg 1187w, /rebound_technology/static/src/images/FPS-Cycle_Page_1-1583x2048.jpg 1583w, /rebound_technology/static/src/images/FPS-Cycle_Page_1.jpg 1904w"
                                                                          sizes="100vw"/>
                                                                 </picture>
                                                             </a>
@@ -2500,13 +2141,13 @@
                                                                 <picture loading="lazy" decoding="async"
                                                                          class="attachment-large size-large wp-image-3450">
                                                                     <source type="image/webp"
-                                                                            srcset="https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1-791x1024.jpg.webp 791w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1-232x300.jpg.webp 232w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1-768x994.jpg.webp 768w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1-1187x1536.jpg.webp 1187w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1-1583x2048.jpg.webp 1583w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1.jpg.webp 1879w"
+                                                                            srcset="/rebound_technology/static/src/images/Energy-Storage_Page_1-791x1024.jpg.webp 791w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1-232x300.jpg.webp 232w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1-768x994.jpg.webp 768w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1-1187x1536.jpg.webp 1187w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1-1583x2048.jpg.webp 1583w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1.jpg.webp 1879w"
                                                                             sizes="100vw"/>
                                                                     <img loading="lazy" decoding="async" width="525"
                                                                          height="680"
-                                                                         src="https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1-791x1024.jpg"
+                                                                         src="/rebound_technology/static/src/images/Energy-Storage_Page_1-791x1024.jpg"
                                                                          alt=""
-                                                                         srcset="https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1-791x1024.jpg 791w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1-232x300.jpg 232w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1-768x994.jpg 768w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1-1187x1536.jpg 1187w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1-1583x2048.jpg 1583w, https://www.rebound-tech.com/wp-content/uploads/2024/01/Energy-Storage_Page_1.jpg 1879w"
+                                                                         srcset="/rebound_technology/static/src/images/Energy-Storage_Page_1-791x1024.jpg 791w, /rebound_technology/static/src/images/Energy-Storage_Page_1-232x300.jpg 232w, /rebound_technology/static/src/images/Energy-Storage_Page_1-768x994.jpg 768w, /rebound_technology/static/src/images/Energy-Storage_Page_1-1187x1536.jpg 1187w, /rebound_technology/static/src/images/Energy-Storage_Page_1-1583x2048.jpg 1583w, /rebound_technology/static/src/images/Energy-Storage_Page_1.jpg 1879w"
                                                                          sizes="100vw"/>
                                                                 </picture>
                                                             </a>

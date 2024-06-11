@@ -9,11 +9,11 @@
                     html.className.replace(/\bno-js\b/,'js')})(document.documentElement);
                 </script>
                 <title>Technology &#8211; Rebound Technologies</title>
-                <!--                <style>-->
-                <!--                    #wrapwrap {-->
-                <!--                        overflow-x: hidden !important;-->
-                <!--                    }-->
-                <!--                </style>-->
+                                <style>
+                                    #wrapwrap {
+                                        overflow-x: hidden !important;
+                                    }
+                                </style>
                 <link rel='stylesheet' id='elementor-post-3021-css'
                       href='https://www.rebound-tech.com/wp-content/uploads/elementor/css/post-3021.css?ver=1716338079'
                       type='text/css' media='all'/>
@@ -1619,7 +1619,7 @@
                                          data-id="e0e357e" data-element_type="widget" data-widget_type="image.default">
                                         <div class="elementor-widget-container custom-set">
                                             <img decoding="async" width="180" height="180"
-                                                 src="https://www.rebound-tech.com/wp-content/uploads/2021/05/rebound_icons-09-slim-stroke.svg"
+                                                 src="/rebound_technology/static/src/images/rebound_icons-09-slim-stroke.svg"
                                                  class="attachment-large size-large wp-image-1878" alt="Speed Icon"
                                                  sizes="100vw"/>
                                         </div>
@@ -1650,7 +1650,7 @@
                                          data-id="e9e2837" data-element_type="widget" data-widget_type="image.default">
                                         <div class="elementor-widget-container custom-set">
                                             <img decoding="async" width="180" height="180"
-                                                 src="https://www.rebound-tech.com/wp-content/uploads/2021/05/rebound_icons-06-slim-stroke.svg"
+                                                 src="/rebound_technology/static/src/images/rebound_icons-06-slim-stroke.svg"
                                                  class="attachment-large size-large wp-image-1879" alt=""
                                                  sizes="100vw"/>
                                         </div>
@@ -1682,7 +1682,7 @@
                                          data-id="09bf229" data-element_type="widget" data-widget_type="image.default">
                                         <div class="elementor-widget-container custom-set">
                                             <img loading="lazy" decoding="async" width="184" height="180"
-                                                 src="https://www.rebound-tech.com/wp-content/uploads/2019/09/rebound_safety_icon.svg"
+                                                 src="/rebound_technology/static/src/images/rebound_safety_icon.svg"
                                                  class="attachment-large size-large wp-image-1323" alt="Saftey"
                                                  sizes="100vw"/>
                                         </div>
@@ -1764,7 +1764,7 @@
                                                          data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
                                                             <img loading="lazy" decoding="async" width="75" height="68"
-                                                                 src="https://www.rebound-tech.com/wp-content/uploads/2019/09/warehouse2.svg"
+                                                                 src="/rebound_technology/static/src/images/warehouse2.svg"
                                                                  class="attachment-large size-large wp-image-1202"
                                                                  alt=""
                                                                  sizes="100vw"/>
@@ -1809,10 +1809,10 @@
                                                         <div class="elementor-widget-container">
                                                             <img loading="lazy" decoding="async" width="525"
                                                                  height="464"
-                                                                 src="https://www.rebound-tech.com/wp-content/uploads/2023/03/light-fish-1024x905.png"
+                                                                 src="/rebound_technology/static/src/images/light-fish-1024x905.png"
                                                                  class="attachment-large size-large wp-image-2298"
                                                                  alt="Food Processing"
-                                                                 srcset="https://www.rebound-tech.com/wp-content/uploads/2023/03/light-fish-1024x905.png 1024w, https://www.rebound-tech.com/wp-content/uploads/2023/03/light-fish-300x265.png 300w, https://www.rebound-tech.com/wp-content/uploads/2023/03/light-fish-768x679.png 768w, https://www.rebound-tech.com/wp-content/uploads/2023/03/light-fish-1536x1358.png 1536w, https://www.rebound-tech.com/wp-content/uploads/2023/03/light-fish-2048x1811.png 2048w"
+                                                                 srcset="/rebound_technology/static/src/images/light-fish-1024x905.png 1024w, /rebound_technology/static/src/images/light-fish-300x265.png 300w, https://www.rebound-tech.com/wp-content/uploads/2023/03/light-fish-768x679.png 768w, /rebound_technology/static/src/images/light-fish-1536x1358.png 1536w, /rebound_technology/static/src/images/light-fish-2048x1811.png 2048w"
                                                                  sizes="100vw"/>
                                                         </div>
                                                     </div>

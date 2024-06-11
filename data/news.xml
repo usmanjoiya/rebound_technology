@@ -10,11 +10,11 @@
                     html.className.replace(/\bno-js\b/,'js')})(document.documentElement);
                 </script>
                 <title>Technology &#8211; Rebound Technologies</title>
-                <!--                <style>-->
-                <!--                    #wrapwrap {-->
-                <!--                        overflow-x: hidden !important;-->
-                <!--                    }-->
-                <!--                </style>-->
+                                <style>
+                                    #wrapwrap {
+                                        overflow-x: hidden !important;
+                                    }
+                                </style>
                 <link rel='stylesheet' id='elementor-post-8-css'
                       href='/rebound_technology/static/src/css/post-8.css?ver=1716338092'
                       type='text/css' media='all'/>
@@ -1292,12 +1292,12 @@
                                                 <picture decoding="async"
                                                          class="attachment-large size-large wp-image-3190">
                                                     <source type="image/webp"
-                                                            srcset="https://www.rebound-tech.com/wp-content/uploads/2023/05/News-–-Rebound-Technologies.png.webp 121w, https://www.rebound-tech.com/wp-content/uploads/2023/05/News-–-Rebound-Technologies-100x100.png.webp 100w"
+                                                            srcset="/rebound_technology/static/src/images/News-–-Rebound-Technologies.png.webp 121w, /rebound_technology/static/src/images/News-–-Rebound-Technologies-100x100.png.webp 100w"
                                                             sizes="100vw"/>
                                                     <img decoding="async" width="121" height="121"
-                                                         src="https://www.rebound-tech.com/wp-content/uploads/2023/05/News-–-Rebound-Technologies.png"
+                                                         src="/rebound_technology/static/src/images/News-–-Rebound-Technologies.png"
                                                          alt=""
-                                                         srcset="https://www.rebound-tech.com/wp-content/uploads/2023/05/News-–-Rebound-Technologies.png 121w, https://www.rebound-tech.com/wp-content/uploads/2023/05/News-–-Rebound-Technologies-100x100.png 100w"
+                                                         srcset="/rebound_technology/static/src/images/News-–-Rebound-Technologies.png 121w, /rebound_technology/static/src/images/News-–-Rebound-Technologies-100x100.png 100w"
                                                          sizes="100vw"/>
                                                 </picture>
                                             </a>
