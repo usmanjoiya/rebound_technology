@@ -3,11 +3,21 @@
 from odoo import models, fields, api
 
 
-class rebound_technology(models.Model):
+class ReboundTechnologyNews(models.Model):
     _name = 'rebound_technology.news'
-    _description = 'rebound_technology.news'
+    _description = 'Rebound Technology News'
 
-    name = fields.Char()
-    news_type =fields.Selection([('content','Content'), ('link', 'Link')], required=1, string="News Type")
+    name = fields.Char(required=True)
+    news_type = fields.Selection([
+        ('content', 'Content'),
+        ('link', 'Link')
+    ], required=True, string="News Type", default='link')
+    link = fields.Text()
     description = fields.Text()
 
+    @api.onchange('news_type')
+    def _onchange_news_type(self):
+        if self.news_type == 'link':
+            self.description = False
+        elif self.news_type == 'content':
+            self.link = False
