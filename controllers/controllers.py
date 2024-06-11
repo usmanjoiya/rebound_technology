@@ -36,11 +36,12 @@ class ReboundTech(http.Controller):
         }
         return http.request.render('rebound_technology.news', data)
 
-    @http.route('/sub_news/<int:news_post>/<string:news_post_title>', auth='public', website=True)
-    def sub_news_func(self, news_post, news_post_title, **kw):
-        news = request.env['rebound_technology.news'].search([("id", '=', news_post)])
+    @http.route('/news/<string:news_post_title>', auth='public', website=True)
+    def sub_news_func(self, news_post_title, **kw):
+        news = request.env['rebound_technology.news'].search([("name", '=', news_post_title), ('news_type', '=', 'content')])
         data = {
-            'news_content': news.description
+            'news_content': news.description,
+            'title': news.name
         }
         return http.request.render('rebound_technology.sub_news', data)
 

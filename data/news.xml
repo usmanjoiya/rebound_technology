@@ -814,7 +814,7 @@
                                                                 <div class="uael-post-wrapper   news ">
                                                                 <div class="uael-post__bg-wrap">
 
-                                                                    <a  t-attf-href="/sub_news/{{news['id']}}/{{news['title']}}"
+                                                                    <a  t-attf-href="/news/{{news['title']}}"
                                                                        target="_self" class="uael-post__complete-box-overlay"
                                                                        aria-label="Link Complete Box"></a>
 

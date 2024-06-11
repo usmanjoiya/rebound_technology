@@ -717,8 +717,7 @@
                                             .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading
                                             .elementor-heading-title.elementor-size-xxl{font-size:59px}
                                         </style>
-                                        <h1 class="elementor-heading-title elementor-size-default">Rebound Featured in
-                                            Science Magazine
+                                        <h1 class="elementor-heading-title elementor-size-default"><t t-esc="title"/>
                                         </h1>
                                     </div>
                                 </div>
