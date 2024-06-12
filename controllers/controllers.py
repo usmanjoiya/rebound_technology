@@ -48,3 +48,14 @@ class ReboundTech(http.Controller):
     @http.route('/contact_us', auth='public', website=True)
     def contact_us_func(self, **kw):
         return http.request.render('rebound_technology.contact_us')
+
+    @http.route('/contact/form', auth='public', type='http', website=True, csrf=False)
+    def email_contact_form(self, **kw):
+        form_data = kw
+        crm_rec = request.env['crm.lead'].sudo().create({
+            'name': form_data['name'],
+            'email_from': form_data['email'],
+            'phone': form_data['phone'],
+            'description': form_data['massage'],
+            'type': 'opportunity'
+        })

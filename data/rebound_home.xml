@@ -2221,7 +2221,27 @@
                                                         <p role="status" aria-live="polite" aria-atomic="true"></p>
                                                         <ul></ul>
                                                     </div>
-                                                    <form action="/#wpcf7-f42-p3021-o1" method="post"
+                                                     <script>
+                <![CDATA[
+                    function submitForm() {
+                        const formData = new FormData();
+                        formData.append('name', document.getElementById('name1').value);
+                        formData.append('email', document.getElementById('email1').value);
+                        formData.append('phone', document.getElementById('phone1').value);
+                        formData.append('massage', document.getElementById('massage1').value);
+                            console.log(formData);
+                        $.ajax({
+                            type: "POST",
+                            url: '/contact/form',
+                            contentType: false,
+                            processData:false,
+                            data: formData,
+                            });
+                    }
+               ]]>
+           </script>
+
+                                                    <form action="/website/form/" method="post"
                                                           class="wpcf7-form init" aria-label="Contact form"
                                                           novalidate="novalidate" data-status="init">
                                                         <div style="display: none;">
@@ -2241,7 +2261,8 @@
                                                             <p>
                                                                 <label>Name</label>
                                                                 <span class="wpcf7-form-control-wrap" data-name="fname">
-                                                                    <input size="40"
+                                                                    <input id="name1"
+                                                                            size="40"
                                                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
                                                                            aria-required="true" aria-invalid="false"
                                                                            placeholder="John Doe" value="" type="text"
@@ -2253,7 +2274,8 @@
                                                             <p>
                                                                 <label>Email</label>
                                                                 <span class="wpcf7-form-control-wrap" data-name="email">
-                                                                    <input size="40"
+                                                                    <input id="email1"
+                                                                            size="40"
                                                                            class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email form-control"
                                                                            aria-required="true" aria-invalid="false"
                                                                            placeholder="john.doe@companyemail.com"
@@ -2266,7 +2288,8 @@
                                                             <p>
                                                                 <label>Phone</label>
                                                                 <span class="wpcf7-form-control-wrap" data-name="phone">
-                                                                    <input size="40"
+                                                                    <input id="phone1"
+                                                                            size="40"
                                                                            class="wpcf7-form-control wpcf7-tel wpcf7-text wpcf7-validates-as-tel form-control"
                                                                            aria-invalid="false"
                                                                            placeholder="+1 234 567-8900" value=""
@@ -2279,7 +2302,8 @@
                                                             <p>
                                                                 <label>Message</label>
                                                                 <span class="wpcf7-form-control-wrap" data-name="msg">
-                                                                    <textarea cols="40" rows="10"
+                                                                    <textarea id="massage1"
+                                                                            cols="40" rows="10"
                                                                               class="wpcf7-form-control wpcf7-textarea form-control"
                                                                               aria-invalid="false"
                                                                               placeholder="I need to know more about how Rebound can help my company."
