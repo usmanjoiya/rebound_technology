@@ -1051,19 +1051,19 @@
                                         <ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
                                             <li class="elementor-icon-list-item elementor-repeater-item-64a46bb elementor-inline-item"
                                                 itemprop="datePublished">
-                                                <a href="https://www.rebound-tech.com/2023/04/14/">
+<!--                                                <a href="https://www.rebound-tech.com/2023/04/14/">-->
                                                     <span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-date">
-                                                        <time>April 14, 2023</time>
+                                                        <time><t t-esc="date"/> </time>
                                                     </span>
-                                                </a>
+<!--                                                </a>-->
                                             </li>
                                             <li class="elementor-icon-list-item elementor-repeater-item-5bdecfd elementor-inline-item"
                                                 itemprop="author">
-                                                <a href="https://www.rebound-tech.com/author/kimsoo-como/">
+<!--                                                <a href="https://www.rebound-tech.com/author/kimsoo-como/">-->
                                                     <span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-author">
-                                                        Kimsoo Como
+                                                        <t t-esc="creator"/>
                                                     </span>
-                                                </a>
+<!--                                                </a>-->
                                             </li>
                                         </ul>
                                     </div>

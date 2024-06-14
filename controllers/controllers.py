@@ -24,12 +24,14 @@ class ReboundTech(http.Controller):
     def news_func(self, **kw):
         news_data = []
         recs = request.env['rebound_technology.news'].sudo().search([])
-        for rec in recs:
+        sorted_recs = sorted(recs, key=lambda rec: rec.sequence)
+        for rec in sorted_recs:
             news_data.append({
                 'id': rec.id,
                 'title': rec.name,
+                'date': [rec.date.strftime('%d'), rec.date.strftime('%b').upper()],
                 'link': rec.link or False,
-                'description': rec.description or False
+                'description': rec.description or False,
             })
         data = {
             'all_news': news_data
@@ -41,7 +43,9 @@ class ReboundTech(http.Controller):
         news = request.env['rebound_technology.news'].sudo().search([("name", '=', news_post_title), ('news_type', '=', 'content')])
         data = {
             'news_content': news.description,
-            'title': news.name
+            'title': news.name,
+            'creator': news.create_uid.name,
+            'date': news.date.strftime('%B %d, %Y')
         }
         return http.request.render('rebound_technology.sub_news', data)
 
