@@ -5,7 +5,9 @@
       <field name="model">rebound_technology.news</field>
       <field name="arch" type="xml">
         <tree>
+            <field name="sequence" widget="handle"/>
           <field name="name" string="Title"/>
+          <field name="date" string="Date"/>
           <field name="news_type"/>
           <field name="link" string="Link"/>
         </tree>
@@ -19,6 +21,7 @@
         <form>
             <group>
                 <field name="name" string="Title"/>
+                <field name="date" string="Date"/>
                 <field name="news_type" string="News Type"/>
                 <field name="link" string="Link" invisible="news_type == 'content'"/>
                 <field name="description" string="Description" invisible="news_type == 'link'"/>

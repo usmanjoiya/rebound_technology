@@ -8,6 +8,8 @@ class ReboundTechnologyNews(models.Model):
     _description = 'Rebound Technology News'
 
     name = fields.Char(required=True)
+    sequence = fields.Integer(default=10)
+    date = fields.Date(required=True)
     news_type = fields.Selection([
         ('content', 'Content'),
         ('link', 'Link')
