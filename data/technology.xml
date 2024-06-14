@@ -16,8 +16,8 @@
                     }
                 </style>
                 <link rel="preload" as="image"
-                      href="https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png"
-                      imagesrcset="https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 800w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-300x300.png 300w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-150x150.png 150w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-768x768.png 768w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-100x100.png 100w"
+                      href="/rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png"
+                      imagesrcset="/rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 800w, /rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 300w, /rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 150w, /rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 768w, /rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 100w"
                       imagesizes="100vw" fetchpriority="high"/>
                 <meta name='robots' content='max-image-preview:large'/>
                 <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
@@ -479,7 +479,7 @@
                 <link rel="alternate" type="text/xml+oembed"
                       href="https://www.rebound-tech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.rebound-tech.com%2Ftechnology%2F&#038;format=xml"/>
                 <!-- Custom Favicons -->
-                <link rel="shortcut icon" href="https://www.rebound-tech.com/wp-content/themes/rebound/favicon.ico"/>
+                <link rel="shortcut icon" href="/rebound_technology/static/src/images/favicon.ico"/>
                 <meta name="generator"
                       content="Elementor 3.21.6; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"/>
                 <style type="text/css">.recentcomments a {
@@ -1201,12 +1201,12 @@
                                             <picture fetchpriority="high" decoding="async"
                                                      class="attachment-full size-full wp-image-2803">
                                                 <source type="image/webp"
-                                                        srcset="https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png.webp 800w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-300x300.png.webp 300w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-150x150.png.webp 150w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-768x768.png.webp 768w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-100x100.png.webp 100w"
+                                                        srcset="/rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 800w, /rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 300w, /rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 150w, /rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 768w, /rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 100w"
                                                         sizes="100vw"/>
                                                 <img fetchpriority="high" decoding="async" width="800" height="800"
                                                      src="/rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png"
                                                      alt="Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology"
-                                                     srcset="/rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 800w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-300x300.png 300w, /rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-150x150.png 150w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-768x768.png 768w, /rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-100x100.png 100w"
+                                                     srcset="/rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 800w, /rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 300w, /rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-150x150.png 150w, /rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 768w, /rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 100w"
                                                      sizes="100vw"/>
                                             </picture>
                                         </div>
@@ -1407,7 +1407,7 @@
 
 
                     <!--                    accor_tab start-->
-                    <section style="background-color: #06003F;color: white;">
+                    <section style="background-color: #000043;color: white;">
                         <div class="main">
                             <h1 style="padding-left: 30px;">How It Works</h1>
                             <div class="tags_nav" style="padding-left: 30px">

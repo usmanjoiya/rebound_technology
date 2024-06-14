@@ -236,7 +236,7 @@
                 <link rel="alternate" type="text/xml+oembed"
                       href="https://www.rebound-tech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.rebound-tech.com%2Fteam%2F&#038;format=xml"/>
                 <!-- Custom Favicons -->
-                <link rel="shortcut icon" href="https://www.rebound-tech.com/wp-content/themes/rebound/favicon.ico"/>
+                <link rel="shortcut icon" href="/rebound_technology/static/src/images/favicon.ico"/>
                 <meta name="generator"
                       content="Elementor 3.21.6; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"/>
                 <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0
@@ -2095,10 +2095,10 @@
                     #rs-demo-id {}
                 </style>
                 <script type="text/javascript"
-                        src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/js/rbtools.min.js?ver=6.7.1"
+                        src="/rebound_technology/static/src/js/rbtools.min.js?ver=6.7.1"
                         id="tp-tools-js"></script>
                 <script type="text/javascript"
-                        src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/js/rs6.min.js?ver=6.7.1"
+                        src="/rebound_technology/static/src/js/rs6.min.js?ver=6.7.1"
                 ></script>
                 <script type="text/javascript" id="rocket-browser-checker-js-after">
                     /* <![CDATA[ */
@@ -2118,10 +2118,10 @@ var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$
 /* ]]> */
                 </script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/page-links-to/dist/new-tab.js?ver=3.3.7"
+                        src="/rebound_technology/static/src/js/new-tab.js?ver=3.3.7"
                         id="page-links-to-js"></script>
                 <script type="text/javascript"
-                        src="https://www.google.com/recaptcha/api.js?render=6Lc0GnIaAAAAABlmtAY9dALVxjSn2VS5EPZ0xybE&amp;ver=3.0"
+                        src="/rebound_technology/static/src/js/api.js?render=6Lc0GnIaAAAAABlmtAY9dALVxjSn2VS5EPZ0xybE&amp;ver=3.0"
                         id="google-recaptcha-js"></script>
                 <script type="text/javascript"
                         src="/rebound_technology/static/src/js/wp-polyfill-inert.min.js?ver=3.1.2"
@@ -2151,13 +2151,13 @@ var wpcf7_recaptcha = {"sitekey":"6Lc0GnIaAAAAABlmtAY9dALVxjSn2VS5EPZ0xybE","act
                         src="/rebound_technology/static/src/js/make-column-clickable.js?ver=1.4.0"
                         id="make-column-clickable-elementor-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0"
+                        src="/rebound_technology/static/src/js/imagesloaded.min.js?ver=5.0.0"
                         id="imagesloaded-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/ultimate-elementor/assets/lib/slick/slick.min.js?ver=1.36.31"
+                        src="/rebound_technology/static/src/js/slick.min.js?ver=1.36.31"
                         id="uael-slick-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/ultimate-elementor/assets/lib/isotope/isotope.min.js?ver=1.36.31"
+                        src="/rebound_technology/static/src/js/isotope.min.js?ver=1.36.31"
                         id="uael-isotope-js"></script>
                 <script type="text/javascript" id="uael-posts-js-extra">
                     /* <![CDATA[ */
@@ -2165,13 +2165,13 @@ var uael_posts_script = {"ajax_url":"https:\/\/www.rebound-tech.com\/wp-admin\/a
 /* ]]> */
                 </script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/ultimate-elementor/assets/min-js/uael-posts.min.js?ver=1.36.31"
+                        src="/rebound_technology/static/src/js/uael-posts.min.js?ver=1.36.31"
                         id="uael-posts-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/ultimate-elementor/assets/lib/jquery-element-resize/jquery_resize.min.js?ver=1.36.31"
+                        src="/rebound_technology/static/src/js/jquery_resize.min.js?ver=1.36.31"
                         id="uael-element-resize-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.21.3"
+                        src="/rebound_technology/static/src/js/webpack-pro.runtime.min.js?ver=3.21.3"
                         id="elementor-pro-webpack-runtime-js"></script>
                 <script type="text/javascript"
                         src="/rebound_technology/static/src/js/webpack.runtime.min.js?ver=3.21.6"
@@ -2196,10 +2196,10 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.rebound-tech.com\/wp-
 /* ]]> */
                 </script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.21.3"
+                        src="/rebound_technology/static/src/js/frontend.min.js?ver=3.21.3"
                         id="elementor-pro-frontend-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+                        src="/rebound_technology/static/src/js/waypoints.min.js?ver=4.0.2"
                         id="elementor-waypoints-js"></script>
                 <script type="text/javascript"
                         src="/rebound_technology/static/src/js/core.min.js?ver=1.13.2"
@@ -2275,10 +2275,10 @@ window.scope_array = [];
 /* ]]> */
                 </script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.21.3"
+                        src="/rebound_technology/static/src/js/elements-handlers.min.js?ver=3.21.3"
                         id="pro-elements-handlers-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.21.3"
+                        src="/rebound_technology/static/src/js/jquery.sticky.min.js?ver=3.21.3"
                         id="e-sticky-js"></script>
 
             </body>

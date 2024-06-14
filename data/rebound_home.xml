@@ -18,8 +18,8 @@
                       href='https://www.rebound-tech.com/wp-content/uploads/elementor/css/post-3021.css?ver=1716338079'
                       type='text/css' media='all'/>
                 <link rel="preload" as="image"
-                      href="https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png"
-                      imagesrcset="https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 800w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-300x300.png 300w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-150x150.png 150w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-768x768.png 768w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-100x100.png 100w"
+                      href="/rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png"
+                      imagesrcset="/rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 800w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-300x300.png 300w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-150x150.png 150w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-768x768.png 768w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-100x100.png 100w"
                       imagesizes="100vw" fetchpriority="high"/>
                 <meta name='robots' content='max-image-preview:large'/>
                 <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
@@ -468,7 +468,7 @@
                 <link rel="alternate" type="text/xml+oembed"
                       href="https://www.rebound-tech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.rebound-tech.com%2Ftechnology%2F&#038;format=xml"/>
                 <!-- Custom Favicons -->
-                <link rel="shortcut icon" href="https://www.rebound-tech.com/wp-content/themes/rebound/favicon.ico"/>
+                <link rel="shortcut icon" href="/rebound_technology/static/src/images/favicon.ico"/>
                 <meta name="generator"
                       content="Elementor 3.21.6; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"/>
                 <style type="text/css">.recentcomments a {
@@ -2076,133 +2076,15 @@
                                                 color: var(--caption-color);
                                                 margin-top: var(--caption-margin-top);
                                                 text-align: var(--caption-text-align)
-                                            }</style><div class="e-lottie__container"><div
-                                                class="e-lottie__animation"><svg xmlns="http://www.w3.org/2000/svg"
-                                                                                 viewBox="0 0 200 300" width="200"
-                                                                                 height="300"
-                                                                                 preserveAspectRatio="xMidYMid meet"
-                                                                                 style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);"><defs><clipPath
-                                                id="__lottie_element_2"><rect width="200" height="300" x="0"
-                                                                              y="0"></rect></clipPath><filter
-                                                id="__lottie_element_7" filterUnits="objectBoundingBox" x="0%" y="0%"
-                                                width="100%" height="100%"><feComponentTransfer
-                                                in="SourceGraphic"><feFuncA type="table"
-                                                                            tableValues="1.0 0.0"></feFuncA></feComponentTransfer></filter><mask
-                                                id="__lottie_element_6" mask-type="alpha"><g
-                                                filter="url(#__lottie_element_7)"><rect width="200" height="300" x="0"
-                                                                                        y="0" fill="#ffffff"
-                                                                                        opacity="0"></rect><g
-                                                transform="matrix(1.2300000190734863,0,0,1.2300000190734863,236.1652374267578,154.88075256347656)"
-                                                opacity="1" style="display: block;"><g opacity="1"
-                                                                                       transform="matrix(1,0,0,1,-151.19900512695312,-85.1989974975586)"><path
-                                                fill="rgb(255,255,255)" fill-opacity="1"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path><path
-                                                stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
-                                                stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1"
-                                                stroke-width="2"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path></g></g></g></mask><filter
-                                                id="__lottie_element_14" filterUnits="objectBoundingBox" x="0%" y="0%"
-                                                width="100%" height="100%"><feComponentTransfer
-                                                in="SourceGraphic"><feFuncA type="table"
-                                                                            tableValues="1.0 0.0"></feFuncA></feComponentTransfer></filter><mask
-                                                id="__lottie_element_13" mask-type="alpha"><g
-                                                filter="url(#__lottie_element_14)"><rect width="200" height="300" x="0"
-                                                                                         y="0" fill="#ffffff"
-                                                                                         opacity="0"></rect><g
-                                                transform="matrix(1.2300000190734863,0,0,1.2300000190734863,236.1652374267578,254.6647491455078)"
-                                                opacity="1" style="display: block;"><g opacity="1"
-                                                                                       transform="matrix(1,0,0,1,-151.19900512695312,-85.1989974975586)"><path
-                                                fill="rgb(255,255,255)" fill-opacity="1"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path><path
-                                                stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
-                                                stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1"
-                                                stroke-width="2"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path></g></g></g></mask><filter
-                                                id="__lottie_element_21" filterUnits="objectBoundingBox" x="0%" y="0%"
-                                                width="100%" height="100%"><feComponentTransfer
-                                                in="SourceGraphic"><feFuncA type="table"
-                                                                            tableValues="1.0 0.0"></feFuncA></feComponentTransfer></filter><mask
-                                                id="__lottie_element_20" mask-type="alpha"><g
-                                                filter="url(#__lottie_element_21)"><rect width="200" height="300" x="0"
-                                                                                         y="0" fill="#ffffff"
-                                                                                         opacity="0"></rect><g
-                                                transform="matrix(1.2300000190734863,0,0,1.2300000190734863,236.1652374267578,354.5257568359375)"
-                                                opacity="1" style="display: block;"><g opacity="1"
-                                                                                       transform="matrix(1,0,0,1,-151.19900512695312,-85.1989974975586)"><path
-                                                fill="rgb(255,255,255)" fill-opacity="1"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path><path
-                                                stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
-                                                stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1"
-                                                stroke-width="2"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path></g></g></g></mask><filter
-                                                id="__lottie_element_28" filterUnits="objectBoundingBox" x="0%" y="0%"
-                                                width="100%" height="100%"><feComponentTransfer
-                                                in="SourceGraphic"><feFuncA type="table"
-                                                                            tableValues="1.0 0.0"></feFuncA></feComponentTransfer></filter><mask
-                                                id="__lottie_element_27" mask-type="alpha"><g
-                                                filter="url(#__lottie_element_28)"><rect width="200" height="300" x="0"
-                                                                                         y="0" fill="#ffffff"
-                                                                                         opacity="0"></rect><g
-                                                transform="matrix(1.2300000190734863,0,0,1.2300000190734863,335.87225341796875,333.64373779296875)"
-                                                opacity="1" style="display: block;"><g opacity="1"
-                                                                                       transform="matrix(1,0,0,1,-151.19900512695312,-85.1989974975586)"><path
-                                                fill="rgb(255,255,255)" fill-opacity="1"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path><path
-                                                stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
-                                                stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1"
-                                                stroke-width="2"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path></g></g></g></mask></defs><g
-                                                clip-path="url(#__lottie_element_2)"><g mask="url(#__lottie_element_27)"
-                                                                                        style="display: none;"><g
-                                                transform="matrix(1.2300000190734863,0,0,1.2300000190734863,335.87225341796875,354.5257568359375)"
-                                                opacity="0.11496562074654591"><g opacity="1"
-                                                                                 transform="matrix(1,0,0,1,-151.19900512695312,-85.1989974975586)"><path
-                                                fill="rgb(95,62,245)" fill-opacity="1"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path><path
-                                                stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
-                                                stroke-miterlimit="4" stroke="rgb(123,255,0)" stroke-opacity="1"
-                                                stroke-width="0"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path></g></g></g><g
-                                                mask="url(#__lottie_element_20)" style="display: none;"><g
-                                                transform="matrix(1.2300000190734863,0,0,1.2300000190734863,236.1652374267578,354.5257568359375)"
-                                                opacity="0.13895645669880424"><g opacity="1"
-                                                                                 transform="matrix(1,0,0,1,-151.19900512695312,-85.1989974975586)"><path
-                                                fill="rgb(5,2,60)" fill-opacity="1"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path><path
-                                                stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
-                                                stroke-miterlimit="4" stroke="rgb(123,255,0)" stroke-opacity="1"
-                                                stroke-width="0"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path></g></g></g><g
-                                                mask="url(#__lottie_element_13)" style="display: none;"><g
-                                                transform="matrix(1.2300000190734863,0,0,1.2300000190734863,236.1652374267578,254.6647491455078)"
-                                                opacity="0.159950276886417"><g opacity="1"
-                                                                               transform="matrix(1,0,0,1,-151.19900512695312,-85.1989974975586)"><path
-                                                fill="rgb(0,5,98)" fill-opacity="1"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path><path
-                                                stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
-                                                stroke-miterlimit="4" stroke="rgb(123,255,0)" stroke-opacity="1"
-                                                stroke-width="0"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path></g></g></g><g
-                                                mask="url(#__lottie_element_6)" style="display: block;"><g
-                                                transform="matrix(1.2300000190734863,0,0,1.2300000190734863,236.1652374267578,154.88075256347656)"
-                                                opacity="1"><g opacity="1"
-                                                               transform="matrix(1,0,0,1,-151.19900512695312,-85.1989974975586)"><path
-                                                fill="rgb(95,62,245)" fill-opacity="1"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path><path
-                                                stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
-                                                stroke-miterlimit="4" stroke="rgb(123,255,0)" stroke-opacity="1"
-                                                stroke-width="0"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path></g></g></g><g
-                                                transform="matrix(1.2300000190734863,0,0,1.2300000190734863,236.1652374267578,154.88075256347656)"
-                                                opacity="1" style="display: block;"><g opacity="1"
-                                                                                       transform="matrix(1,0,0,1,-151.19900512695312,-85.1989974975586)"><path
-                                                fill="rgb(255,255,255)" fill-opacity="1"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path><path
-                                                stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
-                                                stroke-miterlimit="4" stroke="rgb(123,255,0)" stroke-opacity="1"
-                                                stroke-width="0"
-                                                d=" M0,-40.80099868774414 C22.5180721282959,-40.80099868774414 40.80099868774414,-22.5180721282959 40.80099868774414,0 C40.80099868774414,22.5180721282959 22.5180721282959,40.80099868774414 0,40.80099868774414 C-22.5180721282959,40.80099868774414 -40.80099868774414,22.5180721282959 -40.80099868774414,0 C-40.80099868774414,-22.5180721282959 -22.5180721282959,-40.80099868774414 0,-40.80099868774414z"></path></g></g></g></svg></div><p
-                                                class="e-lottie__caption"></p></div></div>
+                                            }</style>
+                                            <div class="e-lottie__container">
+                                                <div class="e-lottie__animation">
+                                                    <img src="/rebound_technology/static/src/images/home.gif" alt=""/>
+                                                </div>
+                                                <p
+                                                class="e-lottie__caption"></p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -2222,26 +2104,34 @@
                                                         <ul></ul>
                                                     </div>
                                                      <script>
-                <![CDATA[
-                    function submitForm() {
-                        const formData = new FormData();
-                        formData.append('name', document.getElementById('name1').value);
-                        formData.append('email', document.getElementById('email1').value);
-                        formData.append('phone', document.getElementById('phone1').value);
-                        formData.append('massage', document.getElementById('massage1').value);
-                            console.log(formData);
-                        $.ajax({
-                            type: "POST",
-                            url: '/contact/form',
-                            contentType: false,
-                            processData:false,
-                            data: formData,
-                            });
-                    }
-               ]]>
-           </script>
+                                 <![CDATA[
+                                            function submitForm() {
+                                                const formData = new FormData();
+                                                formData.append('name', document.getElementById('name1').value);
+                                                formData.append('email', document.getElementById('email1').value);
+                                                formData.append('phone', document.getElementById('phone1').value);
+                                                formData.append('massage', document.getElementById('massage1').value);
+                                                console.log(formData);
 
-                                                    <form action="/website/form/" method="post"
+                                                $.ajax({
+                                                    type: "POST",
+                                                    url: '/contact/form',
+                                                    contentType: false,
+                                                    processData: false,
+                                                    data: formData,
+                                                    success: function(response) {
+                                                        window.location.href = '/';
+                                                    },
+                                                    error: function(error) {
+                                                        console.error('Form submission failed:', error);
+                                                    }
+                                                });
+                                            }
+                                            ]]>
+
+                                    </script>
+
+                                                    <form method="post"
                                                           class="wpcf7-form init" aria-label="Contact form"
                                                           novalidate="novalidate" data-status="init">
                                                         <div style="display: none;">
@@ -2327,7 +2217,7 @@
                                                             </span>
                                                             <br/>
                                                             <input class="wpcf7-form-control wpcf7-submit has-spinner btnn"
-                                                                   type="submit" value="submit"/>
+                                                                   type="submit" value="submit" onclick="submitForm()"/>
                                                         </p>
                                                         <style type="text/css">
                                                             .inner_contact .wpcf7-mail-sent-ok,

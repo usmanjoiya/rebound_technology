@@ -3,13 +3,26 @@
     <template id="sustainability">
 
         <t t-call="website.layout">
-            <head>
+
+                <head>
                 <meta charset="UTF-8"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
                 <script>(function(html){html.className =
                     html.className.replace(/\bno-js\b/,'js')})(document.documentElement);
                 </script>
-                <title>Sustainability &#8211; Rebound Technologies</title>
+                <title>Technology &#8211; Rebound Technologies</title>
+                                <style>
+                                    #wrapwrap {
+                                        overflow-x: hidden !important;
+                                    }
+                                </style>
+                <link rel='stylesheet' id='elementor-post-3021-css'
+                      href='/rebound_technology/static/src/css/post-3021.css?ver=1716338079'
+                      type='text/css' media='all'/>
+                <link rel="preload" as="image"
+                      href="/rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png"
+                      imagesrcset="/rebound_technology/static/src/images/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology.png 800w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-300x300.png 300w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-150x150.png 150w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-768x768.png 768w, https://www.rebound-tech.com/wp-content/uploads/2023/04/Optimized-Frozen-Food-Production-Operations-IcePoint-Rebound-Technology-100x100.png 100w"
+                      imagesizes="100vw" fetchpriority="high"/>
                 <meta name='robots' content='max-image-preview:large'/>
                 <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
                 <link href='https://fonts.gstatic.com' rel='preconnect'/>
@@ -20,216 +33,456 @@
                 <style id='wp-emoji-styles-inline-css' type='text/css'>
 
                     img.wp-smiley, img.emoji {
-                    display: inline !important;
-                    border: none !important;
-                    box-shadow: none !important;
-                    height: 1em !important;
-                    width: 1em !important;
-                    margin: 0 0.07em !important;
-                    vertical-align: -0.1em !important;
-                    background: none !important;
-                    padding: 0 !important;
+                        display: inline !important;
+                        border: none !important;
+                        box-shadow: none !important;
+                        height: 1em !important;
+                        width: 1em !important;
+                        margin: 0 0.07em !important;
+                        vertical-align: -0.1em !important;
+                        background: none !important;
+                        padding: 0 !important;
                     }
                 </style>
                 <style id='safe-svg-svg-icon-style-inline-css' type='text/css'>
-                    .safe-svg-cover{text-align:center}.safe-svg-cover
-                    .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover
-                    svg{height:100%;max-height:100%;max-width:100%;width:100%}
+                    .safe-svg-cover {
+                        text-align: center
+                    }
+
+                    .safe-svg-cover
+                    .safe-svg-inside {
+                        display: inline-block;
+                        max-width: 100%
+                    }
+
+                    .safe-svg-cover
+                    svg {
+                        height: 100%;
+                        max-height: 100%;
+                        max-width: 100%;
+                        width: 100%
+                    }
 
                 </style>
                 <style id='classic-theme-styles-inline-css' type='text/css'>
                     /*! This file is auto-generated */
-                    .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em
-                    + 2px) calc(1.333em +
-                    2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+                    .wp-block-button__link {
+                        color: #fff;
+                        background-color: #32373c;
+                        border-radius: 9999px;
+                        box-shadow: none;
+                        text-decoration: none;
+                        padding: calc(.667em
+                        + 2px) calc(1.333em +
+                        2px);
+                        font-size: 1.125em
+                    }
+
+                    .wp-block-file__button {
+                        background: #32373c;
+                        color: #fff;
+                        text-decoration: none
+                    }
                 </style>
                 <style id='global-styles-inline-css' type='text/css'>
-                    body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray:
-                    #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink:
-                    #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange:
-                    #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan:
-                    #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue:
-                    #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple:
-                    #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:
-                    linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224)
-                    100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:
-                    linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130)
-                    100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:
-                    linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1)
-                    100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:
-                    linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46)
-                    100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:
-                    linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195)
-                    100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220)
-                    0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76)
-                    100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236)
-                    0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux:
-                    linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62)
-                    100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112)
-                    0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean:
-                    linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181)
-                    100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128)
-                    0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129)
-                    0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium:
-                    20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large:
-                    42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30:
-                    0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60:
-                    2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80:
-                    5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep:
-                    12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0,
-                    0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0,
-                    1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap:
-                    0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body
-                    .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body
-                    .is-layout-grid{display: grid;}body .is-layout-grid > *{margin:
-                    0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap:
-                    2em;}:where(.wp-block-post-template.is-layout-flex){gap:
-                    1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color:
-                    var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color:
-                    var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color:
-                    var(--wp--preset--color--white) !important;}.has-pale-pink-color{color:
-                    var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color:
-                    var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color:
-                    var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color:
-                    var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color:
-                    var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color:
-                    var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color:
-                    var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color:
-                    var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color:
-                    var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color:
-                    var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color:
-                    var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color:
-                    var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color:
-                    var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color:
-                    var(--wp--preset--color--vivid-red)
-                    !important;}.has-luminous-vivid-orange-background-color{background-color:
-                    var(--wp--preset--color--luminous-vivid-orange)
-                    !important;}.has-luminous-vivid-amber-background-color{background-color:
-                    var(--wp--preset--color--luminous-vivid-amber)
-                    !important;}.has-light-green-cyan-background-color{background-color:
-                    var(--wp--preset--color--light-green-cyan)
-                    !important;}.has-vivid-green-cyan-background-color{background-color:
-                    var(--wp--preset--color--vivid-green-cyan)
-                    !important;}.has-pale-cyan-blue-background-color{background-color:
-                    var(--wp--preset--color--pale-cyan-blue)
-                    !important;}.has-vivid-cyan-blue-background-color{background-color:
-                    var(--wp--preset--color--vivid-cyan-blue)
-                    !important;}.has-vivid-purple-background-color{background-color:
-                    var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color:
-                    var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color:
-                    var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color:
-                    var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color:
-                    var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color:
-                    var(--wp--preset--color--vivid-red)
-                    !important;}.has-luminous-vivid-orange-border-color{border-color:
-                    var(--wp--preset--color--luminous-vivid-orange)
-                    !important;}.has-luminous-vivid-amber-border-color{border-color:
-                    var(--wp--preset--color--luminous-vivid-amber)
-                    !important;}.has-light-green-cyan-border-color{border-color:
-                    var(--wp--preset--color--light-green-cyan)
-                    !important;}.has-vivid-green-cyan-border-color{border-color:
-                    var(--wp--preset--color--vivid-green-cyan)
-                    !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue)
-                    !important;}.has-vivid-cyan-blue-border-color{border-color:
-                    var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color:
-                    var(--wp--preset--color--vivid-purple)
-                    !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background:
-                    var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple)
-                    !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background:
-                    var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan)
-                    !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background:
-                    var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange)
-                    !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background:
-                    var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red)
-                    !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background:
-                    var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray)
-                    !important;}.has-cool-to-warm-spectrum-gradient-background{background:
-                    var(--wp--preset--gradient--cool-to-warm-spectrum)
-                    !important;}.has-blush-light-purple-gradient-background{background:
-                    var(--wp--preset--gradient--blush-light-purple)
-                    !important;}.has-blush-bordeaux-gradient-background{background:
-                    var(--wp--preset--gradient--blush-bordeaux)
-                    !important;}.has-luminous-dusk-gradient-background{background:
-                    var(--wp--preset--gradient--luminous-dusk)
-                    !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean)
-                    !important;}.has-electric-grass-gradient-background{background:
-                    var(--wp--preset--gradient--electric-grass)
-                    !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight)
-                    !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small)
-                    !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium)
-                    !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large)
-                    !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-                    .wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
-                    :where(.wp-block-post-template.is-layout-flex){gap:
-                    1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
-                    :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap:
-                    2em;}
-                    .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+                    body {
+                        --wp--preset--color--black: #000000;
+                        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+                        --wp--preset--color--white: #ffffff;
+                        --wp--preset--color--pale-pink: #f78da7;
+                        --wp--preset--color--vivid-red: #cf2e2e;
+                        --wp--preset--color--luminous-vivid-orange: #ff6900;
+                        --wp--preset--color--luminous-vivid-amber: #fcb900;
+                        --wp--preset--color--light-green-cyan: #7bdcb5;
+                        --wp--preset--color--vivid-green-cyan: #00d084;
+                        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+                        --wp--preset--color--vivid-cyan-blue: #0693e3;
+                        --wp--preset--color--vivid-purple: #9b51e0;
+                        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+                        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+                        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+                        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+                        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+                        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+                        --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+                        --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+                        --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+                        --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+                        --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+                        --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+                        --wp--preset--font-size--small: 13px;
+                        --wp--preset--font-size--medium: 20px;
+                        --wp--preset--font-size--large: 36px;
+                        --wp--preset--font-size--x-large: 42px;
+                        --wp--preset--spacing--20: 0.44rem;
+                        --wp--preset--spacing--30: 0.67rem;
+                        --wp--preset--spacing--40: 1rem;
+                        --wp--preset--spacing--50: 1.5rem;
+                        --wp--preset--spacing--60: 2.25rem;
+                        --wp--preset--spacing--70: 3.38rem;
+                        --wp--preset--spacing--80: 5.06rem;
+                        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+                        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+                        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0,
+                        0.2);
+                        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0,
+                        1);
+                        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+                    }
+
+                    :where(.is-layout-flex) {
+                        gap: 0.5em;
+                    }
+
+                    :where(.is-layout-grid) {
+                        gap: 0.5em;
+                    }
+
+                    body .is-layout-flex {
+                        display: flex;
+                    }
+
+                    body
+                    .is-layout-flex {
+                        flex-wrap: wrap;
+                        align-items: center;
+                    }
+
+                    body .is-layout-flex > * {
+                        margin: 0;
+                    }
+
+                    body
+                    .is-layout-grid {
+                        display: grid;
+                    }
+
+                    body .is-layout-grid > * {
+                        margin: 0;
+                    }
+
+                    :where(.wp-block-columns.is-layout-flex) {
+                        gap: 2em;
+                    }
+
+                    :where(.wp-block-columns.is-layout-grid) {
+                        gap: 2em;
+                    }
+
+                    :where(.wp-block-post-template.is-layout-flex) {
+                        gap: 1.25em;
+                    }
+
+                    :where(.wp-block-post-template.is-layout-grid) {
+                        gap: 1.25em;
+                    }
+
+                    .has-black-color {
+                        color: var(--wp--preset--color--black) !important;
+                    }
+
+                    .has-cyan-bluish-gray-color {
+                        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+                    }
+
+                    .has-white-color {
+                        color: var(--wp--preset--color--white) !important;
+                    }
+
+                    .has-pale-pink-color {
+                        color: var(--wp--preset--color--pale-pink) !important;
+                    }
+
+                    .has-vivid-red-color {
+                        color: var(--wp--preset--color--vivid-red) !important;
+                    }
+
+                    .has-luminous-vivid-orange-color {
+                        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+                    }
+
+                    .has-luminous-vivid-amber-color {
+                        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+                    }
+
+                    .has-light-green-cyan-color {
+                        color: var(--wp--preset--color--light-green-cyan) !important;
+                    }
+
+                    .has-vivid-green-cyan-color {
+                        color: var(--wp--preset--color--vivid-green-cyan) !important;
+                    }
+
+                    .has-pale-cyan-blue-color {
+                        color: var(--wp--preset--color--pale-cyan-blue) !important;
+                    }
+
+                    .has-vivid-cyan-blue-color {
+                        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+                    }
+
+                    .has-vivid-purple-color {
+                        color: var(--wp--preset--color--vivid-purple) !important;
+                    }
+
+                    .has-black-background-color {
+                        background-color: var(--wp--preset--color--black) !important;
+                    }
+
+                    .has-cyan-bluish-gray-background-color {
+                        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+                    }
+
+                    .has-white-background-color {
+                        background-color: var(--wp--preset--color--white) !important;
+                    }
+
+                    .has-pale-pink-background-color {
+                        background-color: var(--wp--preset--color--pale-pink) !important;
+                    }
+
+                    .has-vivid-red-background-color {
+                        background-color: var(--wp--preset--color--vivid-red) !important;
+                    }
+
+                    .has-luminous-vivid-orange-background-color {
+                        background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+                    }
+
+                    .has-luminous-vivid-amber-background-color {
+                        background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+                    }
+
+                    .has-light-green-cyan-background-color {
+                        background-color: var(--wp--preset--color--light-green-cyan) !important;
+                    }
+
+                    .has-vivid-green-cyan-background-color {
+                        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+                    }
+
+                    .has-pale-cyan-blue-background-color {
+                        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+                    }
+
+                    .has-vivid-cyan-blue-background-color {
+                        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+                    }
+
+                    .has-vivid-purple-background-color {
+                        background-color: var(--wp--preset--color--vivid-purple) !important;
+                    }
+
+                    .has-black-border-color {
+                        border-color: var(--wp--preset--color--black) !important;
+                    }
+
+                    .has-cyan-bluish-gray-border-color {
+                        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+                    }
+
+                    .has-white-border-color {
+                        border-color: var(--wp--preset--color--white) !important;
+                    }
+
+                    .has-pale-pink-border-color {
+                        border-color: var(--wp--preset--color--pale-pink) !important;
+                    }
+
+                    .has-vivid-red-border-color {
+                        border-color: var(--wp--preset--color--vivid-red) !important;
+                    }
+
+                    .has-luminous-vivid-orange-border-color {
+                        border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+                    }
+
+                    .has-luminous-vivid-amber-border-color {
+                        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+                    }
+
+                    .has-light-green-cyan-border-color {
+                        border-color: var(--wp--preset--color--light-green-cyan) !important;
+                    }
+
+                    .has-vivid-green-cyan-border-color {
+                        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+                    }
+
+                    .has-pale-cyan-blue-border-color {
+                        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+                    }
+
+                    .has-vivid-cyan-blue-border-color {
+                        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+                    }
+
+                    .has-vivid-purple-border-color {
+                        border-color: var(--wp--preset--color--vivid-purple) !important;
+                    }
+
+                    .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+                        background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+                    }
+
+                    .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+                        background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+                    }
+
+                    .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+                        background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+                    }
+
+                    .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+                        background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+                    }
+
+                    .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+                        background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+                    }
+
+                    .has-cool-to-warm-spectrum-gradient-background {
+                        background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+                    }
+
+                    .has-blush-light-purple-gradient-background {
+                        background: var(--wp--preset--gradient--blush-light-purple) !important;
+                    }
+
+                    .has-blush-bordeaux-gradient-background {
+                        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+                    }
+
+                    .has-luminous-dusk-gradient-background {
+                        background: var(--wp--preset--gradient--luminous-dusk) !important;
+                    }
+
+                    .has-pale-ocean-gradient-background {
+                        background: var(--wp--preset--gradient--pale-ocean) !important;
+                    }
+
+                    .has-electric-grass-gradient-background {
+                        background: var(--wp--preset--gradient--electric-grass) !important;
+                    }
+
+                    .has-midnight-gradient-background {
+                        background: var(--wp--preset--gradient--midnight) !important;
+                    }
+
+                    .has-small-font-size {
+                        font-size: var(--wp--preset--font-size--small) !important;
+                    }
+
+                    .has-medium-font-size {
+                        font-size: var(--wp--preset--font-size--medium) !important;
+                    }
+
+                    .has-large-font-size {
+                        font-size: var(--wp--preset--font-size--large) !important;
+                    }
+
+                    .has-x-large-font-size {
+                        font-size: var(--wp--preset--font-size--x-large) !important;
+                    }
+
+                    .wp-block-navigation a:where(:not(.wp-element-button)) {
+                        color: inherit;
+                    }
+
+                    :where(.wp-block-post-template.is-layout-flex) {
+                        gap: 1.25em;
+                    }
+
+                    :where(.wp-block-post-template.is-layout-grid) {
+                        gap: 1.25em;
+                    }
+
+                    :where(.wp-block-columns.is-layout-flex) {
+                        gap: 2em;
+                    }
+
+                    :where(.wp-block-columns.is-layout-grid) {
+                        gap: 2em;
+                    }
+
+                    .wp-block-pullquote {
+                        font-size: 1.5em;
+                        line-height: 1.6;
+                    }
                 </style>
                 <link rel='stylesheet' id='twentyseventeen-fonts-css'
                       href='https://fonts.googleapis.com/css?family=Libre+Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i&#038;subset=latin%2Clatin-ext'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='twentyseventeen-style-css'
-                      href='https://www.rebound-tech.com/wp-content/themes/rebound/style.css?ver=6.5.3' type='text/css'
+                      href='/rebound_technology/static/src/css/style.css?ver=6.5.3' type='text/css'
                       media='all'/>
                 <!--[if lt IE 9]>
                 <link rel='stylesheet' id='twentyseventeen-ie8-css' href='https://www.rebound-tech.com/wp-content/themes/rebound/assets/css/ie8.css?ver=1.0' type='text/css' media='all' />
                 <![endif]-->
                 <link rel='stylesheet' id='elementor-frontend-css'
-                      href='https://www.rebound-tech.com/wp-content/uploads/elementor/css/custom-frontend-lite.min.css?ver=1716338067'
+                      href='/rebound_technology/static/src/css/custom-frontend-lite.min.css?ver=1716338067'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='swiper-css'
-                      href='https://www.rebound-tech.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5'
+                      href='/rebound_technology/static/src/css/swiper.min.css?ver=8.4.5'
+                      type='text/css' media='all'/>
+
+                <link rel='stylesheet' id='elementor-post-2335-css'
+                      href='/rebound_technology/static/src/css/post-2335.css?ver=1716338128'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='elementor-post-2133-css'
-                      href='https://www.rebound-tech.com/wp-content/uploads/elementor/css/post-2133.css?ver=1716338081'
+                      href='/rebound_technology/static/src/css/post-2133.css?ver=1716338081'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='elementor-pro-css'
-                      href='https://www.rebound-tech.com/wp-content/uploads/elementor/css/custom-pro-frontend-lite.min.css?ver=1716338067'
+                      href='/rebound_technology/static/src/css/custom-pro-frontend-lite.min.css?ver=1716338067'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='uael-frontend-css'
-                      href='https://www.rebound-tech.com/wp-content/plugins/ultimate-elementor/assets/min-css/uael-frontend.min.css?ver=1.36.31'
+                      href='/rebound_technology/static/src/css/uael-frontend.min.css?ver=1.36.31'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='elementor-global-css'
-                      href='https://www.rebound-tech.com/wp-content/uploads/elementor/css/global.css?ver=1716338087'
+                      href='/rebound_technology/static/src/css/global.css?ver=1716338087'
                       type='text/css' media='all'/>
-                <link rel='stylesheet' id='elementor-post-2335-css'
-                      href='https://www.rebound-tech.com/wp-content/uploads/elementor/css/post-2335.css?ver=1716338128'
-                      type='text/css' media='all'/>
+                <!--                new one-->
+
+            <link rel='stylesheet' id='elementor-post-8-css'
+                  href='/rebound_technology/static/src/css/post-8.css?ver=1716338092'
+                  type='text/css' media='all'/>
                 <link rel='stylesheet' id='elementor-post-2961-css'
-                      href='https://www.rebound-tech.com/wp-content/uploads/elementor/css/post-2961.css?ver=1716338079'
+                      href='/rebound_technology/static/src/css/post-2961.css?ver=1716338079'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='elementor-post-3055-css'
-                      href='https://www.rebound-tech.com/wp-content/uploads/elementor/css/post-3055.css?ver=1716338080'
+                      href='/rebound_technology/static/src/css/post-3055.css?ver=1716338080'
                       type='text/css' media='all'/>
                 <link rel='stylesheet' id='google-fonts-1-css'
                       href='https://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.5.3'
                       type='text/css' media='all'/>
                 <link rel="preconnect" href="https://fonts.gstatic.com/"/>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+                        src="/rebound_technology/static/src/js/jquery.min.js?ver=3.7.1"
                         id="jquery-core-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+                        src="/rebound_technology/static/src/js/jquery-migrate.min.js?ver=3.4.1"
                         id="jquery-migrate-js"></script>
                 <link rel="https://api.w.org/" href="https://www.rebound-tech.com/wp-json/"/>
                 <link rel="alternate" type="application/json"
-                      href="https://www.rebound-tech.com/wp-json/wp/v2/pages/2335"/>
+                      href="https://www.rebound-tech.com/wp-json/wp/v2/pages/2589"/>
                 <link rel="EditURI" type="application/rsd+xml" title="RSD"
                       href="https://www.rebound-tech.com/xmlrpc.php?rsd"/>
                 <meta name="generator" content="WordPress 6.5.3"/>
-                <link rel="canonical" href="https://www.rebound-tech.com/sustainability/"/>
-                <link rel='shortlink' href='https://www.rebound-tech.com/?p=2335'/>
+                <link rel="canonical" href="https://www.rebound-tech.com/technology/"/>
+                <link rel='shortlink' href='https://www.rebound-tech.com/?p=2589'/>
                 <link rel="alternate" type="application/json+oembed"
-                      href="https://www.rebound-tech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.rebound-tech.com%2Fsustainability%2F"/>
+                      href="https://www.rebound-tech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.rebound-tech.com%2Ftechnology%2F"/>
                 <link rel="alternate" type="text/xml+oembed"
-                      href="https://www.rebound-tech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.rebound-tech.com%2Fsustainability%2F&#038;format=xml"/>
+                      href="https://www.rebound-tech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.rebound-tech.com%2Ftechnology%2F&#038;format=xml"/>
                 <!-- Custom Favicons -->
-                <link rel="shortcut icon" href="https://www.rebound-tech.com/wp-content/themes/rebound/favicon.ico"/>
+                <link rel="shortcut icon" href="/rebound_technology/static/src/images/favicon.ico"/>
                 <meta name="generator"
                       content="Elementor 3.21.6; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"/>
-                <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0
-                    !important;}
+                <style type="text/css">.recentcomments a {
+                    display: inline !important;
+                    padding: 0 !important;
+                    margin: 0 !important;
+                }
                 </style>
                 <meta name="generator"
                       content="Powered by Slider Revolution 6.7.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."/>
@@ -296,413 +549,465 @@
                 </script>
                 <style type="text/css" id="wp-custom-css">
                     .elementor-section.elementor-section-boxed > .elementor-container {
-                    max-width: 80vw !important;
+                        max-width: 80vw !important;
                     }
 
                     /* SUBNAVIGATION */
-                    nav>ul>li>ul {
-                    display: none;
+                    nav > ul > li > ul {
+                        display: none;
                     }
 
-                    nav>ul>li:hover>ul {display: block}
-
-                    nav>ul>li>ul>li a {
-                    color: #fff !important;
-                    letter-spacing: 1px;
-                    text-decoration: none;
-                    font-size: 14px;
-                    line-height: 28px;
+                    nav > ul > li:hover > ul {
+                        display: block
                     }
 
-                    nav>ul>li>ul>li a:hover {color:#fff !important; }
-
-                    nav>ul>li>ul>li {
-                    float: none;
-                    display: block;
-                    margin: 0;
-                    border-bottom: 1px solid #6633ff !important;
+                    nav > ul > li > ul > li a {
+                        color: #fff !important;
+                        letter-spacing: 1px;
+                        text-decoration: none;
+                        font-size: 14px;
+                        line-height: 28px;
                     }
-                    nav>ul>li>ul>li:hover {
-                    border: 1px solid #5032BE !important;
-                    background-color:#0a0068 !important;
+
+                    nav > ul > li > ul > li a:hover {
+                        color: #fff !important;
                     }
-                    .sub-menu { background-color:#5032BE !important;}
 
-                    .left-sec img {float:left; width:90%;}
+                    nav > ul > li > ul > li {
+                        float: none;
+                        display: block;
+                        margin: 0;
+                        border-bottom: 1px solid #6633ff !important;
+                    }
+
+                    nav > ul > li > ul > li:hover {
+                        border: 1px solid #5032BE !important;
+                        background-color: #0a0068 !important;
+                    }
+
+                    .sub-menu {
+                        background-color: #5032BE !important;
+                    }
+
+                    .left-sec img {
+                        float: left;
+                        width: 90%;
+                    }
 
 
-                    #calculator-wrapper, .slide2anchor {display:none;}
+                    #calculator-wrapper, .slide2anchor {
+                        display: none;
+                    }
 
                     /* Home Page */
-                    .home .partner_sec {display:none;}
-
-                    .ready_sec {
-                    margin-top: 10px;
+                    .home .partner_sec {
+                        display: none;
                     }
 
-                    .benefit_title p {min-height:10px;}
+                    .ready_sec {
+                        margin-top: 10px;
+                    }
 
-                    h4.productivity-desc{
-                    color:#fff;
-                    margin-top:80px;
-                    margin-left:-50px;
-                    font-size:30px;
+                    .benefit_title p {
+                        min-height: 10px;
+                    }
+
+                    h4.productivity-desc {
+                        color: #fff;
+                        margin-top: 80px;
+                        margin-left: -50px;
+                        font-size: 30px;
                     }
 
                     /* Team Page */
 
                     .team-sub {
-                    font-size: 20px;
-                    line-height:24px !important;
+                        font-size: 20px;
+                        line-height: 24px !important;
                     }
-                    .dna {margin:50px 0;}
-                    .dna_sec {min-height:700px;}
-                    .dna_sec .down-arrow {display:none;}
-                    .dna_sec_left { width:100%; }
+
+                    .dna {
+                        margin: 50px 0;
+                    }
+
+                    .dna_sec {
+                        min-height: 700px;
+                    }
+
+                    .dna_sec .down-arrow {
+                        display: none;
+                    }
+
+                    .dna_sec_left {
+                        width: 100%;
+                    }
+
                     .dna_sec_right {
-                    display:none;
-                    width: 60%;
-                    float: left;
-                    margin-top: 40px;
+                        display: none;
+                        width: 60%;
+                        float: left;
+                        margin-top: 40px;
                     }
 
                     /* Team - People Section */
                     .sm-people-name {
-                    font-size:12px;
-                    text-align: center;
-                    color:#6633ff;
+                        font-size: 12px;
+                        text-align: center;
+                        color: #6633ff;
                     }
 
                     .people_sec_1 .people-nav .slick-list .slick-slide.slick-current img, .slick-slide img {
-                    margin: 0 auto;
-                    display: block;
+                        margin: 0 auto;
+                        display: block;
                     }
 
                     .people-nav .slick-slide:before {
-                    left: 25%;
+                        left: 25%;
                     }
 
                     ul.elementor-icon-list-items {
-                    list-style-type:none;
+                        list-style-type: none;
                     }
 
                     /* New People Section */
                     /*.people_sec_test .people_sec_1 {width: 50%;}*/
 
-                    .people_sec_test .slick-prev, .people_sec_test .slick-next {display:none !important;}
+                    .people_sec_test .slick-prev, .people_sec_test .slick-next {
+                        display: none !important;
+                    }
+
                     .people_sec_test .people_sec_main_1 {
-                    width: 54%;
-                    float: left;
+                        width: 54%;
+                        float: left;
                     }
 
                     .people_sec_test .people_sec_1 img {
-                    width: 120px;
-                    height: 120px !important;
+                        width: 120px;
+                        height: 120px !important;
                     }
+
                     .people_sec_test .person_img {
-                    max-width:120px;
-                    width:120px !important;
-                    margin-right: 5px;
+                        max-width: 120px;
+                        width: 120px !important;
+                        margin-right: 5px;
                     }
 
                     .people_sec_test .people_sec_1 .people-nav .slick-list .slick-slide.slick-current img {
-                    border: 3px solid #6633ff;
-                    border-radius: 120px;
+                        border: 3px solid #6633ff;
+                        border-radius: 120px;
                     }
 
                     .people_sec_test .people-nav .slick-slide:before {
-                    content: '';
-                    position: absolute;
-                    left: 0;
-                    right: 0;
-                    top: 0;
-                    width: 120px;
-                    height: 120px;
-                    background: rgba(140, 102, 255, 0.42);
-                    z-index: 99;
-                    border-radius: 50%;
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        top: 0;
+                        width: 120px;
+                        height: 120px;
+                        background: rgba(140, 102, 255, 0.42);
+                        z-index: 99;
+                        border-radius: 50%;
                     }
 
                     .people_sec_test .slick-track {
-                    display: grid;
-                    grid-template-columns: 33% 33% 33%;
-                    grid-template-rows: 33% 33% 33%;
-                    gap: 10px 10px;
-                    grid-template-areas:
+                        display: grid;
+                        grid-template-columns: 33% 33% 33%;
+                        grid-template-rows: 33% 33% 33%;
+                        gap: 10px 10px;
+                        grid-template-areas:
                     ". . ."
                     ". . ."
                     ". . .";
                     }
+
                     .productivity_sec {
-                    background-color: #27006b; /*#4100b2;*/
+                        background-color: #27006b; /*#4100b2;*/
                     }
 
-                    .ready_sec {margin:0;}
+                    .ready_sec {
+                        margin: 0;
+                    }
 
                     section.feature_sec h3 {
-                    color: #6633ff !important;
-                    font-size: 30px;
-                    line-height: 38px;
-                    letter-spacing: -0.08px;
-                    font-family: "Mark-Bold";
-                    padding-bottom: 25px;
+                        color: #6633ff !important;
+                        font-size: 30px;
+                        line-height: 38px;
+                        letter-spacing: -0.08px;
+                        font-family: "Mark-Bold";
+                        padding-bottom: 25px;
 
                     }
+
                     section.feature_sec p {
-                    color: #5b4f70 !important;
-                    color: #5b4f70;
-                    font-size: 20px;
-                    font-family: "Reader-Regular";
-                    line-height: 30px;
-                    letter-spacing: 0.6px;
+                        color: #5b4f70 !important;
+                        color: #5b4f70;
+                        font-size: 20px;
+                        font-family: "Reader-Regular";
+                        line-height: 30px;
+                        letter-spacing: 0.6px;
                     }
+
                     /*section.easier_sec {
                     border-bottom: solid 2px #06003F !important;
                     }*/
 
-                    .page-id-6 section.easier_sec:nth-child(odd) { background-color:#4000B0 !important;}
+                    .page-id-6 section.easier_sec:nth-child(odd) {
+                        background-color: #4000B0 !important;
+                    }
 
-                    .home .news-match img {max-width:180px;}
+                    .home .news-match img {
+                        max-width: 180px;
+                    }
 
                     /* PATENTS PAGE*/
-                    .page-id-2123 .newspost_banner {display:none;}
+                    .page-id-2123 .newspost_banner {
+                        display: none;
+                    }
 
-                    .page-id-2123 .post_sec_main {margin-top:80px;}
+                    .page-id-2123 .post_sec_main {
+                        margin-top: 80px;
+                    }
+
                     .page-id-2123 .post_sec_main .container,
                     .page-id-2123 .post_sec_main .comm_main,
-                    .page-id-2123 .post_sec_main .post_sec_1 {width:100%;}
+                    .page-id-2123 .post_sec_main .post_sec_1 {
+                        width: 100%;
+                    }
 
-                    .page-id-2123 .post_sec_main {padding:0;}
+                    .page-id-2123 .post_sec_main {
+                        padding: 0;
+                    }
 
                     /* TECH PAGE */
 
-                    .circle{ width: 880px; height: 880px; border: 200px solid #4000b0; border-radius: 50%; margin: 0
-                    auto;}
-                    .circle_tech{width:58%; position:absolute; right:0; top:0; z-index: -1; }
-                    .circle_tech{ width: 760px; height: 760px; border: 200px solid #D9CCEF; border-radius: 50%; margin:
-                    0 auto; z-index: 9;}
-                    .circle_tech img{
-                    max-width: 200%;
-                    position: absolute;
-                    right:-40%;
-                    top: 0;
-                    bottom: 0;
-                    margin: auto;}
+                    .circle {
+                        width: 880px;
+                        height: 880px;
+                        border: 200px solid #4000b0;
+                        border-radius: 50%;
+                        margin: 0 auto;
+                    }
+
+                    .circle_tech {
+                        width: 58%;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        z-index: -1;
+                    }
+
+                    .circle_tech {
+                        width: 760px;
+                        height: 760px;
+                        border: 200px solid #D9CCEF;
+                        border-radius: 50%;
+                        margin: 0 auto;
+                        z-index: 9;
+                    }
+
+                    .circle_tech img {
+                        max-width: 200%;
+                        position: absolute;
+                        right: -40%;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                    }
 
                     /* Tech Page Video */
-                    .video_sec {padding:100px 0; background-color:#6633FF; color:#fff;}
+                    .video_sec {
+                        padding: 100px 0;
+                        background-color: #6633FF;
+                        color: #fff;
+                    }
 
                     .videos_sec_container {
-                    padding:100px 0;
-                    background-color:#6633FF;
-                    color:#fff;
+                        padding: 100px 0;
+                        background-color: #6633FF;
+                        color: #fff;
                     }
+
                     .videos_sec {
-                    background-color:#6633FF;
-                    color:#fff;
-                    text-align:center;
+                        background-color: #6633FF;
+                        color: #fff;
+                        text-align: center;
                     }
 
                     .videos-heading-sec h2 {
-                    color: #ffffff;
-                    font-size: 56px;
-                    font-family: "Mark-Bold";
-                    }
-                    .videos_sec h3 {
-                    margin:20px 0;
+                        color: #ffffff;
+                        font-size: 56px;
+                        font-family: "Mark-Bold";
                     }
 
-                    .videos_sec a.btn{background-color:#06003F;}
+                    .videos_sec h3 {
+                        margin: 20px 0;
+                    }
+
+                    .videos_sec a.btnn {
+                        background-color: #06003F;
+                    }
 
                     .videos_sec.flex_col:first-child {
-                    flex: 1;
+                        flex: 1;
                     }
-                    .embed-container {
-                    --video--width: 1296;
-                    --video--height: 729;
 
-                    position: relative;
-                    padding-bottom: calc(var(--video--height) / var(--video--width) * 100%); /* 41.66666667% */
-                    overflow: hidden;
-                    max-width: 100%;
-                    background: #06003F;
+                    .embed-container {
+                        --video--width: 1296;
+                        --video--height: 729;
+
+                        position: relative;
+                        padding-bottom: calc(var(--video--height) / var(--video--width) * 100%); /* 41.66666667% */
+                        overflow: hidden;
+                        max-width: 100%;
+                        background: #06003F;
                     }
 
                     .embed-container iframe,
                     .embed-container object,
                     .embed-container embed {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
                     }
 
 
-                    .flex_row{
-                    min-height: 300px;
-                    margin: 0 auto;
-                    display: -webkit-flex ; /* Safari */
-                    display: flex ; /* Standard syntax */
-                    justify-content: center; /* center flex items vertically */
-                    align-items: center;
+                    .flex_row {
+                        min-height: 300px;
+                        margin: 0 auto;
+                        display: -webkit-flex; /* Safari */
+                        display: flex; /* Standard syntax */
+                        justify-content: center; /* center flex items vertically */
+                        align-items: center;
                     }
-                    .flex_col{
-                    -webkit-flex: 1 ; /* Safari */
-                    -ms-flex: 1 ; /* IE 10 */
-                    flex: 1 ; /* Standard syntax */
+
+                    .flex_col {
+                        -webkit-flex: 1; /* Safari */
+                        -ms-flex: 1; /* IE 10 */
+                        flex: 1; /* Standard syntax */
                     }
 
                     .flex_col:first-child {
-                    flex: 2;
+                        flex: 2;
                     }
+
                     .flex_col:last-child {
-                    flex: 1;
-                    padding:20px 60px;
+                        flex: 1;
+                        padding: 20px 60px;
                     }
 
                     /* Sustainability page */
 
-                    .page-id-2335 .newspost_banner {display:none;}
+                    .page-id-2335 .newspost_banner {
+                        display: none;
+                    }
 
-                    .page-id-2589 .newspost_banner {display:none;}
+                    .page-id-2589 .newspost_banner {
+                        display: none;
+                    }
 
                     /* END Sustainability page */
 
                     /* NEWS &amp; INSIGHTS */
 
                     .newspost_banner {
-                    margin-top: 0px !important;
+                        margin-top: 0px !important;
                     }
+
                     .uael-post__datebox .uael-post__date-wrap {
-                    position: relative;
+                        position: relative;
                     }
 
                     .post_hdr .uael-post__datebox {
-                    border-top:3px solid #9d7cff;
-                    padding:10px 0;
+                        border-top: 3px solid #9d7cff;
+                        padding: 10px 0;
                     }
 
                     .uael-post__datebox {
-                    margin: 0;
-                    padding:0 30px;
-                    width:100% !important;
-                    border-radius:0;
-                    text-align:left !important;
-                    background-color:transparent;
+                        margin: 0;
+                        padding: 0 30px;
+                        width: 100% !important;
+                        border-radius: 0;
+                        text-align: left !important;
+                        background-color: transparent;
                     }
+
                     .uael-post__datebox span {
-                    display: unset;
+                        display: unset;
 
                     }
+
                     /*.post_hdr .uael-post__date-month:before{
                     content:"Recent Article / "
                     }*/
-                    .uael-post__date-month:after {content:" "}
+                    .uael-post__date-month:after {
+                        content: " "
+                    }
 
                     @media only screen and (max-width: 991px) {
-                    .page-id-2123 .post_para {
-                    padding: 0px 0 40px;
-                    }
+                        .page-id-2123 .post_para {
+                            padding: 0px 0 40px;
+                        }
                     }
 
                     @media (max-width: 767px) {
-                    .page-id-2123 .post_para {
-                    padding: 0px;
-                    }
-                    .page-id-2123 .post_sec_main.defpage {
-                    padding: 0px;
-                    }
-                    .page-id-2123 .post_sec_main {
-                    margin-top: 68px;
-                    }
-                    .video_sec {padding:100px 0}
-                    .video_sec .video_sec_1 { width:100%;}
-                    .video_sec .video_sec_2 { width:100%;
-                    padding: 35px 0 0;}
-                    .flex_row{display:block;}
-                    .video_sec_2 h3 {font-size:1.5em;}
-                    .videos_sec {padding:100px 0}
-                    .videos_sec .video_sec { width:100%;}
-                    h4.productivity-desc{
-                    margin-left:0px;
-                    font-size:30px;
-                    }
+                        .page-id-2123 .post_para {
+                            padding: 0px;
+                        }
+
+                        .page-id-2123 .post_sec_main.defpage {
+                            padding: 0px;
+                        }
+
+                        .page-id-2123 .post_sec_main {
+                            margin-top: 68px;
+                        }
+
+                        .video_sec {
+                            padding: 100px 0
+                        }
+
+                        .video_sec .video_sec_1 {
+                            width: 100%;
+                        }
+
+                        .video_sec .video_sec_2 {
+                            width: 100%;
+                            padding: 35px 0 0;
+                        }
+
+                        .flex_row {
+                            display: block;
+                        }
+
+                        .video_sec_2 h3 {
+                            font-size: 1.5em;
+                        }
+
+                        .videos_sec {
+                            padding: 100px 0
+                        }
+
+                        .videos_sec .video_sec {
+                            width: 100%;
+                        }
+
+                        h4.productivity-desc {
+                            margin-left: 0px;
+                            font-size: 30px;
+                        }
                     }
 
 
-                </style>
-
-
-                <style>
-                    #wrapwrap {
-                    overflow-y: auto;
-                    overflow-x: hidden;
-                    }
                 </style>
             </head>
-
             <body class="page-template page-template-elementor_header_footer page page-id-2335 wp-custom-logo wp-embed-responsive group-blog has-header-image page-two-column colors-light elementor-default elementor-template-full-width elementor-kit-2133 elementor-page elementor-page-2335">
                 <div data-elementor-type="header" data-elementor-id="2961"
                      class="elementor elementor-2961 elementor-location-header"
                      data-elementor-post-type="elementor_library">
-                    <!--					<header class="elementor-section elementor-top-section elementor-element elementor-element-66f200ab elementor-section-content-middle elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="66f200ab" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;widescreen&quot;,&quot;desktop&quot;,&quot;laptop&quot;,&quot;tablet_extra&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">-->
-                    <!--						<div class="elementor-container elementor-column-gap-no">-->
-                    <!--					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-72b507b1" data-id="72b507b1" data-element_type="column">-->
-                    <!--			<div class="elementor-widget-wrap elementor-element-populated">-->
-                    <!--						<div class="elementor-element elementor-element-1c6fab52 elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="1c6fab52" data-element_type="widget" data-widget_type="theme-site-logo.default">-->
-                    <!--				<div class="elementor-widget-container">-->
-                    <!--			<style>/*! elementor - v3.21.0 - 20-05-2024 */-->
-                    <!--.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>						<a href="https://www.rebound-tech.com">-->
-                    <!--			<img width="180" height="50" src="https://www.rebound-tech.com/wp-content/uploads/2019/01/Logo-White.svg" class="attachment-full size-full wp-image-37" alt="" sizes="100vw" />				</a>-->
-                    <!--									</div>-->
-                    <!--				</div>-->
-                    <!--					</div>-->
-                    <!--		</div>-->
-                    <!--				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-712359f8" data-id="712359f8" data-element_type="column">-->
-                    <!--			<div class="elementor-widget-wrap elementor-element-populated">-->
-                    <!--						<div class="elementor-element elementor-element-7aceaf58 elementor-nav-menu__align-center elementor-nav-menu&#45;&#45;dropdown-mobile elementor-nav-menu&#45;&#45;stretch elementor-nav-menu__text-align-center elementor-widget__width-initial elementor-nav-menu&#45;&#45;toggle elementor-nav-menu&#45;&#45;burger elementor-widget elementor-widget-nav-menu" data-id="7aceaf58" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;svg class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">-->
-                    <!--				<div class="elementor-widget-container">-->
-                    <!--			<link rel="stylesheet" href="https://www.rebound-tech.com/wp-content/uploads/elementor/css/custom-pro-widget-nav-menu.min.css?ver=0"/>			<nav class="elementor-nav-menu&#45;&#45;main elementor-nav-menu__container elementor-nav-menu&#45;&#45;layout-horizontal e&#45;&#45;pointer-none">-->
-                    <!--				<ul id="menu-1-7aceaf58" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3014"><a href="https://www.rebound-tech.com/technology/" class="elementor-item">Technology</a></li>-->
-                    <!--<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2335 current_page_item menu-item-2984"><a href="https://www.rebound-tech.com/sustainability/" aria-current="page" class="elementor-item elementor-item-active">Sustainability</a></li>-->
-                    <!--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2995"><a href="https://www.rebound-tech.com/team/" class="elementor-item">Leadership</a></li>-->
-                    <!--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2981"><a href="https://www.rebound-tech.com/news/" class="elementor-item">News</a></li>-->
-                    <!--<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3459"><a target="_blank" rel="noopener" href="https://rebound-technologies.breezy.hr/" class="elementor-item">Careers</a></li>-->
-                    <!--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2982"><a href="https://www.rebound-tech.com/contact-us/" class="elementor-item">Contact Us</a></li>-->
-                    <!--</ul>			</nav>-->
-                    <!--					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">-->
-                    <!--			<svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon&#45;&#45;open e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z"></path></svg><svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon&#45;&#45;close e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"></path></svg>			<span class="elementor-screen-only">Menu</span>-->
-                    <!--		</div>-->
-                    <!--					<nav class="elementor-nav-menu&#45;&#45;dropdown elementor-nav-menu__container" aria-hidden="true">-->
-                    <!--				<ul id="menu-2-7aceaf58" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3014"><a href="https://www.rebound-tech.com/technology/" class="elementor-item" tabindex="-1">Technology</a></li>-->
-                    <!--<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2335 current_page_item menu-item-2984"><a href="https://www.rebound-tech.com/sustainability/" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Sustainability</a></li>-->
-                    <!--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2995"><a href="https://www.rebound-tech.com/team/" class="elementor-item" tabindex="-1">Leadership</a></li>-->
-                    <!--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2981"><a href="https://www.rebound-tech.com/news/" class="elementor-item" tabindex="-1">News</a></li>-->
-                    <!--<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3459"><a target="_blank" rel="noopener" href="https://rebound-technologies.breezy.hr/" class="elementor-item" tabindex="-1">Careers</a></li>-->
-                    <!--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2982"><a href="https://www.rebound-tech.com/contact-us/" class="elementor-item" tabindex="-1">Contact Us</a></li>-->
-                    <!--</ul>			</nav>-->
-                    <!--				</div>-->
-                    <!--				</div>-->
-                    <!--					</div>-->
-                    <!--		</div>-->
-                    <!--				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-68c89a75" data-id="68c89a75" data-element_type="column">-->
-                    <!--			<div class="elementor-widget-wrap elementor-element-populated">-->
-                    <!--						<div class="elementor-element elementor-element-6ab673df elementor-align-center elementor-tablet-align-right elementor-hidden-phone elementor-widget elementor-widget-button" data-id="6ab673df" data-element_type="widget" data-widget_type="button.default">-->
-                    <!--				<div class="elementor-widget-container">-->
-                    <!--					<div class="elementor-button-wrapper">-->
-                    <!--			<a class="elementor-button elementor-button-link elementor-size-sm" href="https://www.rebound-tech.com/contact-us/">-->
-                    <!--						<span class="elementor-button-content-wrapper">-->
-                    <!--									<span class="elementor-button-text">Contact Us</span>-->
-                    <!--					</span>-->
-                    <!--					</a>-->
-                    <!--		</div>-->
-                    <!--				</div>-->
-                    <!--				</div>-->
-                    <!--					</div>-->
-                    <!--		</div>-->
-                    <!--					</div>-->
-                    <!--		</header>-->
+
                 </div>
                 <div data-elementor-type="wp-page" data-elementor-id="2335" class="elementor elementor-2335"
                      data-elementor-post-type="page">
@@ -946,125 +1251,6 @@
                         </div>
                     </section>
                 </div>
-                <!--				<div data-elementor-type="footer" data-elementor-id="3055" class="elementor elementor-3055 elementor-location-footer" data-elementor-post-type="elementor_library">-->
-                <!--					<section class="elementor-section elementor-top-section elementor-element elementor-element-8b08a93 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8b08a93" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">-->
-                <!--						<div class="elementor-container elementor-column-gap-default">-->
-                <!--					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a7fc083" data-id="a7fc083" data-element_type="column">-->
-                <!--			<div class="elementor-widget-wrap elementor-element-populated">-->
-                <!--						<div class="elementor-element elementor-element-4587346 elementor-widget__width-auto elementor-widget elementor-widget-html" data-id="4587346" data-element_type="widget" data-widget_type="html.default">-->
-                <!--				<div class="elementor-widget-container">-->
-                <!--			<div class="foot_logo">-->
-                <!--					<a href="https://www.rebound-tech.com/"> <svg width="60px" height="46px" viewBox="0 0 60 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">-->
-                <!--                    &lt;!&ndash; Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch &ndash;&gt;-->
-                <!--                    <title>Icon R</title>-->
-                <!--                    <desc>Created with Sketch.</desc>-->
-                <!--                    <defs></defs>-->
-                <!--                    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">-->
-                <!--                        <g id="Footer-Mobile" transform="translate(-30.000000, -44.000000)">-->
-                <!--                            <g id="Footer-Block-Copy">-->
-                <!--                                <g id="Icon-R" transform="translate(30.000000, 44.000000)">-->
-                <!--                                    <g id="Group-3">-->
-                <!--                                        <polygon id="Clip-2" points="0 0 60 0 60 46 0 46"></polygon>-->
-                <!--                                        <path d="M10.0619067,14.1142241 C7.8375248,14.1142241 6.0279845,12.3023566 6.0279845,10.0751139 C6.0279845,7.84787119 7.8375248,6.03573706 10.062173,6.03573706 C12.2862887,6.03573706 14.0960952,7.84787119 14.0960952,10.0751139 C14.0960952,12.3023566 12.2862887,14.1142241 10.0619067,14.1142241 Z M10.062173,0 L10.0619067,0 C4.50494588,0 0,4.51073966 0,10.0751139 C0,15.6392215 4.50494588,20.1499612 10.0619067,20.1499612 L10.062173,20.1499612 C15.6191338,20.1499612 20.1240797,15.6392215 20.1240797,10.0751139 C20.1240797,4.51073966 15.6191338,0 10.062173,0 Z M45.8565095,27.5672605 C54.6842757,26.6797227 59.9342324,21.5544518 59.9342324,13.9977164 C59.9342324,5.19138972 54.0606819,0 43.0998629,0 L23.6741975,0 L23.6741975,46 L32.829204,46 L32.829204,8.44427315 L42.9358433,8.44427315 C47.8252766,8.44427315 50.5169545,10.1534966 50.5169545,13.9977164 C50.5169545,17.9077884 47.9562792,19.7140572 42.9358433,19.7140572 L35.6628014,19.7140572 L35.6628014,27.8943885 L48.9081783,46 L60,46 L45.8565095,27.5672605 Z" id="Fill-1" fill="#FFFFFF"></path>-->
-                <!--                                    </g>-->
-                <!--                                </g>-->
-                <!--                            </g>-->
-                <!--                        </g>-->
-                <!--                    </g>-->
-                <!--                </svg> </a>-->
-                <!--				</div>		</div>-->
-                <!--				</div>-->
-                <!--				<div class="elementor-element elementor-element-1816ef9 elementor-widget__width-auto elementor-nav-menu__align-end elementor-nav-menu&#45;&#45;stretch elementor-nav-menu&#45;&#45;dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu&#45;&#45;toggle elementor-nav-menu&#45;&#45;burger elementor-widget elementor-widget-nav-menu" data-id="1816ef9" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;svg class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">-->
-                <!--				<div class="elementor-widget-container">-->
-                <!--						<nav class="elementor-nav-menu&#45;&#45;main elementor-nav-menu__container elementor-nav-menu&#45;&#45;layout-horizontal e&#45;&#45;pointer-underline e&#45;&#45;animation-fade">-->
-                <!--				<ul id="menu-1-1816ef9" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3063"><a href="https://www.rebound-tech.com/technology/" class="elementor-item">Technology</a></li>-->
-                <!--<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2335 current_page_item menu-item-2553"><a href="https://www.rebound-tech.com/sustainability/" aria-current="page" class="elementor-item elementor-item-active">Sustainability</a></li>-->
-                <!--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2548"><a href="https://www.rebound-tech.com/team/" class="elementor-item">Leadership</a></li>-->
-                <!--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="https://www.rebound-tech.com/news/" class="elementor-item">News</a></li>-->
-                <!--</ul>			</nav>-->
-                <!--					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">-->
-                <!--			<svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon&#45;&#45;open e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z"></path></svg><svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon&#45;&#45;close e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"></path></svg>			<span class="elementor-screen-only">Menu</span>-->
-                <!--		</div>-->
-                <!--					<nav class="elementor-nav-menu&#45;&#45;dropdown elementor-nav-menu__container" aria-hidden="true">-->
-                <!--				<ul id="menu-2-1816ef9" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3063"><a href="https://www.rebound-tech.com/technology/" class="elementor-item" tabindex="-1">Technology</a></li>-->
-                <!--<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2335 current_page_item menu-item-2553"><a href="https://www.rebound-tech.com/sustainability/" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Sustainability</a></li>-->
-                <!--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2548"><a href="https://www.rebound-tech.com/team/" class="elementor-item" tabindex="-1">Leadership</a></li>-->
-                <!--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="https://www.rebound-tech.com/news/" class="elementor-item" tabindex="-1">News</a></li>-->
-                <!--</ul>			</nav>-->
-                <!--				</div>-->
-                <!--				</div>-->
-                <!--				<div class="elementor-element elementor-element-a761f74 elementor-widget-divider&#45;&#45;view-line elementor-widget elementor-widget-divider" data-id="a761f74" data-element_type="widget" data-widget_type="divider.default">-->
-                <!--				<div class="elementor-widget-container">-->
-                <!--			<style>/*! elementor - v3.21.0 - 20-05-2024 */-->
-                <!--.elementor-widget-divider{&#45;&#45;divider-border-style:none;&#45;&#45;divider-border-width:1px;&#45;&#45;divider-color:#0c0d0e;&#45;&#45;divider-icon-size:20px;&#45;&#45;divider-element-spacing:10px;&#45;&#45;divider-pattern-height:24px;&#45;&#45;divider-pattern-size:20px;&#45;&#45;divider-pattern-url:none;&#45;&#45;divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(&#45;&#45;divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(&#45;&#45;divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider&#45;&#45;view-line_icon .elementor-divider-separator,.elementor-widget-divider&#45;&#45;view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider&#45;&#45;view-line_icon .elementor-divider-separator:after,.elementor-widget-divider&#45;&#45;view-line_icon .elementor-divider-separator:before,.elementor-widget-divider&#45;&#45;view-line_text .elementor-divider-separator:after,.elementor-widget-divider&#45;&#45;view-line_text .elementor-divider-separator:before{display:block;content:"";border-block-end:0;flex-grow:1;border-block-start:var(&#45;&#45;divider-border-width) var(&#45;&#45;divider-border-style) var(&#45;&#45;divider-color)}.elementor-widget-divider&#45;&#45;element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider&#45;&#45;element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider&#45;&#45;element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider&#45;&#45;element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider&#45;&#45;element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider&#45;&#45;element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider&#45;&#45;element-align-start .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider&#45;&#45;element-align-start .elementor-divider-separator:before{content:none}.elementor-widget-divider&#45;&#45;element-align-start .elementor-divider__element{margin-inline-start:0}.elementor-widget-divider&#45;&#45;element-align-end .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider&#45;&#45;element-align-end .elementor-divider-separator:after{content:none}.elementor-widget-divider&#45;&#45;element-align-end .elementor-divider__element{margin-inline-end:0}.elementor-widget-divider:not(.elementor-widget-divider&#45;&#45;view-line_text):not(.elementor-widget-divider&#45;&#45;view-line_icon) .elementor-divider-separator{border-block-start:var(&#45;&#45;divider-border-width) var(&#45;&#45;divider-border-style) var(&#45;&#45;divider-color)}.elementor-widget-divider&#45;&#45;separator-type-pattern{&#45;&#45;divider-border-style:none}.elementor-widget-divider&#45;&#45;separator-type-pattern.elementor-widget-divider&#45;&#45;view-line .elementor-divider-separator,.elementor-widget-divider&#45;&#45;separator-type-pattern:not(.elementor-widget-divider&#45;&#45;view-line) .elementor-divider-separator:after,.elementor-widget-divider&#45;&#45;separator-type-pattern:not(.elementor-widget-divider&#45;&#45;view-line) .elementor-divider-separator:before,.elementor-widget-divider&#45;&#45;separator-type-pattern:not([class*=elementor-widget-divider&#45;&#45;view]) .elementor-divider-separator{width:100%;min-height:var(&#45;&#45;divider-pattern-height);-webkit-mask-size:var(&#45;&#45;divider-pattern-size) 100%;mask-size:var(&#45;&#45;divider-pattern-size) 100%;-webkit-mask-repeat:var(&#45;&#45;divider-pattern-repeat);mask-repeat:var(&#45;&#45;divider-pattern-repeat);background-color:var(&#45;&#45;divider-color);-webkit-mask-image:var(&#45;&#45;divider-pattern-url);mask-image:var(&#45;&#45;divider-pattern-url)}.elementor-widget-divider&#45;&#45;no-spacing{&#45;&#45;divider-pattern-size:auto}.elementor-widget-divider&#45;&#45;bg-round{&#45;&#45;divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(&#45;&#45;container-widget-width,100%);&#45;&#45;flex-grow:var(&#45;&#45;container-widget-flex-grow)}</style>		<div class="elementor-divider">-->
-                <!--			<span class="elementor-divider-separator">-->
-                <!--						</span>-->
-                <!--		</div>-->
-                <!--				</div>-->
-                <!--				</div>-->
-                <!--				<section class="elementor-section elementor-inner-section elementor-element elementor-element-b005b71 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="b005b71" data-element_type="section">-->
-                <!--						<div class="elementor-container elementor-column-gap-default">-->
-                <!--					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-13a80ad" data-id="13a80ad" data-element_type="column">-->
-                <!--			<div class="elementor-widget-wrap elementor-element-populated">-->
-                <!--						<div class="elementor-element elementor-element-2b941d1 elementor-widget__width-auto elementor-icon-list&#45;&#45;layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="2b941d1" data-element_type="widget" data-widget_type="icon-list.default">-->
-                <!--				<div class="elementor-widget-container">-->
-                <!--			<link rel="stylesheet" href="https://www.rebound-tech.com/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css?ver=1716338088"/>		<ul class="elementor-icon-list-items">-->
-                <!--							<li class="elementor-icon-list-item">-->
-                <!--											<a href="https://www.google.com/maps/place/Rebound+Technologies,+Inc./@39.7954148,-104.9215938,15z/data=!4m6!3m5!1s0x876c7b3f90c4f631:0x3c8eb31ca2d39283!8m2!3d39.7954148!4d-104.9215938!16s%2Fg%2F11h1rqj72z">-->
-
-                <!--												<span class="elementor-icon-list-icon">-->
-                <!--							<svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>						</span>-->
-                <!--										<span class="elementor-icon-list-text">5690 E. 56th Avenue, Unit F, Commerce City, CO 80022</span>-->
-                <!--											</a>-->
-                <!--									</li>-->
-                <!--						</ul>-->
-                <!--				</div>-->
-                <!--				</div>-->
-                <!--				<div class="elementor-element elementor-element-70ddccf elementor-widget__width-auto elementor-icon-list&#45;&#45;layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="70ddccf" data-element_type="widget" data-widget_type="icon-list.default">-->
-                <!--				<div class="elementor-widget-container">-->
-                <!--					<ul class="elementor-icon-list-items">-->
-                <!--							<li class="elementor-icon-list-item">-->
-                <!--											<a href="mailto:info@rebound-tech.com">-->
-
-                <!--												<span class="elementor-icon-list-icon">-->
-                <!--							<svg aria-hidden="true" class="e-font-icon-svg e-fas-envelope" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>						</span>-->
-                <!--										<span class="elementor-icon-list-text">info@rebound-tech.com</span>-->
-                <!--											</a>-->
-                <!--									</li>-->
-                <!--						</ul>-->
-                <!--				</div>-->
-                <!--				</div>-->
-                <!--				<div class="elementor-element elementor-element-bf64de3 elementor-widget__width-auto elementor-icon-list&#45;&#45;layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="bf64de3" data-element_type="widget" data-widget_type="icon-list.default">-->
-                <!--				<div class="elementor-widget-container">-->
-                <!--					<ul class="elementor-icon-list-items">-->
-                <!--							<li class="elementor-icon-list-item">-->
-                <!--											<a href="https://www.rebound-tech.com">-->
-
-                <!--												<span class="elementor-icon-list-icon">-->
-                <!--							<svg aria-hidden="true" class="e-font-icon-svg e-far-copyright" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 448c-110.532 0-200-89.451-200-200 0-110.531 89.451-200 200-200 110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200zm107.351-101.064c-9.614 9.712-45.53 41.396-104.065 41.396-82.43 0-140.484-61.425-140.484-141.567 0-79.152 60.275-139.401 139.762-139.401 55.531 0 88.738 26.62 97.593 34.779a11.965 11.965 0 0 1 1.936 15.322l-18.155 28.113c-3.841 5.95-11.966 7.282-17.499 2.921-8.595-6.776-31.814-22.538-61.708-22.538-48.303 0-77.916 35.33-77.916 80.082 0 41.589 26.888 83.692 78.277 83.692 32.657 0 56.843-19.039 65.726-27.225 5.27-4.857 13.596-4.039 17.82 1.738l19.865 27.17a11.947 11.947 0 0 1-1.152 15.518z"></path></svg>						</span>-->
-                <!--										<span class="elementor-icon-list-text">2024 Rebound Technologies. All rights reserved.</span>-->
-                <!--											</a>-->
-                <!--									</li>-->
-                <!--						</ul>-->
-                <!--				</div>-->
-                <!--				</div>-->
-                <!--					</div>-->
-                <!--		</div>-->
-                <!--					</div>-->
-                <!--		</section>-->
-                <!--				<div class="elementor-element elementor-element-5038cda elementor-widget elementor-widget-shortcode" data-id="5038cda" data-element_type="widget" data-widget_type="shortcode.default">-->
-                <!--				<div class="elementor-widget-container">-->
-                <!--					<div class="elementor-shortcode">-->
-
-
-                <!--</div>-->
-                <!--				</div>-->
-                <!--				</div>-->
-                <!--					</div>-->
-                <!--		</div>-->
-                <!--					</div>-->
-                <!--		</section>-->
-                <!--				</div>-->
 
 
                 <script>
@@ -1075,18 +1261,22 @@
                     window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
                     window.RS_MODULES.type = 'compiled';
                 </script>
+                <link rel='stylesheet' id='contact-form-7-css'
+                      href='/rebound_technology/static/src/css/styles.css?ver=5.9.5'
+                      type='text/css' media='all'/>
                 <link rel='stylesheet' id='rs-plugin-settings-css'
-                      href='//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/css/rs6.css?ver=6.7.1'
+                      href='/rebound_technology/static/src/css/rs6.css?ver=6.7.1'
                       type='text/css' media='all'/>
                 <style id='rs-plugin-settings-inline-css' type='text/css'>
-                    #rs-demo-id {}
+                    #rs-demo-id {
+                    }
                 </style>
                 <script type="text/javascript"
-                        src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/js/rbtools.min.js?ver=6.7.1"
+                        src="/rebound_technology/static/src/js/rbtools.min.js?ver=6.7.1"
                         id="tp-tools-js"></script>
                 <script type="text/javascript"
-                        src="//www.rebound-tech.com/wp-content/plugins/revslider/sr6/assets/js/rs6.min.js?ver=6.7.1"
-                ></script>
+                        src="/rebound_technology/static/src/js/rs6.min.js?ver=6.7.1"
+                        id="revmin-js"></script>
                 <script type="text/javascript" id="rocket-browser-checker-js-after">
                     /* <![CDATA[ */
 "use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
@@ -1105,19 +1295,19 @@ var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$
 /* ]]> */
                 </script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/page-links-to/dist/new-tab.js?ver=3.3.7"
+                        src="/rebound_technology/static/src/js/new-tab.js?ver=3.3.7"
                         id="page-links-to-js"></script>
                 <script type="text/javascript"
                         src="https://www.google.com/recaptcha/api.js?render=6Lc0GnIaAAAAABlmtAY9dALVxjSn2VS5EPZ0xybE&amp;ver=3.0"
                         id="google-recaptcha-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
+                        src="/rebound_technology/static/src/js/wp-polyfill-inert.min.js?ver=3.1.2"
                         id="wp-polyfill-inert-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
+                        src="/rebound_technology/static/src/js/regenerator-runtime.min.js?ver=0.14.0"
                         id="regenerator-runtime-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
+                        src="/rebound_technology/static/src/js/wp-polyfill.min.js?ver=3.15.0"
                         id="wp-polyfill-js"></script>
                 <script type="text/javascript" id="wpcf7-recaptcha-js-extra">
                     /* <![CDATA[ */
@@ -1125,28 +1315,64 @@ var wpcf7_recaptcha = {"sitekey":"6Lc0GnIaAAAAABlmtAY9dALVxjSn2VS5EPZ0xybE","act
 /* ]]> */
                 </script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.9.5"
+                        src="/rebound_technology/static/src/js/index.js?ver=5.9.5"
                         id="wpcf7-recaptcha-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1"
+                        src="/rebound_technology/static/src/js/jquery.smartmenus.min.js?ver=1.2.1"
                         id="smartmenus-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/make-column-clickable-elementor/assets/js/make-column-clickable.js?ver=1.4.0"
-                        id="make-column-clickable-elementor-js"></script>
+                        src="/rebound_technology/static/src/js/isotope.min.js?ver=1.36.31"
+                        id="uael-isotope-js"></script>
+                <script type="text/javascript" id="uael-frontend-script-js-extra">
+                    /* <![CDATA[ */
+var uael_script = {"ajax_url":"https:\/\/www.rebound-tech.com\/wp-admin\/admin-ajax.php"};
+var uael_post_loader_script = {"post_loader":"https:\/\/www.rebound-tech.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/post-loader.gif"};
+var uael_login_form_script = {"ajax_url":"https:\/\/www.rebound-tech.com\/wp-admin\/admin-ajax.php","invalid_mail":"Enter valid Email!","pass_unmatch":"The specified password do not match!","required":"This Field is required!","incorrect_password":"Error: The Password you have entered is incorrect.","invalid_username":"Unknown username. Check again or try your email address.","invalid_email":"Unknown email address. Check again or try your username.","logged_in_message":"Thanks for logging in, ","wp_version":"1"};
+/* ]]> */
+                </script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.21.3"
+                        src="/rebound_technology/static/src/js/uael-frontend.min.js?ver=1.36.31"
+                        id="uael-frontend-script-js"></script>
+                <script type="text/javascript"
+                        src="/rebound_technology/static/src/js/jquery_fancybox.min.js?ver=1.36.31"
+                        id="uael-fancybox-js"></script>
+                <script type="text/javascript"
+                        src="/rebound_technology/static/src/js/imagesloaded.min.js?ver=5.0.0"
+                        id="imagesloaded-js"></script>
+                <script type="text/javascript"
+                        src="/rebound_technology/static/src/js/slick.min.js?ver=1.36.31"
+                        id="uael-slick-js"></script>
+                <script type="text/javascript"
+                        src="/rebound_technology/static/src/js/jquery_resize.min.js?ver=1.36.31"
+                        id="uael-element-resize-js"></script>
+                <script type="text/javascript"
+                        src="/rebound_technology/static/src/js/lottie.min.js?ver=5.6.6"
+                        id="lottie-js"></script>
+                <script type="text/javascript"
+                        src="/rebound_technology/static/src/js/index.js?ver=5.9.5"
+                        id="swv-js"></script>
+                <script type="text/javascript" id="contact-form-7-js-extra">
+                    /* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.rebound-tech.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+                </script>
+                <script type="text/javascript"
+                        src="/rebound_technology/static/src/js/index.js?ver=5.9.5"
+                        id="contact-form-7-js"></script>
+                <script type="text/javascript"
+                        src="/rebound_technology/static/src/js/webpack-pro.runtime.min.js?ver=3.21.3"
                         id="elementor-pro-webpack-runtime-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.21.6"
+                        src="/rebound_technology/static/src/js/webpack.runtime.min.js?ver=3.21.6"
                         id="elementor-webpack-runtime-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.21.6"
+                        src="/rebound_technology/static/src/js/frontend-modules.min.js?ver=3.21.6"
                         id="elementor-frontend-modules-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18"
+                        src="/rebound_technology/static/src/js/hooks.min.js?ver=2810c76e705dd1a53b18"
                         id="wp-hooks-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+                        src="/rebound_technology/static/src/js/i18n.min.js?ver=5e580eb46a90c2b997e6"
                         id="wp-i18n-js"></script>
                 <script type="text/javascript" id="wp-i18n-js-after">
                     /* <![CDATA[ */
@@ -1155,17 +1381,17 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
                 </script>
                 <script type="text/javascript" id="elementor-pro-frontend-js-before">
                     /* <![CDATA[ */
-var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.rebound-tech.com\/wp-admin\/admin-ajax.php","nonce":"e2b04b13bb","urls":{"assets":"https:\/\/www.rebound-tech.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/www.rebound-tech.com\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/www.rebound-tech.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.rebound-tech.com\/wp-admin\/admin-ajax.php","nonce":"6f2000ed82","urls":{"assets":"https:\/\/www.rebound-tech.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/www.rebound-tech.com\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/www.rebound-tech.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
 /* ]]> */
                 </script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.21.3"
+                        src="/rebound_technology/static/src/js/frontend.min.js?ver=3.21.3"
                         id="elementor-pro-frontend-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+                        src="/rebound_technology/static/src/js/waypoints.min.js?ver=4.0.2"
                         id="elementor-waypoints-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2"
+                        src="/rebound_technology/static/src/js/core.min.js?ver=1.13.2"
                         id="jquery-ui-core-js"></script>
                 <script type="text/javascript" id="elementor-frontend-js-extra">
                     /* <![CDATA[ */
@@ -1174,11 +1400,11 @@ var uael_particles_script = {"uael_particles_url":"https:\/\/www.rebound-tech.co
                 </script>
                 <script type="text/javascript" id="elementor-frontend-js-before">
                     /* <![CDATA[ */
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":true},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":true},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":true}}},"version":"3.21.6","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"container_grid":true,"theme_builder_v2":true,"home_screen":true,"ai-layout":true,"landing-pages":true,"nested-elements":true,"form-submissions":true},"urls":{"assets":"https:\/\/www.rebound-tech.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet","viewport_tablet_extra","viewport_laptop","viewport_widescreen"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":2335,"title":"Sustainability%20%E2%80%93%20Rebound%20Technologies","excerpt":"","featuredImage":false}};
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":true},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":true},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":true}}},"version":"3.21.6","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"container_grid":true,"theme_builder_v2":true,"home_screen":true,"ai-layout":true,"landing-pages":true,"nested-elements":true,"form-submissions":true},"urls":{"assets":"https:\/\/www.rebound-tech.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet","viewport_tablet_extra","viewport_laptop","viewport_widescreen"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":3021,"title":"Rebound%20Technologies%20%E2%80%93%20Safer%2C%20Greener%2C%20Leaner","excerpt":"","featuredImage":false}};
 /* ]]> */
                 </script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.21.6"
+                        src="/rebound_technology/static/src/js/frontend.min.js?ver=3.21.6"
                         id="elementor-frontend-js"></script>
                 <script type="text/javascript" id="elementor-frontend-js-after">
                     /* <![CDATA[ */
@@ -1238,12 +1464,11 @@ window.scope_array = [];
 /* ]]> */
                 </script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.21.3"
+                        src="/rebound_technology/static/src/js/elements-handlers.min.js?ver=3.21.3"
                         id="pro-elements-handlers-js"></script>
                 <script type="text/javascript"
-                        src="https://www.rebound-tech.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.21.3"
+                        src="/rebound_technology/static/src/js/jquery.sticky.min.js?ver=3.21.3"
                         id="e-sticky-js"></script>
-
             </body>
         </t>
     </template>

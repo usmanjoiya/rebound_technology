@@ -23,7 +23,7 @@ class ReboundTech(http.Controller):
     @http.route('/news', auth='public', website=True)
     def news_func(self, **kw):
         news_data = []
-        recs = request.env['rebound_technology.news'].search([])
+        recs = request.env['rebound_technology.news'].sudo().search([])
         for rec in recs:
             news_data.append({
                 'id': rec.id,
@@ -36,9 +36,9 @@ class ReboundTech(http.Controller):
         }
         return http.request.render('rebound_technology.news', data)
 
-    @http.route('/news/<string:news_post_title>', auth='public', website=True)
+    @http.route('/news/<string:news_post_title>', auth='none', website=True)
     def sub_news_func(self, news_post_title, **kw):
-        news = request.env['rebound_technology.news'].search([("name", '=', news_post_title), ('news_type', '=', 'content')])
+        news = request.env['rebound_technology.news'].sudo().search([("name", '=', news_post_title), ('news_type', '=', 'content')])
         data = {
             'news_content': news.description,
             'title': news.name
@@ -52,6 +52,7 @@ class ReboundTech(http.Controller):
     @http.route('/contact/form', auth='public', type='http', website=True, csrf=False)
     def email_contact_form(self, **kw):
         form_data = kw
+        print('abc')
         crm_rec = request.env['crm.lead'].sudo().create({
             'name': form_data['name'],
             'email_from': form_data['email'],
